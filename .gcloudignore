@@ -1,0 +1,12 @@
+.git
+node_modules
+src
+test
+dist/*.spec.js
+*.ts
+!*.js
+tsconfig*.json
+nest-cli.json
+eslint.config.mjs
+scripts
+data
