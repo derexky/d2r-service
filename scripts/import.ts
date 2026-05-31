@@ -76,6 +76,7 @@ const UNIQUE_ITEM_FILES: { file: string; category: string; tier: string; class_r
   { file: 'Throwing.htm', category: 'throwing', tier: 'normal' },
   { file: 'Throwing2.htm', category: 'throwing', tier: 'exceptional' },
   { file: 'Throwing3.htm', category: 'throwing', tier: 'elite' },
+  { file: 'Javelins3.htm', category: 'javelins', tier: 'elite' },
   { file: 'AmazonWapons.htm', category: 'amazon_weapons', tier: 'normal' },
   { file: 'AmazonWapons2.htm', category: 'amazon_weapons', tier: 'exceptional' },
   { file: 'AmazonWapons3.htm', category: 'amazon_weapons', tier: 'elite' },
@@ -187,6 +188,13 @@ async function main() {
       allItems.push({ ...nullToUndef(p), category: conf.category, tier: conf.tier, class_restrict: conf.class_restrict });
     }
   }
+  // D2R patch additions (items not in iya-backup)
+  const patchPath = path.join(DATA_DIR, 'd2r-patch-items.json');
+  if (fs.existsSync(patchPath)) {
+    const patchItems: Partial<Item>[] = JSON.parse(fs.readFileSync(patchPath, 'utf-8'));
+    allItems.push(...patchItems);
+  }
+
   await ds.getRepository(Item).save(allItems);
   fs.writeFileSync(path.join(DATA_DIR, 'items.json'), JSON.stringify(allItems, null, 2));
   console.log(`   → ${allItems.length} 筆物品匯入\n`);

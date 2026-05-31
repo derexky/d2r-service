@@ -130,10 +130,14 @@ export function parseSetFile(filepath: string): ParsedSet | null {
       const $left = $tds.eq(0);
       const $right = $tds.eq(1);
 
-      const anchor = $left.find('a[name]').first();
+      let anchor = $left.find('a[name]').first();
+      if (!anchor.length) anchor = $right.find('a[name]').first();
       if (!anchor.length) return;
 
-      const item_name_zh = $left.find('font[color="#00FF00"]').first().text().trim() || anchor.attr('name')?.trim() || '';
+      const item_name_zh =
+        $left.find('font[color="#00FF00"]').first().text().trim() ||
+        $right.find('font[color="#00FF00"]').first().text().trim() ||
+        anchor.attr('name')?.trim() || '';
       if (!item_name_zh) return;
 
       const yellowFont = $left.find('font[color="#FFFF00"]').first();

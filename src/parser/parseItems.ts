@@ -95,17 +95,17 @@ export function parseItemFile(filepath: string, filename: string): ParsedItem[] 
       const img = $left.find('img').first();
       const image_path = normalizeImagePath(img.attr('src') ?? '');
 
-      const yellowFont = $left.find('font[color="#FFFF00"]').first();
+      const yellowFont = $left.find('font[color="#FFFF00"]').filter((_, el) => $(el as any).text().trim().length > 0).first();
       const yellowLines = (yellowFont.html() ?? '').split(/<br\s*\/?>/i);
       const name_en = load(yellowLines[0] ?? '')('body').text().trim();
       const base_type_en = load(yellowLines[1] ?? '')('body').text().trim() || null;
 
       const leftClone = $left.clone();
-      leftClone.find('b, font[color="#FFFF00"], img, a').remove();
+      leftClone.find('b, font[color="#808000"], font[color="#FFFF00"], img, a').remove();
       const base_type_zh = leftClone.text().replace(/\s+/g, ' ').replace(/　/g, '').trim() || null;
 
       const rightText = $right.text();
-      const levelMatch = rightText.match(/等級需求[：:]\s*(\d+)/);
+      const levelMatch = rightText.match(/等級需求[：:]\s*(\d+)/) || rightText.match(/須要等級[：:]\s*(\d+)/);
       const level_req = levelMatch ? parseInt(levelMatch[1]) : null;
 
       const stats = parseStats($right);
