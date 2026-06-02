@@ -8,7 +8,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"亞瑞特的面容\",\"socket\":\"紅寶石之屠殺\",\"props\":\"+40%增強傷害 +15最大傷害\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"悔恨 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"紅寶石之屠殺\",\"props\":\"+40%增強傷害 +15最大傷害\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"瑪那得的治療\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"手掌的安置\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/C4WlsoCrOAc?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_General.rar",
-    "id": 208
+    "id": 484
   },
   {
     "class": "barbarian",
@@ -19,7 +19,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"迷團 法師盔甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"精神 Eth水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 Eth水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"野獸 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"撕裂者 無形翼斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/yAgNRH0XvBY?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_GeneralII.rar",
-    "id": 209
+    "id": 485
   },
   {
     "class": "barbarian",
@@ -30,7 +30,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"亞瑞特的面容 守護者皇冠面甲\",\"socket\":\"符文: Ber 貝 (30)\",\"props\":\"傷害減少8%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"剛毅 神聖鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"悔恨 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"符文: Ber 貝 (30)\",\"props\":\"傷害減少8%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"天使之翼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"天使之光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"天使之光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"哈斯拉柏的鐵胸衣\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"碎鋼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"哈斯拉柏的鐵後跟\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_GeneralIII.rar",
-    "id": 210
+    "id": 486
   },
   {
     "class": "barbarian",
@@ -41,7 +41,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"亞瑞特的面容\",\"socket\":\"閃閃發光之白熱\",\"props\":\"+15%準確率 所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"戰爭之鳥\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"戰爭之鳥\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭之鳥\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"戰爭之鳥\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"剃刀之尾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"碎鋼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/XKoXmi03LQk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_GeneralIV.rar",
-    "id": 211
+    "id": 487
   },
   {
     "class": "barbarian",
@@ -52,7 +52,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"亞瑞特的面容\",\"socket\":\"閃閃發光之白熱\",\"props\":\"+15%準確率 +15所有抗性\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"野獸 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"悔恨 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"熔岩角羊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/Q3yDkMai9Qw?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_GeneralV.rar",
-    "id": 212
+    "id": 488
   },
   {
     "class": "barbarian",
@@ -63,7 +63,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"狼嚎\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"強制\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"鑲上寶石的幻化之刃\",\"socket\":\"符文: Shael 夏 (13) *6\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+22%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/ST1cE1_6qYg?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_GeneralVI.rar",
-    "id": 213
+    "id": 489
   },
   {
     "class": "barbarian",
@@ -74,7 +74,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"不朽之王的意志\",\"socket\":\"銀之白熱 *2\",\"props\":\"+100準確率 +15%準確率\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"不朽之王的靈魂牢籠\",\"socket\":\"符文: Cham 查姆(32)\",\"props\":\"無法冰凍\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"不朽之王的碎魂者\",\"socket\":\"符文: Ber 貝 (30) *2\",\"props\":\"20% 造成壓碎性打擊機率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"天使之翼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"天使之光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"天使之光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"不朽之王的瑣事\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"不朽之王的融爐\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"不朽之王之柱\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/HMTxSdbeMV8?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Immortal.King.rar",
-    "id": 214
+    "id": 490
   },
   {
     "class": "barbarian",
@@ -85,7 +85,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"狼嚎\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"強制\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"鑲上寶石的幻化之刃\",\"socket\":\"符文: Shael 夏 (13) *6\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+22%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"精神 水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"精神 水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"金屬網格\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/mOfBbeL_d7c?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newbar.rar",
-    "id": 215
+    "id": 491
   },
   {
     "class": "barbarian",
@@ -96,7 +96,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"悔恨 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"完美的鑚石\",\"props\":\"所有抗性+19\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"運氣守護\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"戰爭旅者\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/Zxg_2UEih8I?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaVII.rar",
-    "id": 216
+    "id": 492
   },
   {
     "class": "barbarian",
@@ -107,7 +107,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"亞瑞特的面容\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"戰爭之鳥\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"戰爭之鳥\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"大君之怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"瑪那得的治療\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"剃刀之尾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"手掌的安置\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/82vOEYU1cIM?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newbarII.rar",
-    "id": 217
+    "id": 493
   },
   {
     "class": "barbarian",
@@ -118,7 +118,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"亞瑞特的面容\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"暴風之結\",\"socket\":\"符文: Shael夏(13)\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之結\",\"socket\":\"符文: Shael夏(13)\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"金屬網格\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"瑪那得的治療\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"信條\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"手掌的安置\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/rdPwzKooKhI?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newbarIII.rar",
-    "id": 218
+    "id": 494
   },
   {
     "class": "barbarian",
@@ -129,7 +129,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 灰幕壽衣\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"精神 水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"鋼鐵魔咒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"金屬網格\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"信條\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"霜燃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"淚之臀\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/ZR843y5lhIw?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newbarIV.rar",
-    "id": 219
+    "id": 495
   },
   {
     "class": "amazon",
@@ -140,7 +140,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"格利風之眼\",\"socket\":\"彩虹刻面\",\"props\":\"電系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"泰坦的復仇\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"雷神之力\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"長槍兵之輕快 的 輕型鐵手套\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"艾爾多的成長\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/N5ub7vuHnrQ?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_San.rar",
-    "id": 220
+    "id": 496
   },
   {
     "class": "amazon",
@@ -151,7 +151,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"奇拉的守護\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"信心 女族長之弓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 無形統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"布爾凱索之戒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"吸血聖王之圈\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"克雷得勞之鉗\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/H3fLVm8tykI?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_SanII.rar",
-    "id": 221
+    "id": 497
   },
   {
     "class": "amazon",
@@ -162,7 +162,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"夜翼面紗\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"冰凍 女族長之弓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 無形統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之吸血鬼 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"死亡的守護\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"死亡之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/DU3sYa5U3Kc?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_SanIII.rar",
-    "id": 222
+    "id": 498
   },
   {
     "class": "amazon",
@@ -173,7 +173,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"泰坦的復仇\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 龍盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"坦克雷的怪誕\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"腐肉之風\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"運氣守護\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"坦克雷的平頭釘\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/GwQqnyenGgc?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaVI.rar",
-    "id": 223
+    "id": 499
   },
   {
     "class": "amazon",
@@ -184,7 +184,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"奇拉的守護\",\"socket\":\"白熱寶石\",\"props\":\"+15% 準確率\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"獅子心\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"泰坦的復仇\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"完美的鑚石\",\"props\":\"所有抗性+19\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"新月\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"雷神之力\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"長槍兵之輕快 的 輕型鐵手套\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"水上飄\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/59UqYe4tCpk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newama.rar",
-    "id": 224
+    "id": 500
   },
   {
     "class": "amazon",
@@ -195,7 +195,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"奇拉的守護\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"風之力\",\"socket\":\"符文:Eth愛斯(5)\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"信條\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"劇毒之抓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/nhkzEDadEIk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newamaII.rar",
-    "id": 225
+    "id": 501
   },
   {
     "class": "amazon",
@@ -206,7 +206,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"馬維娜的真實之眼\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"馬維娜的擁抱\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"馬維娜的施展\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"大君之怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"布爾凱索之戒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"馬維娜的教義\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"馬維娜的冰握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/5vBTB3YRlQs?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/M.avina.rar",
-    "id": 226
+    "id": 502
   },
   {
     "class": "assassin",
@@ -217,7 +217,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文: Cham查姆(32)\",\"props\":\"無法冰凍\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"冷靜之快速\",\"socket\":\"閃閃發光之白熱 閃閃發光之真理\",\"props\":\"所有抗性+15 +15%準確率 所有抗性+15 +7%快速再度攻擊\"},{\"slot\":\"武器A(II):\",\"item_name_zh\":\"冷靜之快速\",\"socket\":\"閃閃發光之真理 *2\",\"props\":\"所有抗性+15 +7%快速再度攻擊\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"冷靜之擎天神\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"不朽之王的融爐\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"影舞者\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/yXTxUweeoYM?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Phoenix.rar",
-    "id": 227
+    "id": 503
   },
   {
     "class": "assassin",
@@ -228,7 +228,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"吉永的臉\",\"socket\":\"閃閃發光之白熱\",\"props\":\"+15%準確率 所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"沌頓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(II):\",\"item_name_zh\":\"狂怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"大君之怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/f6z8BJ0jS2o?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_PhoenixV.rar",
-    "id": 228
+    "id": 504
   },
   {
     "class": "assassin",
@@ -239,7 +239,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"安達利爾的面貌\",\"socket\":\"符文: Ral拉爾 (8)\",\"props\":\"抗火+30%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"寂靜 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(II):\",\"item_name_zh\":\"鳳凰 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"雷神之力\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"碎鋼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"影舞者\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/YnJHD9LexW8?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_PhoenixVI.rar",
-    "id": 229
+    "id": 505
   },
   {
     "class": "assassin",
@@ -250,7 +250,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"吉永的臉\",\"socket\":\"紅寶石之白熱\",\"props\":\"+15%準確率 +30%抗火\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"野獸\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"符文:Eld艾德(2)\",\"props\":\"+7%格擋率\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 無形統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"長串之耳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"血拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士 急速靴\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/2f1m7nQJvpk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_PhoenixVII.rar",
-    "id": 230
+    "id": 506
   },
   {
     "class": "assassin",
@@ -261,7 +261,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"娜塔亞的圖騰\",\"socket\":\"符文: Cham 查姆 (32)\",\"props\":\"無法冰凍\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"娜塔亞的影子\",\"socket\":\"符文: Hel 海爾(15) 符文: Ith 伊司(6) 符文: Eth 愛斯(5)\",\"props\":\"需求-15% 15% 受損的生命轉移至法力 法力重生+15%\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"冷靜之快速\",\"socket\":\"符文: Shael夏(13) *2\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"武器A(II):\",\"item_name_zh\":\"娜塔亞的記號\",\"socket\":\"符文: Hel 海爾(15)\",\"props\":\"需求-20%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"冷靜之擎天神\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"不朽之王的融爐\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"娜塔亞的靈魂\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/ii46HZP37R8?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Natalya.rar",
-    "id": 231
+    "id": 507
   },
   {
     "class": "assassin",
@@ -272,7 +272,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"奇拉的守護\",\"socket\":\"符文: Ral拉爾(8)\",\"props\":\"+30%火焰抵抗\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"背信 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"執法者 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"女巫獵人\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"剃刀之尾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"克雷得勞之鉗\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/OAAuICCfoGw?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newass.rar",
-    "id": 232
+    "id": 508
   },
   {
     "class": "assassin",
@@ -283,7 +283,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"吉永的臉\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"暴風之結\",\"socket\":\"符文: Amn安姆(11)\",\"props\":\"7% 偷取生命\"},{\"slot\":\"武器A(II):\",\"item_name_zh\":\"惠斯坦的武裝\",\"socket\":\"完美的鑚石\",\"props\":\"所有抗性+19\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"金屬網格\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"瑪那得的治療\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"長串之耳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"劇毒之抓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/K7zGInALF30?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newassII.rar",
-    "id": 233
+    "id": 509
   },
   {
     "class": "druid",
@@ -294,7 +294,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"蓋亞馬格斯\",\"socket\":\"符文: Cham 查姆 (32) 符文: Ber 貝 (30)\",\"props\":\"無法冰凍 傷害減少8%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"紅寶石之自由寶石\",\"props\":\"火焰抗性+30% -15需求\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 無形統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/UWwN7wpvojY?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Colonel.rar",
-    "id": 234
+    "id": 510
   },
   {
     "class": "druid",
@@ -305,7 +305,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"加爾的長髮\",\"socket\":\"符文: Shael 夏 (13)\",\"props\":\"20%快速再度攻擊\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"榮耀之鍊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"毀恨 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"符文:Eld艾德(2)\",\"props\":\"+7%格擋率\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"熔岩角羊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"影舞者\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/SZjSHPqoaUk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ColonelII.rar",
-    "id": 235
+    "id": 511
   },
   {
     "class": "druid",
@@ -316,7 +316,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"加爾的長髮\",\"socket\":\"符文: Cham 查姆 (32)\",\"props\":\"無法冰凍\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"野薔薇\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"毀恨 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"紅寶石之自由寶石\",\"props\":\"火焰抗性+30% -15需求\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"警戒之牆\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"大君之怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"布爾凱索之戒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/JkOVO1EOHfY?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ColonelIII.rar",
-    "id": 236
+    "id": 512
   },
   {
     "class": "druid",
@@ -327,7 +327,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"艾爾多的冷酷凝視\",\"socket\":\"符文: Shael夏(13) *2\",\"props\":\"20%快速再度攻擊\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"艾爾多的欺瞞\",\"socket\":\"符文: Cham查姆(32)\",\"props\":\"無法冰凍\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"艾爾多的律動\",\"socket\":\"符文: Shael夏(13) *3\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"暴風之盾\",\"socket\":\"符文:Eld艾德(2)\",\"props\":\"+7%格擋率\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"天使之翼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"天使之光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"天使之光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"艾爾多的成長\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/DYFLMlZHz74?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Aldur.rar",
-    "id": 237
+    "id": 513
   },
   {
     "class": "druid",
@@ -338,7 +338,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"吉永的臉\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"強制 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"布里撒 多 凱南 巨神十字弓\",\"socket\":\"閃閃發光之自由\",\"props\":\"+15所有抗性 -15%需求\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"信條\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/b81-m5V5EfM?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ColonelIV.rar",
-    "id": 238
+    "id": 514
   },
   {
     "class": "druid",
@@ -349,7 +349,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"奇拉的守護\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"布里撒 多 凱南 巨神十字弓\",\"socket\":\"符文: Hel 海爾(15)\",\"props\":\"需求-20%\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"金屬網格\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"瑪那得的治療\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"劇毒之抓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/P6WoG7T5pqY?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newdru.rar",
-    "id": 239
+    "id": 515
   },
   {
     "class": "druid",
@@ -360,7 +360,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"吉永的臉\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"鑲上寶石的幻化之刃\",\"socket\":\"符文: Shael夏(13) *6\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 洞穴巨魔骨盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"金屬網格\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"瑪那得的治療\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"信條\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"劇毒之抓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/TCZ0Y2AUbl0?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newdruII.rar",
-    "id": 240
+    "id": 516
   },
   {
     "class": "druid",
@@ -371,7 +371,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"加爾的長髮\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 灰幕壽衣\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"精神 水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 洞穴巨魔骨盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"祭司項鍊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬丹之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬丹之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"信條\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/DWniN_ofdCQ?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newdruIII.rar",
-    "id": 241
+    "id": 517
   },
   {
     "class": "necromancer",
@@ -382,7 +382,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"劇毒之馬格斯\",\"socket\":\"閃閃發光之真理 *2\",\"props\":\"所有抗性+15+7%快速再度攻擊\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"白色 破隱法仗\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"侏儒\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+22%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 無形統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"劇毒之巨鯨\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"骨隨行走\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/IwDqQRGXvKM?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Sigma.rar",
-    "id": 242
+    "id": 518
   },
   {
     "class": "necromancer",
@@ -393,7 +393,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"劇毒之馬格斯\",\"socket\":\"閃閃發光之真理 *2\",\"props\":\"所有抗性+15+7%快速再度攻擊\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"死亡之網\",\"socket\":\"彩虹刻面\",\"props\":\"毒系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"魔力肇生\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+22%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 無形統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/0KuU4bgwLH8?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_SigmaII.rar",
-    "id": 243
+    "id": 519
   },
   {
     "class": "necromancer",
@@ -404,7 +404,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"閃閃發光之真理\",\"props\":\"所有抗性+15+7%快速再度攻擊\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"野獸 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"警戒之牆\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"艾爾多的成長\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/bkRs1b9Duqg?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_SigmaIII.rar",
-    "id": 244
+    "id": 520
   },
   {
     "class": "necromancer",
@@ -415,7 +415,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文: Tal 塔爾(7)\",\"props\":\"+30%毒素抵抗\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"蛇魔法師之皮\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"李奧瑞克王的武器\",\"socket\":\"符文:Io破(16)\",\"props\":\"+10 體力\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"符文: Hel 海爾(15)\",\"props\":\"需求-20%\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"多彩之 項鍊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"不朽之王的瑣事\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"艾爾多的成長\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/R20ksTl1wf0?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newnec.rar",
-    "id": 245
+    "id": 521
   },
   {
     "class": "necromancer",
@@ -426,7 +426,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"死靈法師之馬格斯\",\"socket\":\"閃閃發光之真理 *2\",\"props\":\"所有抗性+15+7%快速再度攻擊\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"死亡之網\",\"socket\":\"彩虹刻面\",\"props\":\"毒系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"魔力肇生\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+22%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"燦爛 +3降抗死靈盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/9ie7Cl1Wgik?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_SigmaIV.rar",
-    "id": 246
+    "id": 522
   },
   {
     "class": "necromancer",
@@ -437,7 +437,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文: Ort歐特(9)\",\"props\":\"+30%閃電抵抗\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"蛇魔法師之皮\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"精神 水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"塔格奧之翼\",\"socket\":\"完美的鑚石\",\"props\":\"所有抗性+19\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"多彩之 項鍊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔格奧之束帶\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"淚之臀\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/HIapGUkvoEo?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newnecII.rar",
-    "id": 247
+    "id": 523
   },
   {
     "class": "necromancer",
@@ -448,7 +448,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"死靈法師之馬格斯\",\"socket\":\"彩虹刻面 *2\",\"props\":\"毒系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"橡樹之心\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"塔格奧之翼\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+22\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"燦爛 +3降抗死靈盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔格奧之束帶\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"水上飄\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/pUvgJqb0XW8?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Trang.Oul.rar",
-    "id": 248
+    "id": 524
   },
   {
     "class": "necromancer",
@@ -459,7 +459,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文: Tal 塔爾(7)\",\"props\":\"+30%毒素抵抗\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"蛇魔法師之皮\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"白色 +3骨矛法仗\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"符文: Hel 海爾(15)\",\"props\":\"需求-20%\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"多彩之 項鍊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"不朽之王的瑣事\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"艾爾多的成長\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/ezvTghUl624?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newnecIII.rar",
-    "id": 249
+    "id": 525
   },
   {
     "class": "necromancer",
@@ -470,7 +470,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"詩寇蒂的憤怒\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"巫師之刺\",\"socket\":\"符文: Hel 海爾(15)\",\"props\":\"需求-20%\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 龍盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"坦克雷的怪誕\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"金色包袱\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"坦克雷的平頭釘\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/GgwWoyMgVCk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newnecIV.rar",
-    "id": 250
+    "id": 526
   },
   {
     "class": "paladin",
@@ -481,7 +481,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"年紀之冠\",\"socket\":\"符文: Ber 貝 (30)*2\",\"props\":\"傷害減少8%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"撒卡蘭姆使者\",\"socket\":\"符文: Ber 貝 (30)\",\"props\":\"傷害減少8%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/r6KfLORbZCU?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Zero.rar",
-    "id": 251
+    "id": 527
   },
   {
     "class": "paladin",
@@ -492,7 +492,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"年紀之冠\",\"socket\":\"符文: Ber 貝 (30)*2\",\"props\":\"傷害減少8%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"毀恨 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"流亡 無形炫風盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之泰坦\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/-xKddUnJCkA?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ZeroII.rar",
-    "id": 252
+    "id": 528
   },
   {
     "class": "paladin",
@@ -503,7 +503,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"格利風之眼\",\"socket\":\"彩虹刻面\",\"props\":\"電系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"鑲上寶石的神使之仗\",\"socket\":\"彩虹刻面*5\",\"props\":\"電系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"撒卡蘭姆使者\",\"socket\":\"彩虹刻面\",\"props\":\"電系彩刻\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 薩卡蘭姆盾牌\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"閃閃發光之學徒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/5x5LQqJSmN4?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ZeroIII.rar",
-    "id": 253
+    "id": 529
   },
   {
     "class": "paladin",
@@ -514,7 +514,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"吉永的臉\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"煙霧 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"坦-杜-裡-嘎-將軍 *1\",\"socket\":\"符文: Shael 夏 (13)\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"鑲上寶石的 神聖小盾 *2\",\"socket\":\"完美的鑽石 *4\",\"props\":\"所有抗性+19\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"偷取生命之 骨仗 *3\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"玫瑰烙印 *3\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"傳送之 護身符\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之 戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"擎天神 *3\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"小妖精腳趾\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/tPOlyTd9Zyg?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ZeroIV.rar",
-    "id": 254
+    "id": 530
   },
   {
     "class": "paladin",
@@ -525,7 +525,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"年紀之冠\",\"socket\":\"符文: Ber 貝 (30)*2\",\"props\":\"傷害減少8%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"毀恨 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"撒卡蘭姆使者\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 無形統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"長串之耳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"熔岩角羊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/21r-qPTWbAg?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ZeroV.rar",
-    "id": 255
+    "id": 531
   },
   {
     "class": "paladin",
@@ -536,7 +536,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"夢境 駭骨面罩\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"新月 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"夢境 神聖小盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 小盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"大君之怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"閃閃發光之吸血鬼\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"吸血聖王之圈\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"不朽之王的融爐\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"不朽之王之柱\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/cSYWxPeJ-NU?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_ZeroVI.rar",
-    "id": 256
+    "id": 532
   },
   {
     "class": "paladin",
@@ -547,7 +547,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"格瑞斯華爾德的勇氣\",\"socket\":\"符文: Ber 貝 (30) *2\",\"props\":\"傷害減少8%\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"格瑞斯華爾德之心\",\"socket\":\"符文: Shael夏(13) *3\",\"props\":\"20%快速再度攻擊\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"格瑞斯華爾德的救贖\",\"socket\":\"符文: Ber 貝 (30) *4\",\"props\":\"20% 造成壓碎性打擊機率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"格瑞斯華爾德的榮耀\",\"socket\":\"符文: Ber 貝 (30) *3\",\"props\":\"傷害減少8%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"大君之怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"鬼火投射者\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/YONfakoHvK0?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Griswold.rar",
-    "id": 257
+    "id": 533
   },
   {
     "class": "paladin",
@@ -558,7 +558,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"毀恨 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 神聖小盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"坦克雷的怪誕\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"坦克雷的平頭釘\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/0c3IDPq_CSc?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaVIII.rar",
-    "id": 258
+    "id": 534
   },
   {
     "class": "paladin",
@@ -569,7 +569,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"毀恨 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 神聖小盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"亞特瑪的聖甲蟲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"運氣守護\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"戰爭旅者\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/V_kKEseVLwI?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaIX.rar",
-    "id": 259
+    "id": 535
   },
   {
     "class": "paladin",
@@ -580,7 +580,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"橡樹之心 連枷\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"撒卡蘭姆使者\",\"socket\":\"符文: Tal塔爾(7)\",\"props\":\"+35%毒素抵抗\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"坦克雷的怪誕\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"坦克雷的平頭釘\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/W2RkdxUjKfA?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaX.rar",
-    "id": 260
+    "id": 536
   },
   {
     "class": "paladin",
@@ -591,7 +591,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"吉永的臉\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"暴風之結\",\"socket\":\"符文: Shael夏(13)\",\"props\":\"+20% 增加準確率\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 神聖小盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"大君之怒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"瑪那得的治療\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"劇毒之抓\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"蝕肉騎士\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/_msV8LGpkMY?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newpalII.rar",
-    "id": 261
+    "id": 537
   },
   {
     "class": "paladin",
@@ -602,7 +602,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文: Shael夏(13)\",\"props\":\"20% 快速再度攻擊\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"石塊 灰幕壽衣\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"巫師之刺\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"撒卡蘭姆使者\",\"socket\":\"完美的鑚石\",\"props\":\"所有抗性+19\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"娜吉解謎杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"牧師之學徒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"水上飄\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/Yf1UnmBvCZk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newpalIII.rar",
-    "id": 262
+    "id": 538
   },
   {
     "class": "sorceress",
@@ -613,7 +613,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"格利風之眼\",\"socket\":\"彩虹刻面\",\"props\":\"電系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"榮耀之鍊 執政官盔甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"無限 鐮刀\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"警戒之牆\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/7pmYLncGKog?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Iris.rar",
-    "id": 263
+    "id": 539
   },
   {
     "class": "sorceress",
@@ -624,7 +624,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"夜翼面紗\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"奧瑪斯的長袍 +3暴風雪\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"死亡深度\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"雪之衝突\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/bxLHDULuTnI?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Jenny.rar",
-    "id": 264
+    "id": 540
   },
   {
     "class": "sorceress",
@@ -635,7 +635,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"火山之馬格斯\",\"socket\":\"彩虹刻面*2\",\"props\":\"火系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"榮耀之鍊 執政官鎧甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"火山之馬格斯\",\"socket\":\"彩虹刻面*2\",\"props\":\"火系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"鳳凰 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"火山之巨鯨\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"艾爾多的成長\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/o8ZjNPWNd18?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Joyce.rar",
-    "id": 265
+    "id": 541
   },
   {
     "class": "sorceress",
@@ -646,7 +646,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"夜翼面紗\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"蛇魔法師之皮 古龍皮\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15%\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"死亡深度\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"鳳凰\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"蜘蛛之網\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳 十字軍鐵手套\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/WmBXvNCqF60?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_Jean.rar",
-    "id": 266
+    "id": 542
   },
   {
     "class": "sorceress",
@@ -657,7 +657,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"夢境 駭骨面罩\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"謎團 法師盔甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"熱情 幻化之刃\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"夢境 洞穴巨魔骨盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"警戒之牆\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬丹之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬丹之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"死亡的守護\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"死亡之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/mtlIFA7LtXw?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_IrisII.rar",
-    "id": 267
+    "id": 543
   },
   {
     "class": "sorceress",
@@ -668,7 +668,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"夢境 駭骨面罩\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"背信 執政官盔甲\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"野獸 狂戰士斧\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"夢境 洞穴巨魔骨盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"警戒之牆\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"馬拉的萬花筒\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"烏鴉之霜\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬丹之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"維爾登戈的心結\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"卓古拉之握\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"水上飄\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/99DZ398Np8A?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Iya_IrisIII.rar",
-    "id": 268
+    "id": 544
   },
   {
     "class": "sorceress",
@@ -679,7 +679,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"彩虹刻面\",\"props\":\"冰系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/9Q5AFXY_Q0A?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.Rasha.rar",
-    "id": 269
+    "id": 545
   },
   {
     "class": "sorceress",
@@ -690,7 +690,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/pFMoVmp8VfE?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaII.rar",
-    "id": 270
+    "id": 546
   },
   {
     "class": "sorceress",
@@ -701,7 +701,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"彩虹刻面\",\"props\":\"電系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"彩虹刻面\",\"props\":\"電系彩刻\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"彩虹刻面\",\"props\":\"電系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/2TdzFGxtvrw?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaIII.rar",
-    "id": 271
+    "id": 547
   },
   {
     "class": "sorceress",
@@ -712,7 +712,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"塔.拉夏的赫拉克紋章\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"彩虹刻面\",\"props\":\"火系彩刻\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/8sNJkaV0EAk?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaIV.rar",
-    "id": 272
+    "id": 548
   },
   {
     "class": "sorceress",
@@ -723,7 +723,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文: Ral 拉爾(8)\",\"props\":\"+30%火焰抵抗\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"獅子心\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"巫師之刺\",\"socket\":\"符文: Hel 海爾(15)\",\"props\":\"需求-20%\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"降低抵抗 骨杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬單之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"信條\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"水上飄\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/Zk4umZiqhPI?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newsor.rar",
-    "id": 273
+    "id": 549
   },
   {
     "class": "sorceress",
@@ -734,7 +734,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"塔.拉夏的守護\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"巫師之刺\",\"socket\":\"符文: Hel 海爾(15)\",\"props\":\"需求-20%\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"摩西祝福之環\",\"socket\":\"完美的鑚石 完美的綠寶石\",\"props\":\"所有抗性+19 抗毒+40%\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"戰爭招喚 無形水晶劍\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"警戒之牆\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"塔.拉夏的判決\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"運氣守護\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"水上飄\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/431eEaRBRYw?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/Tal.RashaV.rar",
-    "id": 274
+    "id": 550
   },
   {
     "class": "sorceress",
@@ -745,7 +745,7 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"詩寇蒂的憤怒\",\"socket\":\"完美的黃寶石\",\"props\":\"24%更佳的機會取得魔法裝備\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"巫師之刺\",\"socket\":\"符文:Io破(16)\",\"props\":\"+10 體力\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"聖堂 龍盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"降低抵抗 骨杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"坦克雷的怪誕\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"拿各的戒指\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"塔.拉夏的纖細衣服\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"法師之拳\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"坦克雷的平頭釘\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/GkqC0Q9sN1M?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newsorII.rar",
-    "id": 275
+    "id": 551
   },
   {
     "class": "sorceress",
@@ -756,6 +756,6 @@
     "gear": "[{\"slot\":\"頭盔:\",\"item_name_zh\":\"諧角之冠\",\"socket\":\"符文: Ral 拉爾(8)\",\"props\":\"+30%火焰抵抗\"},{\"slot\":\"裝甲:\",\"item_name_zh\":\"蛇魔法師之皮\",\"socket\":\"符文:Um烏姆(22)\",\"props\":\"所有抗性+15\"},{\"slot\":\"武器A(I):\",\"item_name_zh\":\"新月\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌A(II):\",\"item_name_zh\":\"精神 統治者大盾\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"武器B(I):\",\"item_name_zh\":\"降低抵抗 骨杖\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"盾牌B(II):\",\"item_name_zh\":\"－\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"項鍊:\",\"item_name_zh\":\"多彩之 項鍊\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(I):\",\"item_name_zh\":\"喬丹之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"戒指(II):\",\"item_name_zh\":\"喬丹之石\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"腰帶:\",\"item_name_zh\":\"不朽之王的瑣事\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"手套:\",\"item_name_zh\":\"塔格奧之手\",\"socket\":\"－\",\"props\":\"－\"},{\"slot\":\"鞋子:\",\"item_name_zh\":\"沙暴之旅\",\"socket\":\"－\",\"props\":\"－\"}]",
     "video_url": "http://www.youtube.com/v/hYNbH71_9DM?fs=1&hl=zh_TW",
     "save_url": "https://github.com/softbearlolz/iya-backup/releases/download/v1.0.0-assets/newsorIII.rar",
-    "id": 276
+    "id": 552
   }
 ]
