@@ -6,6 +6,7 @@ import { RunewordsModule } from './runewords/runewords.module';
 import { BuildsModule } from './builds/builds.module';
 import { IasModule } from './ias/ias.module';
 import { AnnouncementsModule } from './announcements/announcements.module';
+import { BaseItemsModule } from './base-items/base-items.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { AnnouncementsModule } from './announcements/announcements.module';
     BuildsModule,
     IasModule,
     AnnouncementsModule,
+    BaseItemsModule,
   ],
 })
 export class AppModule {}

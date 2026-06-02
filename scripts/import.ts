@@ -18,6 +18,7 @@ import { Runeword } from '../src/runewords/entities/runeword.entity';
 import { Build } from '../src/builds/entities/build.entity';
 import { IasBreakpoint } from '../src/ias/entities/ias-breakpoint.entity';
 import { Announcement } from '../src/announcements/entities/announcement.entity';
+import { BaseItem } from '../src/base-items/entities/base-item.entity';
 
 import { parseItemFile } from '../src/parser/parseItems';
 import { parseRunewordFile } from '../src/parser/parseRunewords';
@@ -160,7 +161,7 @@ async function main() {
   const ds = new DataSource({
     type: 'better-sqlite3',
     database: DB_PATH,
-    entities: [Item, ItemSet, SetMember, SetBonus, Runeword, Build, IasBreakpoint, Announcement],
+    entities: [Item, ItemSet, SetMember, SetBonus, Runeword, Build, IasBreakpoint, Announcement, BaseItem],
     synchronize: true,
   });
   await ds.initialize();
@@ -175,6 +176,7 @@ async function main() {
   await ds.getRepository(Build).clear();
   await ds.getRepository(IasBreakpoint).clear();
   await ds.getRepository(Announcement).clear();
+  await ds.getRepository(BaseItem).clear();
   console.log('🗑  舊資料已清除\n');
 
   // ─── 1. 獨特物品 ───
@@ -281,6 +283,17 @@ await ds.getRepository(Build).save(allBuilds);
   );
   await ds.getRepository(Announcement).save(uniqueAnn);
   console.log(`   → ${uniqueAnn.length} 筆公告匯入\n`);
+
+  // ─── 7. 基礎裝備 ───
+  console.log('🗡  匯入基礎裝備...');
+  const baseItemsPath = path.join(DATA_DIR, 'base-items.json');
+  if (fs.existsSync(baseItemsPath)) {
+    const baseItems: Partial<BaseItem>[] = JSON.parse(fs.readFileSync(baseItemsPath, 'utf-8'));
+    await ds.getRepository(BaseItem).save(baseItems);
+    console.log(`   → ${baseItems.length} 筆基礎裝備匯入\n`);
+  } else {
+    console.log('   ⚠️  找不到 data/base-items.json，請先執行 node scripts/fetch-base-items.mjs > data/base-items.json\n');
+  }
 
   await ds.destroy();
   console.log('✅ 全部匯入完成！');
