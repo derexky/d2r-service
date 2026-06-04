@@ -8,6 +8,7 @@ import { IasModule } from './ias/ias.module';
 import { AnnouncementsModule } from './announcements/announcements.module';
 import { BaseItemsModule } from './base-items/base-items.module';
 import { SkillsModule } from './skills/skills.module';
+import { TradesModule } from './trades/trades.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { SkillsModule } from './skills/skills.module';
     AnnouncementsModule,
     BaseItemsModule,
     SkillsModule,
+    TradesModule,
   ],
 })
 export class AppModule {}

@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { FindOptionsWhere, Repository } from 'typeorm';
 import { Trade } from './entities/trade.entity';
 
 @Injectable()
@@ -11,7 +11,7 @@ export class TradesService {
   ) {}
 
   async findAll(query: { category?: string }): Promise<Trade[]> {
-    const where: Partial<Trade> = {};
+    const where: FindOptionsWhere<Trade> = {};
     if (query.category !== undefined) where.category = query.category;
     return this.repo.find({ where, order: { created_at: 'DESC' } });
   }

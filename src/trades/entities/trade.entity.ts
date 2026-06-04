@@ -17,7 +17,7 @@ export class Trade {
   @Column()
   contact!: string;
 
-  @Column({ nullable: true })
+  @Column({ type: 'varchar', nullable: true })
   category!: string | null;
 
   @CreateDateColumn()
