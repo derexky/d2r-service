@@ -4,104 +4,104 @@
     "weapon_type": "十字軍之弓/九頭蛇弓/哥德弓/長攻城弓",
     "base_speed": 17,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"17\"},{\"ias_required\":\"5\",\"frames\":\"16\"},{\"ias_required\":\"15\",\"frames\":\"15\"},{\"ias_required\":\"25\",\"frames\":\"14\"},{\"ias_required\":\"35\",\"frames\":\"13\"},{\"ias_required\":\"50\",\"frames\":\"12\"},{\"ias_required\":\"80\",\"frames\":\"11\"},{\"ias_required\":\"120\",\"frames\":\"10\"},{\"ias_required\":\"215\",\"frames\":\"9\"}]",
-    "id": 106
+    "id": 661
   },
   {
     "merc_type": "act1",
     "weapon_type": "鋒銳之弓/蜘蛛弓",
     "base_speed": 16,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"16\"},{\"ias_required\":\"10\",\"frames\":\"15\"},{\"ias_required\":\"15\",\"frames\":\"14\"},{\"ias_required\":\"30\",\"frames\":\"13\"},{\"ias_required\":\"40\",\"frames\":\"12\"},{\"ias_required\":\"65\",\"frames\":\"11\"},{\"ias_required\":\"105\",\"frames\":\"10\"},{\"ias_required\":\"180\",\"frames\":\"9\"}]",
-    "id": 107
+    "id": 662
   },
   {
     "merc_type": "act1",
     "weapon_type": "陰影弓/鑽石弓/庇護之弓/符文弓/杉木弓/短攻城弓",
     "base_speed": 15,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"15\"},{\"ias_required\":\"10\",\"frames\":\"14\"},{\"ias_required\":\"20\",\"frames\":\"13\"},{\"ias_required\":\"35\",\"frames\":\"12\"},{\"ias_required\":\"55\",\"frames\":\"11\"},{\"ias_required\":\"90\",\"frames\":\"10\"},{\"ias_required\":\"155\",\"frames\":\"9\"}]",
-    "id": 108
+    "id": 663
   },
   {
     "merc_type": "act1",
     "weapon_type": "剃刀之弓/組合弓/刀鋒弓/巨弓",
     "base_speed": 14,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"14\"},{\"ias_required\":\"10\",\"frames\":\"13\"},{\"ias_required\":\"20\",\"frames\":\"12\"},{\"ias_required\":\"35\",\"frames\":\"11\"},{\"ias_required\":\"60\",\"frames\":\"10\"},{\"ias_required\":\"110\",\"frames\":\"9\"}]",
-    "id": 109
+    "id": 664
   },
   {
     "merc_type": "act2",
     "weapon_type": "戰槍",
     "base_speed": 10,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"10\"},{\"ias_required\":\"5\",\"frames\":\"9.5\"},{\"ias_required\":\"10\",\"frames\":\"9\"},{\"ias_required\":\"20\",\"frames\":\"8.5\"},{\"ias_required\":\"25\",\"frames\":\"8\"},{\"ias_required\":\"40\",\"frames\":\"7.5\"},{\"ias_required\":\"55\",\"frames\":\"7\"},{\"ias_required\":\"80\",\"frames\":\"6.5\"},{\"ias_required\":\"130\",\"frames\":\"6\"},{\"ias_required\":\"210\",\"frames\":\"5.5\"},{\"ias_required\":\"210up\",\"frames\":\"5\"}]",
-    "id": 110
+    "id": 665
   },
   {
     "merc_type": "act2",
     "weapon_type": "巨神之斧/神秘之斧",
     "base_speed": 9,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"9\"},{\"ias_required\":\"5\",\"frames\":\"8.5\"},{\"ias_required\":\"15\",\"frames\":\"8\"},{\"ias_required\":\"25\",\"frames\":\"7.5\"},{\"ias_required\":\"35\",\"frames\":\"7\"},{\"ias_required\":\"60\",\"frames\":\"6.5\"},{\"ias_required\":\"95\",\"frames\":\"6\"},{\"ias_required\":\"150\",\"frames\":\"5.5\"},{\"ias_required\":\"295\",\"frames\":\"5\"}]",
-    "id": 111
+    "id": 666
   },
   {
     "merc_type": "act2",
     "weapon_type": "食人魔之斧/巨長斧/冥河之槍/鬼魂之矛",
     "base_speed": 8,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"8\"},{\"ias_required\":\"10\",\"frames\":\"7.5\"},{\"ias_required\":\"20\",\"frames\":\"7\"},{\"ias_required\":\"40\",\"frames\":\"6.5\"},{\"ias_required\":\"65\",\"frames\":\"6\"},{\"ias_required\":\"105\",\"frames\":\"5.5\"},{\"ias_required\":\"200\",\"frames\":\"5\"}]",
-    "id": 112
+    "id": 667
   },
   {
     "merc_type": "act2",
     "weapon_type": "銳利之斧/鮫尾巨斧/亥伯龍之矛",
     "base_speed": 7.5,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"7.5\"},{\"ias_required\":\"10\",\"frames\":\"7\"},{\"ias_required\":\"25\",\"frames\":\"6.5\"},{\"ias_required\":\"45\",\"frames\":\"6\"},{\"ias_required\":\"75\",\"frames\":\"5.5\"},{\"ias_required\":\"145\",\"frames\":\"5\"}]",
-    "id": 113
+    "id": 668
   },
   {
     "merc_type": "act2",
     "weapon_type": "刺人槍",
     "base_speed": 7,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"7\"},{\"ias_required\":\"10\",\"frames\":\"6.5\"},{\"ias_required\":\"30\",\"frames\":\"6\"},{\"ias_required\":\"55\",\"frames\":\"5.5\"},{\"ias_required\":\"105\",\"frames\":\"5\"}]",
-    "id": 114
+    "id": 669
   },
   {
     "merc_type": "act5",
     "weapon_type": "巨神之劍",
     "base_speed": 18,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"18\"},{\"ias_required\":\"10\",\"frames\":\"17\"},{\"ias_required\":\"15\",\"frames\":\"16\"},{\"ias_required\":\"25\",\"frames\":\"15\"},{\"ias_required\":\"35\",\"frames\":\"14\"},{\"ias_required\":\"50\",\"frames\":\"13\"},{\"ias_required\":\"70\",\"frames\":\"12\"},{\"ias_required\":\"105\",\"frames\":\"11\"},{\"ias_required\":\"175\",\"frames\":\"10\"}]",
-    "id": 115
+    "id": 670
   },
   {
     "merc_type": "act5",
     "weapon_type": "巨神之刃",
     "base_speed": 17,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"17\"},{\"ias_required\":\"10\",\"frames\":\"16\"},{\"ias_required\":\"15\",\"frames\":\"15\"},{\"ias_required\":\"25\",\"frames\":\"14\"},{\"ias_required\":\"40\",\"frames\":\"13\"},{\"ias_required\":\"60\",\"frames\":\"12\"},{\"ias_required\":\"90\",\"frames\":\"11\"},{\"ias_required\":\"150\",\"frames\":\"10\"}]",
-    "id": 116
+    "id": 671
   },
   {
     "merc_type": "act5",
     "weapon_type": "炎魔之刃",
     "base_speed": 16,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"16\"},{\"ias_required\":\"10\",\"frames\":\"15\"},{\"ias_required\":\"20\",\"frames\":\"14\"},{\"ias_required\":\"30\",\"frames\":\"13\"},{\"ias_required\":\"50\",\"frames\":\"12\"},{\"ias_required\":\"75\",\"frames\":\"11\"},{\"ias_required\":\"125\",\"frames\":\"10\"}]",
-    "id": 117
+    "id": 672
   },
   {
     "merc_type": "act5",
     "weapon_type": "高地之劍",
     "base_speed": 16,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"16\"},{\"ias_required\":\"5\",\"frames\":\"15\"},{\"ias_required\":\"15\",\"frames\":\"14\"},{\"ias_required\":\"25\",\"frames\":\"13\"},{\"ias_required\":\"40\",\"frames\":\"12\"},{\"ias_required\":\"65\",\"frames\":\"11\"},{\"ias_required\":\"105\",\"frames\":\"10\"}]",
-    "id": 118
+    "id": 673
   },
   {
     "merc_type": "act5",
     "weapon_type": "冠軍之劍",
     "base_speed": 15,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"15\"},{\"ias_required\":\"10\",\"frames\":\"14\"},{\"ias_required\":\"20\",\"frames\":\"13\"},{\"ias_required\":\"30\",\"frames\":\"12\"},{\"ias_required\":\"55\",\"frames\":\"11\"},{\"ias_required\":\"90\",\"frames\":\"10\"}]",
-    "id": 119
+    "id": 674
   },
   {
     "merc_type": "act5",
     "weapon_type": "傳說之劍",
     "base_speed": 14,
     "breakpoints": "[{\"ias_required\":\"0\",\"frames\":\"14\"},{\"ias_required\":\"10\",\"frames\":\"13\"},{\"ias_required\":\"25\",\"frames\":\"12\"},{\"ias_required\":\"45\",\"frames\":\"11\"},{\"ias_required\":\"75\",\"frames\":\"10\"}]",
-    "id": 120
+    "id": 675
   }
 ]

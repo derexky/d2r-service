@@ -9,10 +9,9 @@ export class ItemsController {
   async findAll(
     @Query('category') category?: string,
     @Query('tier') tier?: string,
-    @Query('class') class_restrict?: string,
     @Query('search') search?: string,
   ) {
-    const data = await this.service.findAll({ category, tier, class_restrict, search });
+    const data = await this.service.findAll({ category, tier, search });
     return { data, total: data.length };
   }
 

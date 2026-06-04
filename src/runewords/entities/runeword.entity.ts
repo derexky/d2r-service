@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { RunewordStat } from './runeword-stat.entity';
 
 @Entity('runewords')
 export class Runeword {
@@ -23,6 +24,12 @@ export class Runeword {
   @Column({ nullable: true })
   version!: string;
 
-  @Column('text')
+  @Column('text', { nullable: true })
   effects!: string;
+
+  @Column('text', { nullable: true })
+  stat_labels!: string;
+
+  @OneToMany(() => RunewordStat, (stat: RunewordStat) => stat.runeword)
+  stat_list!: RunewordStat[];
 }

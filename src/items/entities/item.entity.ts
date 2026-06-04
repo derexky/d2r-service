@@ -1,4 +1,6 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { BaseItem } from '../../base-items/entities/base-item.entity';
+import { ItemStat } from './item-stat.entity';
 
 @Entity('items')
 export class Item {
@@ -18,9 +20,6 @@ export class Item {
   tier!: string;
 
   @Column({ nullable: true })
-  class_restrict!: string;
-
-  @Column({ nullable: true })
   image_path!: string;
 
   @Column({ nullable: true })
@@ -34,4 +33,17 @@ export class Item {
 
   @Column('text', { nullable: true })
   stats!: string;
+
+  @Column('text', { nullable: true })
+  stats_v2!: string;
+
+  @Column({ nullable: true })
+  baseItemId!: number;
+
+  @ManyToOne(() => BaseItem, { nullable: true })
+  @JoinColumn({ name: 'baseItemId' })
+  baseItem!: BaseItem;
+
+  @OneToMany(() => ItemStat, (stat: ItemStat) => stat.item)
+  stat_list!: ItemStat[];
 }

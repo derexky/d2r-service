@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import { load } from 'cheerio';
+import { ParsedStatEntry, parseStatLines, lineToEntry } from './parseItems';
 
 export interface ParsedRuneword {
   name_zh: string;
@@ -8,7 +9,8 @@ export interface ParsedRuneword {
   socket_count: number;
   runes: string;      // JSON string[]
   version: string;
-  effects: string;    // JSON string[]
+  effects: string;    // JSON string[] 原始文字，供比對用
+  stat_entries: ParsedStatEntry[];
 }
 
 // runewa → weapon, runewb → shield, runewc → armor, runewed → helm
@@ -75,7 +77,6 @@ export function parseRunewordFile(filepath: string, filename: string): ParsedRun
       const col0 = $tds.eq(0).text().trim();
       const col1 = $tds.eq(1).text().trim();
       const col2 = $tds.eq(2).text().trim();
-      const col3Text = $tds.eq(3).text().trim();
 
       // 名稱欄：金色 = zh，黃色 = en
       const name_zh = $tds.eq(0).find('font[color="#808000"], b font').first().text().trim() || col0.split('\n')[0].trim();
@@ -86,11 +87,9 @@ export function parseRunewordFile(filepath: string, filename: string): ParsedRun
       const runes = extractRunes(col1);
       const socket_count = parseSocketCount(col2);
 
-      // 效果：每行一條
-      const effects = col3Text
-        .split(/\n|<br>/i)
-        .map((l) => l.trim())
-        .filter((l) => l && l !== '　');
+      const rawLines = parseStatLines($tds.eq(3));
+      const stat_entries = rawLines.map((line, i) => lineToEntry(line, i));
+      const effects = rawLines.map((line) => line.segments.map((s) => s.text).join(' ').trim());
 
       rws.push({
         name_zh,
@@ -100,6 +99,7 @@ export function parseRunewordFile(filepath: string, filename: string): ParsedRun
         runes: JSON.stringify(runes),
         version,
         effects: JSON.stringify(effects),
+        stat_entries,
       });
     });
   });

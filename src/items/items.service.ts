@@ -10,11 +10,10 @@ export class ItemsService {
     private readonly repo: Repository<Item>,
   ) {}
 
-  findAll(query: { category?: string; tier?: string; class_restrict?: string; search?: string }) {
+  findAll(query: { category?: string; tier?: string; search?: string }) {
     const where: FindManyOptions<Item>['where'] = {};
     if (query.category) where.category = query.category;
     if (query.tier) where.tier = In([query.tier, 'mixed']);
-    if (query.class_restrict && query.class_restrict !== 'all') where.class_restrict = query.class_restrict;
     if (query.search) where.name_zh = Like(`%${query.search}%`);
     return this.repo.find({ where, order: { id: 'ASC' } });
   }

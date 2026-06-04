@@ -34,4 +34,7 @@ export class BaseItem {
 
   @Column('text', { nullable: true })
   attrs!: string;
+
+  @Column({ nullable: true })
+  class_restrict!: string;
 }
