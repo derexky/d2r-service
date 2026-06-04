@@ -10,13 +10,13 @@ export class TradesService {
     private readonly repo: Repository<Trade>,
   ) {}
 
-  findAll(query: { category?: string }) {
+  async findAll(query: { category?: string }): Promise<Trade[]> {
     const where: Partial<Trade> = {};
-    if (query.category) where.category = query.category;
+    if (query.category !== undefined) where.category = query.category;
     return this.repo.find({ where, order: { created_at: 'DESC' } });
   }
 
-  create(body: Pick<Trade, 'item_name' | 'item_stats_raw' | 'price' | 'contact' | 'category'>) {
+  async create(body: Pick<Trade, 'item_name' | 'item_stats_raw' | 'price' | 'contact' | 'category'>): Promise<Trade> {
     return this.repo.save(this.repo.create(body));
   }
 }

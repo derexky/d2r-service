@@ -3,16 +3,13 @@ import { getRepositoryToken } from '@nestjs/typeorm';
 import { TradesService } from './trades.service';
 import { Trade } from './entities/trade.entity';
 
-const mockRepo = {
-  find: jest.fn(),
-  save: jest.fn(),
-  create: jest.fn(),
-};
+let mockRepo: { find: jest.Mock; save: jest.Mock; create: jest.Mock };
 
 describe('TradesService', () => {
   let service: TradesService;
 
   beforeEach(async () => {
+    mockRepo = { find: jest.fn(), save: jest.fn(), create: jest.fn() };
     const module = await Test.createTestingModule({
       providers: [
         TradesService,
@@ -20,7 +17,6 @@ describe('TradesService', () => {
       ],
     }).compile();
     service = module.get<TradesService>(TradesService);
-    jest.clearAllMocks();
   });
 
   it('findAll passes category filter', async () => {
@@ -53,5 +49,7 @@ describe('TradesService', () => {
     mockRepo.save.mockResolvedValue({ id: 1, ...body });
     const result = await service.create(body);
     expect(result).toMatchObject({ id: 1, item_name: 'SOJ', price: '3 Ber' });
+    expect(mockRepo.create).toHaveBeenCalledWith(body);
+    expect(mockRepo.save).toHaveBeenCalledWith(body);
   });
 });
