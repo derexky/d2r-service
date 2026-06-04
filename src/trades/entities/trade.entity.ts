@@ -9,7 +9,7 @@ export class Trade {
   item_name!: string;
 
   @Column('text', { nullable: true })
-  item_stats_raw!: string;
+  item_stats_raw!: string | null;
 
   @Column()
   price!: string;
@@ -18,7 +18,7 @@ export class Trade {
   contact!: string;
 
   @Column({ nullable: true })
-  category!: string;
+  category!: string | null;
 
   @CreateDateColumn()
   created_at!: Date;
