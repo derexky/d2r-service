@@ -1,5 +1,7 @@
 import { Module } from '@nestjs/common';
 import { DatabaseModule } from './database/database.module';
+import { SyncModule } from './sync/sync.module';
+import { OcrModule } from './ocr/ocr.module';
 import { ItemsModule } from './items/items.module';
 import { SetsModule } from './sets/sets.module';
 import { RunewordsModule } from './runewords/runewords.module';
@@ -22,6 +24,8 @@ import { TradesModule } from './trades/trades.module';
     BaseItemsModule,
     SkillsModule,
     TradesModule,
+    SyncModule,
+    OcrModule,
   ],
 })
 export class AppModule {}

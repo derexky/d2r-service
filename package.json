@@ -25,14 +25,17 @@
     "import": "ts-node -P tsconfig.scripts.json -r tsconfig-paths/register scripts/import.ts"
   },
   "dependencies": {
+    "@google-cloud/vision": "^5.3.7",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.4",
     "@nestjs/core": "^11.0.1",
-    "@nestjs/platform-express": "^11.0.1",
+    "@nestjs/platform-express": "^11.1.24",
     "@nestjs/typeorm": "^11.0.1",
+    "@types/multer": "^2.1.0",
     "better-sqlite3": "^12.10.0",
     "cheerio": "^1.2.0",
     "firebase-functions": "^7.2.5",
+    "multer": "^2.1.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
     "typeorm": "^1.0.0"
