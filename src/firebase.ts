@@ -9,6 +9,7 @@ const server = express();
 const bootstrap = async () => {
   const app = await NestFactory.create(AppModule, new ExpressAdapter(server));
   app.setGlobalPrefix('api');
+  app.enableCors({ origin: true });
   await app.init();
 };
 

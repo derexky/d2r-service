@@ -11,6 +11,7 @@ import { AnnouncementsModule } from './announcements/announcements.module';
 import { BaseItemsModule } from './base-items/base-items.module';
 import { SkillsModule } from './skills/skills.module';
 import { TradesModule } from './trades/trades.module';
+import { PricesModule } from './prices/prices.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { TradesModule } from './trades/trades.module';
     BaseItemsModule,
     SkillsModule,
     TradesModule,
+    PricesModule,
     SyncModule,
     OcrModule,
   ],
