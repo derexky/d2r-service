@@ -29,9 +29,19 @@ export class PricesService implements OnModuleInit {
     return snap.docs[0].data();
   }
 
+  private trackedItemsCache: string[] | null = null;
+  private trackedItemsCacheTime = 0;
+  private static readonly CACHE_TTL = 5 * 60 * 1000;
+
   async getTrackedItems(): Promise<string[]> {
+    const now = Date.now();
+    if (this.trackedItemsCache && now - this.trackedItemsCacheTime < PricesService.CACHE_TTL) {
+      return this.trackedItemsCache;
+    }
     const docs = await this.db.collection('price_snapshots').listDocuments();
-    return docs.map((d) => d.id);
+    this.trackedItemsCache = docs.map((d) => d.id);
+    this.trackedItemsCacheTime = now;
+    return this.trackedItemsCache;
   }
 
   async getHistory(item: string, ladder: boolean, mode: Mode, limit = 24) {
