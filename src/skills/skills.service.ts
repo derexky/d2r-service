@@ -18,6 +18,10 @@ export class SkillsService {
   }
 
   findOne(id: number) {
-    return this.repo.findOneBy({ id });
+    return this.repo
+      .createQueryBuilder('s')
+      .addSelect('s.detail')
+      .where('s.id = :id', { id })
+      .getOne();
   }
 }

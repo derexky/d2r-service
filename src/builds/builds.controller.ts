@@ -6,8 +6,11 @@ export class BuildsController {
   constructor(private readonly service: BuildsService) {}
 
   @Get()
-  async findAll(@Query('class') charClass?: string) {
-    const data = await this.service.findAll({ class: charClass });
+  async findAll(
+    @Query('class') charClass?: string,
+    @Query('source') source?: string,
+  ) {
+    const data = await this.service.findAll({ class: charClass, source });
     return { data, total: data.length };
   }
 

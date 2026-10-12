@@ -2,13 +2,26 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Affix } from './entities/affix.entity';
 import { Rune } from './entities/rune.entity';
-import { SocketBase } from './entities/socket-base.entity';
 import { Mercenary } from './entities/mercenary.entity';
+import { Breakpoint } from './entities/breakpoint.entity';
+import { ExperienceRatio } from './entities/experience-ratio.entity';
+import { Monster } from './entities/monster.entity';
+import { MonsterLevel } from './entities/monster-level.entity';
 import { ReferenceService } from './reference.service';
 import { ReferenceController } from './reference.controller';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Affix, Rune, SocketBase, Mercenary])],
+  imports: [
+    TypeOrmModule.forFeature([
+      Affix,
+      Rune,
+      Mercenary,
+      Breakpoint,
+      ExperienceRatio,
+      Monster,
+      MonsterLevel,
+    ]),
+  ],
   controllers: [ReferenceController],
   providers: [ReferenceService],
 })

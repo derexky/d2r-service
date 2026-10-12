@@ -28,4 +28,17 @@ export class Build {
 
   @Column({ nullable: true })
   save_url!: string;
+
+  @Column({ nullable: true })
+  rating!: number;
+
+  @Column({ nullable: true })
+  guide_url!: string;
+
+  @Column('text', { nullable: true })
+  description!: string;
+
+  // null = 原有資料；'build-journal' = 由 fetch-build-journal 匯入
+  @Column({ nullable: true })
+  source!: string;
 }

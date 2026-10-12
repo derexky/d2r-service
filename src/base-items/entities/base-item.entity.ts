@@ -37,4 +37,14 @@ export class BaseItem {
 
   @Column({ nullable: true })
   class_restrict!: string;
+
+  // 物品等級 1–25 / 26–40 / 41+ 時的打孔上限
+  @Column({ nullable: true })
+  max_sockets_1!: number;
+
+  @Column({ nullable: true })
+  max_sockets_2!: number;
+
+  @Column({ nullable: true })
+  max_sockets_3!: number;
 }
