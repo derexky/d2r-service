@@ -12,6 +12,8 @@ import { BaseItemsModule } from './base-items/base-items.module';
 import { SkillsModule } from './skills/skills.module';
 import { TradesModule } from './trades/trades.module';
 import { PricesModule } from './prices/prices.module';
+import { ReferenceModule } from './reference/reference.module';
+import { AdminModule } from './admin/admin.module';
 
 @Module({
   imports: [
@@ -26,6 +28,8 @@ import { PricesModule } from './prices/prices.module';
     SkillsModule,
     TradesModule,
     PricesModule,
+    ReferenceModule,
+    AdminModule,
     SyncModule,
     OcrModule,
   ],
