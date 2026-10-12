@@ -1,0 +1,2580 @@
+{
+  "class": "barbarian",
+  "slug": "gold-find",
+  "url": "https://d2r-build-journal.pages.dev/builds/barbarian/gold-find/",
+  "crawledAt": "2026-10-12T10:00:23.231Z",
+  "title": "打錢挖屍野蠻人｜D2R 配裝誌",
+  "description": "打錢挖屍蠻的自己輸出、傭兵輸出、烙印觸發、武器與金幣收益分析。",
+  "hero": "BARBARIAN · GOLD FIND · LEVEL 99\n\n尋找藥水物品\n★★★★★\n個人實戰三星\n\n等級 99 實際配裝、技能配置、完成面板與米山傭兵資料。\n\n尋找藥劑\n38 級 · 95%\n尋找物品\n26 級 · 73%\n額外金幣\n2,427%\n尋寶\n210%",
+  "bar": {
+    "等級": "99",
+    "難度": "地獄",
+    "剩餘點數": "0"
+  },
+  "telemetry": {
+    "attributes": {
+      "力量": "151",
+      "敏捷": "70",
+      "體能": "489",
+      "能量": "50",
+      "生命": "2,247",
+      "法力": "148",
+      "防禦": "2,150"
+    },
+    "rates": {
+      "快速施法": "副手 80 FCR · 9F",
+      "打擊恢復": "0 FHR · 9F",
+      "攻擊速度": "本體打錢組 10 IAS",
+      "尋找物品": "26 級 · 73%",
+      "額外金幣": "2,427%"
+    },
+    "resistances": {
+      "火": "85",
+      "電": "75",
+      "冰": "75",
+      "毒": "75"
+    }
+  },
+  "sections": [
+    {
+      "key": "iceGuideOverview",
+      "text": "02 · 角色定位\n米山負責擊殺，本體接著挖屍\n\n這套將武器欄位用來提高金幣加成，交由 A2 力量米山擊殺。重點是讓他穩定完成擊殺，同時保留足夠的屍體，再由本體施放尋找物品，爭取另一份戰利品。\n\n尋找藥劑\n38 級 · 95%\n尋找物品\n26 級 · 73%\n額外金幣\n2,427%\n尋寶\n210%",
+      "pairs": [
+        [
+          "尋找藥劑",
+          "38 級 · 95%"
+        ],
+        [
+          "尋找物品",
+          "26 級 · 73%"
+        ],
+        [
+          "額外金幣",
+          "2,427%"
+        ],
+        [
+          "尋寶",
+          "210%"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideReading",
+      "text": "03 · READING THE BUILD\n擊殺與挖屍，金幣加成分開看\n\n先確認傭兵能否穩定擊殺，再看本體挖屍時的技能等級與武器組。兩個時間點使用的裝備可能不同，混在一起計算容易高估收益。\n\n第一份掉落\n讓傭兵穩定完成擊殺\n\n本體持雙六藍姆水晶劍；米山持死亡呼吸、攻速吸血頭與剛毅，面板傷害 2,464–11,086。金幣加成再高，也要先穩定完成擊殺；傭兵卡住或陣亡，都會降低整輪收益。\n\n第二次判定\n保留屍體，才能把握 73% 的挖屍機會\n\n尋找物品為 26 級，顯示成功率 73%；尋找藥劑投入的 20 硬點提供協同。每具可用屍體只能嘗試一次，若已碎屍或被其他技能消耗，就無法再挖。\n\n金幣加成\n擊殺與挖屍，分別看當下裝備\n\n米山擊殺時，第一份掉落會合計本體與該傭兵當下的金幣加成；本體挖屍時，則只看自己施放時的裝備。擊殺後才切手，不會增加已掉落的金幣；米山的詞綴也不計入挖屍。\n\n效率指標\n完整一輪的淨金幣／分鐘\n\n固定地圖、人數與路線，把聚怪、米山接戰、逐具挖屍、撿錢、存錢的時間與復活費用都算進去。偶爾一筆大額掉落，或面板上的 2,427%，都不足以代表長期效率。",
+      "pairs": [
+        [
+          "第一份掉落",
+          "讓傭兵穩定完成擊殺",
+          "本體持雙六藍姆水晶劍；米山持死亡呼吸、攻速吸血頭與剛毅，面板傷害 2,464–11,086。金幣加成再高，也要先穩定完成擊殺；傭兵卡住或陣亡，都會降低整輪收益。"
+        ],
+        [
+          "第二次判定",
+          "保留屍體，才能把握 73% 的挖屍機會",
+          "尋找物品為 26 級，顯示成功率 73%；尋找藥劑投入的 20 硬點提供協同。每具可用屍體只能嘗試一次，若已碎屍或被其他技能消耗，就無法再挖。"
+        ],
+        [
+          "金幣加成",
+          "擊殺與挖屍，分別看當下裝備",
+          "米山擊殺時，第一份掉落會合計本體與該傭兵當下的金幣加成；本體挖屍時，則只看自己施放時的裝備。擊殺後才切手，不會增加已掉落的金幣；米山的詞綴也不計入挖屍。"
+        ],
+        [
+          "效率指標",
+          "完整一輪的淨金幣／分鐘",
+          "固定地圖、人數與路線，把聚怪、米山接戰、逐具挖屍、撿錢、存錢的時間與復活費用都算進去。偶爾一筆大額掉落，或面板上的 2,427%，都不足以代表長期效率。"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideBoundaries",
+      "text": "04 · FIELD BOUNDARIES\n從崔凡克接戰到挖屍收尾\n\n評估這套配置時，適合固定路線跑幾輪比較。接戰花費的時間、傭兵是否存活，以及留下多少具可挖屍體，都比偶爾一次大額掉落更能反映實際效率。\n\n開局整備\n\n需要戰吼增益時，先切到 BO 配置，施放戰鬥指揮與戰鬥命令，再切回打錢配置。54 級戰鬥命令是支援組的技能等級，持雙藍姆時並非這個等級。\n\n崔凡克接敵\n\n用戰鬥怒吼降低附近敵人的攻防，讓米山在力量靈氣生效時接戰。遇到九頭海蛇、高傷詞綴，或傭兵血量危急時，先移動調整站位，避免頻繁復活吃掉打錢收益。\n\n可挖屍體\n\n選裝與操作時，要留意冰傷碎屍、安息與其他消耗屍體的效果。即使清怪變快、73% 成功率不變，可挖屍體減少，仍會少掉許多取得第二份戰利品的機會。\n\n配置切換\n\n副手雙橡樹之心提供技能與施法速度，方便施放輔助技能；傭兵擊殺前與挖屍時，都要記得切回雙藍姆武器，才能讓擊殺掉落與尋找物品取得的戰利品享有正手的金幣加成。",
+      "pairs": [
+        [
+          "開局整備",
+          "需要戰吼增益時，先切到 BO 配置，施放戰鬥指揮與戰鬥命令，再切回打錢配置。54 級戰鬥命令是支援組的技能等級，持雙藍姆時並非這個等級。"
+        ],
+        [
+          "崔凡克接敵",
+          "用戰鬥怒吼降低附近敵人的攻防，讓米山在力量靈氣生效時接戰。遇到九頭海蛇、高傷詞綴，或傭兵血量危急時，先移動調整站位，避免頻繁復活吃掉打錢收益。"
+        ],
+        [
+          "可挖屍體",
+          "選裝與操作時，要留意冰傷碎屍、安息與其他消耗屍體的效果。即使清怪變快、73% 成功率不變，可挖屍體減少，仍會少掉許多取得第二份戰利品的機會。"
+        ],
+        [
+          "配置切換",
+          "副手雙橡樹之心提供技能與施法速度，方便施放輔助技能；傭兵擊殺前與挖屍時，都要記得切回雙藍姆武器，才能讓擊殺掉落與尋找物品取得的戰利品享有正手的金幣加成。"
+        ]
+      ]
+    }
+  ],
+  "logic": "BUILD LOGIC · GOLD FIND\n配裝思路\n\n先決定由誰擊殺，再看屍體、挖屍成功率與整輪淨金幣收益。\n\n73%\n尋找物品成功率\n2,427%\n人物額外金幣\n210%\n尋寶率\n9F\n副手施法 · 80 FCR\n一、先看一分鐘能留下多少錢\n\n金幣加成會放大原本的掉落金額：+1,000% 是原金額的 11 倍，+1,500% 是 16 倍。兩者相差 500 個百分點，實際金幣量提高約 45%，並非總收益直接增加一半。如果為了這些加成，讓一整輪從 40 秒延長到 60 秒，換裝就可能不划算。\n\n計時包含走路、接敵、觸發、擊殺、挖屍、撿取與存錢。每輪掉落都有隨機性，因此要固定路線與人數，多跑幾輪比較平均收益，並扣掉傭兵復活、修理與耗材費用。偶爾一輪滿地金幣，或創下一次最快紀錄，都不足以代表長期效率。\n\n可以把收益想成「擊殺掉落的金幣＋尋找物品取得的金幣」，再除以整輪花費的時間。兩次掉落的流程並不完全相同，所以不能直接用挖屍成功率推算金幣會增加多少。\n\n二、誰完成擊殺、當時拿什麼武器，都會影響金幣加成\n\n自己擊殺看玩家的金幣加成；傭兵擊殺可合計玩家與該傭兵的加成。怪物死亡後才切換打錢武器，不會增加已經掉落的金幣。尋找物品則依本體挖屍時的裝備計算，不會再加上傭兵的金幣詞綴。\n\n因此，由本體輸出的配置，通常用正手完成擊殺，再切副手挖屍。由傭兵輸出時，本體可以持雙打錢武器等待擊殺；若先拿烙印觸發詛咒，就要留意是否來得及在怪物死亡前切回打錢武器。打錢武器要在對應的時間拿在手上，兩次掉落才各自能享有它的加成。\n\n先決定輸出分工\n路線\t如何成立\t代價與檢查\n自己輸出\t以旋風、狂亂或狂暴之擊取得擊殺，清完切打錢／技能武器挖屍。\t武器、命中、攻速與偷取占用欄位；但擊殺較不受傭兵尋路影響。\n傭兵輸出\t本體負責聚怪、控場與施放詛咒，並穿戴打錢裝備；傭兵則以物理傷害完成擊殺。\t能把更多裝備欄位留給金幣加成；但傭兵卡住、陣亡或詛咒遲遲未觸發，都會拖慢整輪速度。\n烙印觸發支援\t本體持烙印，承受能觸發效果的敵人攻擊；觸發傷害加深後，再切回打錢武器。\t要一起考慮切手時機、詛咒範圍與受傷風險；這個選擇的重點在於支援傭兵，而非弓本身的射擊傷害。\n三、尋找物品的成功率與屍體數量一起看\n\n尋找物品會對可用屍體再進行一次掉落判定，取得另一份戰利品。成功後依對應的掉落表產生物品；即使失敗，同一具屍體也不能再挖。成功挖屍不保證掉落金幣，尋寶率也不會增加金幣數量。\n\n尋找物品的技能等級越高，每級增加的成功率就越少；D2R 的尋找藥水每投入一個硬點，則提供 1 個百分點的成功率協同。裝備增加的軟點不計入這份協同。先安排硬點協同，再確認裝備增加技能後，是否確實提高了成功率。\n\n假設有十具可挖屍體，成功率 70%，長期平均約七次成功；若冰傷碎掉兩具，即使提高到 75%，也只剩平均六次。這個例子說明，保住屍體可能比再堆幾級技能更重要。因此選裝時，也要檢查冰傷碎屍、安息、救贖與其他消耗屍體的技能。\n\n四、自己輸出：先確保殺得快，再增加打錢裝備\n\n旋風適合穿過集中的怪群持續輸出，狂亂兼顧移動與單體攻擊，狂暴之擊則能應對物理抗性較高的目標。三者在命中、攻速、操作與技能配點上各有差異，不能只看武器最高傷害就決定配置。\n\n生命與法力偷取要依實際造成的物理傷害及目標規則計算；狂暴之擊轉成魔法的傷害無法用來偷取。若為了金幣加成犧牲物傷、命中或續航，可能反而需要頻繁喝水、追怪與重新接戰。先確認能否穩定快速擊殺，再逐件換上打錢裝備。\n\n用悔恨或誓約確保輸出後，副手可以比較雙藍姆武器、阿里巴巴之刃，以及增加技能或施法速度的武器。提高挖屍成功率、加快施放與增加金幣量，是三種不同收益。哪一種更適合，要一起比較可挖屍體數與挖完所需的時間。\n\n五、傭兵輸出：除了武器傷害，也要讓米山打得到、活得下來\n\nA2 力量傭兵能以靈氣提高物理輸出，A5 狂亂傭兵則使用雙持武器。選擇時，先比較接敵、命中、實際物傷、攻速與存活，再考慮額外金幣。把護甲換成財富、頭盔鑲上藍姆，雖然能提高加成，但若因此失去偷取、防護或攻速，也可能拖慢擊殺。\n\n崔凡克議會的九頭海蛇與特殊詞綴會提高承傷風險。火抗上限提高，不等於實際火抗已經填滿。使用守護天使時，要同時補足抗性；使用奇拉的守護，則要從其他部位補上生命偷取。即使武器物傷很高，若傭兵經常打不中或陣亡，也很難維持穩定收益。\n\n死神喪鐘能提供衰老，但冰傷可能減少可挖屍體；死亡呼吸則兼顧物傷、攻速與偷取。無限的信念能降低防禦與元素抗性，卻不會降低物理抗性。比較這些武器時，要一起考慮詛咒來源、武器傷害，以及本體能提供的支援。\n\n六、烙印觸發詛咒：也要考慮等待與切手的時間\n\n烙印的傷害加深來自被擊中時的機率觸發，射擊命中時的骨矛是另一項。使用時，要持弓走位，承受能觸發效果的攻擊，成功後再切回打錢武器。射得快不代表傷害加深會更快觸發，也並非所有元素傷害都能觸發這個效果。\n\n傷害加深會降低目標物抗，幫助傭兵完成物理擊殺，但不會提高金幣倍率。測試時，要留意多久才觸發、哪些怪物受到詛咒，以及切回打錢武器花了多少時間。若怪物在詛咒觸發前就已死亡，或等待觸發比直接擊殺更慢，這次切手就未必值得。\n\n不要為了觸發而長時間硬吃整群攻擊。先確保防護足夠、留好退路，再讓傭兵接戰；若傭兵遠離怪群或陣亡，就先重新調整。戰鬥怒吼與其他詛咒可能互相覆蓋，因此不能把降防、衰老與傷害加深都算成同時持續生效。\n\nWEAPON CHOICES\n七、依用途比較武器：擊殺、支援與打錢\n打錢挖屍武器候選\n武器方向\t主要用途\t取捨與條件\n悔恨 · 幻化之刃\t自己輸出的物傷核心\t固定附加的物理傷害能提供穩定輸出；仍要依主攻技能確認攻速、命中，以及另一手的武器用途。\n誓約 · 無形底材\t較低成本的自己輸出\t無法破壞適合搭配無形底材；選擇時要比較攻速、物傷與裝備需求，造價較低並不代表效果等同悔恨。\n死亡呼吸 · 菁英底材\t本體或 A2 傭兵的物傷與偷取\t本身不帶冰傷，並提供攻速與偷取，適合需要保留屍體的配置；仍要比較底材的攻速門檻與造價。\n雙六藍姆武器\t擊殺時或挖屍時的金幣加成\t武器每顆藍姆 +75% 額外金幣；雙六洞合計 +900%，本身不提供擊殺能力。\n阿里巴巴之刃\t金幣、尋寶與鑲嵌空間\t隨角色等級提升金幣加成；也要一起比較挖屍技能等級、FCR，以及鑲嵌後的整套收益。\n烙印 · 弓／弩\t受擊觸發傷害加深\t35% 機率在被擊中時施展 14 級傷害加深；100% 擊中骨矛是另一項效果。\n死神喪鐘\t傭兵自行觸發衰老\t降低物抗與控場能加快擊殺，但附帶冰傷可能碎屍，因此不能只看清怪花了幾秒。\n雙悔恨 · A5 傭兵\t狂亂傭兵的擊殺方向\t本體可專心支援與挖屍；仍要確認 A5 傭兵的命中、防護與詛咒來源，也不能把 A2 的力量靈氣算進來。\n八、依輸出方式搭配全身裝備與技能\n\n財富提高金幣與尋寶，謎團提供傳送與技能，剛毅則強化武器輸出；三者都占用護甲欄位，需要依玩法取捨。傳送能縮短跑位時間，也方便重新安排傭兵站位，但仍要比較省下的時間，是否足以彌補少掉的金幣加成或傷害。不同路線不一定適合同一件護甲。\n\n運氣守護、黃金裹腰、矮人之星、基德與打錢咒符，都可以用來增加收益。換裝前，要先確認抗性、生命、命中、偷取與打擊恢復是否足夠。火焰吸收不能取代其他防護，無法冰凍是否重要，也要依主攻技能與移動需求判斷。\n\n由本體輸出時，需要投資主攻技能與專精；交給傭兵輸出，則能把更多點數留給輔助戰吼、尋找藥水、尋找物品與防護。用戰爭狂嘯控場時，要考慮法力消耗，以及哪些怪物能受到影響，不能期待永久暈住議會精英。狂嗥若把怪群趕散，也可能讓傭兵花更多時間追怪。\n\nFCR 影響傳送與挖屍速度，IAS 影響對應的武器攻擊，FHR 則影響受擊恢復，三者各有用途。先確定操作流程，再依實際裝備確認各自的門檻；其他配置的施法數值不能直接套用。\n\n目前的選擇\n雙六藍姆保留打錢欄位，交由力量米山擊殺\n\n我選擇讓本體正手持兩把各鑲六顆藍姆的水晶劍，將武器欄位用來提高金幣加成，不靠本體的武器物傷清理議會怪。擊殺交給 A2 力量傭兵，使用死亡呼吸提供物理傷害，搭配攻速、吸血頭冠與剛毅，兼顧輸出與存活。本體施放戰鬥怒吼降低敵方攻防，並用走位讓米山對準怪群。這套人物面板為額外金幣 2,427%、尋寶 210%；傭兵完成擊殺時，本體要持著雙藍姆武器，第一份掉落才會享有這套加成。\n\n傭兵擊殺後，我保留屍體並逐具施放尋找物品。打錢組顯示尋找藥劑 38 級、尋找物品 26 級，後者成功率 73%；成功挖屍不保證掉金幣，收益也取決於能留下多少具可用屍體。副手雙橡樹之心方便施法；它提供的技能與施法速度，要和正手雙藍姆的金幣加成分開看。本套另外備有 BO 配置，以戰召、回音劍、戰吼頭和謎團完成接戰整備，施放後切回打錢組。\n\n這套由力量米山負責擊殺，讓本體能持雙六藍姆武器，提高擊殺掉落與後續挖屍的金幣收益。實戰重點是整理怪群、照顧傭兵血量，讓他穩定完成擊殺，再逐具挖取屍體。若米山頻繁追怪或陣亡，就應優先調整站位與傭兵配裝。對我而言，打錢效率要看一整輪能留下多少金幣、花了多少時間；金幣加成、擊殺速度與挖屍節奏都要一起考慮。\n\n2,427%\n人物額外金幣 · 打錢組\n210%\n尋寶率 · 打錢組\n73%\n尋找物品成功率\n80 FCR · 9F\n快速施法 · 副手\n判讀回顧\n比較的是完整一輪的收益\n01 · 輸出分工\n\n由本體還是傭兵擊殺\n\n02 · 金幣歸屬\n\n分別看擊殺與挖屍當下的裝備\n\n03 · 屍體保留\n\n成功率與可挖屍體數一起看\n\n04 · 降物抗\n\n實際覆蓋與觸發時間\n\n05 · 存活與接敵\n\n命中、偷取、防護與傭兵走位\n\n06 · 淨收益\n\n固定路線，計入存錢與復活",
+  "gear": [
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "正手武器一：六藍姆特等水晶劍",
+      "slot": "正手武器一",
+      "name": "六藍姆特等水晶劍",
+      "base": "特等水晶劍 · 六顆藍姆",
+      "quality": "normal",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 5–17",
+        "耐久度 20 / 20",
+        "需要力量 43",
+        "需要等級 43",
+        "攻擊距離 2",
+        "鑲孔（6）"
+      ],
+      "stats": [
+        {
+          "text": "+15% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "+3 準確率",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 450%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "正手武器二：六藍姆特等水晶劍",
+      "slot": "正手武器二",
+      "name": "六藍姆特等水晶劍",
+      "base": "特等水晶劍 · 六顆藍姆",
+      "quality": "normal",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 5–17",
+        "耐久度 20 / 20",
+        "需要力量 43",
+        "需要等級 43",
+        "攻擊距離 2",
+        "鑲孔（6）"
+      ],
+      "stats": [
+        {
+          "text": "+15% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "+3 準確率",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 450%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "頭部：不朽之王的意志",
+      "slot": "頭部",
+      "name": "不朽之王的意志",
+      "base": "復仇者護盔 · 兩顆藍姆",
+      "quality": "set",
+      "image": "/images/d2r-game-items/avenger_guard.webp",
+      "meta": [
+        "防禦 175",
+        "需要力量 65",
+        "需要等級 47",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "+2 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "+125 防禦",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 137%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 40%",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +4",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "項鍊：財富之回音護身符",
+      "slot": "項鍊",
+      "name": "財富之回音護身符",
+      "base": "魔法護身符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/amulet.webp",
+      "meta": [
+        "需要等級 45"
+      ],
+      "stats": [
+        {
+          "text": "+3 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 80%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "身體：財富",
+      "slot": "身體",
+      "name": "財富",
+      "base": "統御者鎧甲 · 藍姆＋科＋特爾",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/light_plate.webp",
+      "meta": [
+        "防禦 603",
+        "耐久度 69 / 69",
+        "需要力量 103",
+        "需要等級 63",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+10 敏捷",
+          "important": false
+        },
+        {
+          "text": "+2 擊殺法力恢復",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 300%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 100%",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "手套：運氣守護",
+      "slot": "手套",
+      "name": "運氣守護",
+      "base": "護臂",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/chain_gloves.webp",
+      "meta": [
+        "防禦 102",
+        "需要力量 106",
+        "需要等級 63"
+      ],
+      "stats": [
+        {
+          "text": "+25 準確率",
+          "important": false
+        },
+        {
+          "text": "+30% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+15 防禦",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 200%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 40%",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +2",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戒指一：矮人之星",
+      "slot": "戒指一",
+      "name": "矮人之星",
+      "base": "戒指",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 45"
+      ],
+      "stats": [
+        {
+          "text": "+40 生命",
+          "important": false
+        },
+        {
+          "text": "+40 耐力上限",
+          "important": false
+        },
+        {
+          "text": "耐力恢復 +15%",
+          "important": false
+        },
+        {
+          "text": "火焰吸收 +15%",
+          "important": false
+        },
+        {
+          "text": "魔法傷害降低 15",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 100%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戒指二：矮人之星",
+      "slot": "戒指二",
+      "name": "矮人之星",
+      "base": "戒指",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 45"
+      ],
+      "stats": [
+        {
+          "text": "+40 生命",
+          "important": false
+        },
+        {
+          "text": "+40 耐力上限",
+          "important": false
+        },
+        {
+          "text": "耐力恢復 +15%",
+          "important": false
+        },
+        {
+          "text": "火焰吸收 +15%",
+          "important": false
+        },
+        {
+          "text": "魔法傷害降低 15",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 100%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "腰帶：黃金裹腰",
+      "slot": "腰帶",
+      "name": "黃金裹腰",
+      "base": "食人妖腰帶",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/belt.webp",
+      "meta": [
+        "防禦 130",
+        "腰帶空間 +12 格",
+        "耐久度 8 / 18",
+        "需要力量 151",
+        "需要等級 74"
+      ],
+      "stats": [
+        {
+          "text": "+10% 攻擊速度",
+          "important": false
+        },
+        {
+          "text": "+60% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+25 防禦",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 80%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 30%",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +2",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "腳部：地獄闊步",
+      "slot": "腳部",
+      "name": "地獄闊步",
+      "base": "魔皮長靴",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/boots.webp",
+      "meta": [
+        "防禦 105",
+        "需要力量 20",
+        "需要等級 29"
+      ],
+      "stats": [
+        {
+          "text": "被擊中時有 5% 機率施展等級 8 熾烈之徑",
+          "important": false
+        },
+        {
+          "text": "+20% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "附加 12–33 火焰傷害",
+          "important": false
+        },
+        {
+          "text": "+150% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+15 防禦",
+          "important": false
+        },
+        {
+          "text": "火焰抗性上限 +10%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +30%",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 70%",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +2",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "大型咒符：地獄火炬",
+      "slot": "大型咒符",
+      "name": "地獄火炬",
+      "base": "獨特大型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/hellfire-torch-v2.webp",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 5% 機率施展等級 10 火焰風暴",
+          "important": false
+        },
+        {
+          "text": "+3 野蠻人技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +8",
+          "important": false
+        },
+        {
+          "text": "等級 30 多頭蛇（10 次聚氣）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符：毀滅",
+      "slot": "小型咒符",
+      "name": "毀滅",
+      "base": "獨特小型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/annihilus-v2.webp",
+      "meta": [
+        "需要等級 70"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "獲得的經驗值 +5%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 1：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 1",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 2：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 2",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 3：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 3",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 4：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 4",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 5：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 5",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 6：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 6",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 7：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 7",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 8：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 8",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 9：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 9",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 1：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 1",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 2：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 2",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 3：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 3",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 4：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 4",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 5：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 5",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 6：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 6",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 7：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 7",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 8：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 8",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 9：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 9",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 10：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 10",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "II",
+      "label": "副手武器一：橡樹之心",
+      "slot": "副手武器一",
+      "name": "橡樹之心",
+      "base": "連枷 · 科＋伐克斯＋普爾＋書爾",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/flail.webp",
+      "meta": [
+        "單手傷害 1–24",
+        "需要敏捷 35",
+        "需要力量 41",
+        "需要等級 55",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "+3 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+75% 對惡魔的傷害",
+          "important": false
+        },
+        {
+          "text": "+100 對惡魔的準確率",
+          "important": false
+        },
+        {
+          "text": "附加 3–14 冰寒傷害",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 法力",
+          "important": false
+        },
+        {
+          "text": "+10 敏捷",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +20",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 15%",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +40",
+          "important": false
+        },
+        {
+          "text": "等級 4 橡木智者（25 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "等級 14 掠鴉（60 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "+50% 對不死怪物的傷害",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "打錢蠻",
+      "weaponSet": "II",
+      "label": "副手武器二：橡樹之心",
+      "slot": "副手武器二",
+      "name": "橡樹之心",
+      "base": "連枷 · 科＋伐克斯＋普爾＋書爾",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/flail.webp",
+      "meta": [
+        "單手傷害 1–24",
+        "需要敏捷 35",
+        "需要力量 41",
+        "需要等級 55",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "+3 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+75% 對惡魔的傷害",
+          "important": false
+        },
+        {
+          "text": "+100 對惡魔的準確率",
+          "important": false
+        },
+        {
+          "text": "附加 3–14 冰寒傷害",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 法力",
+          "important": false
+        },
+        {
+          "text": "+10 敏捷",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +20",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 15%",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +40",
+          "important": false
+        },
+        {
+          "text": "等級 4 橡木智者（25 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "等級 14 掠鴉（60 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "+50% 對不死怪物的傷害",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "正手武器一：戰爭召喚",
+      "slot": "正手武器一",
+      "name": "戰爭召喚",
+      "base": "水晶劍 · 安姆＋拉爾＋馬爾＋伊司特＋歐姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 19–57",
+        "需要力量 43",
+        "需要等級 57",
+        "攻擊距離 2",
+        "鑲孔（5）"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 攻擊速度",
+          "important": false
+        },
+        {
+          "text": "+280% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "附加 5–30 火焰傷害",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 生命",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥指揮",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥命令",
+          "important": false
+        },
+        {
+          "text": "+4 戰鬥怒吼",
+          "important": false
+        },
+        {
+          "text": "防止怪物自療",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +12",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 30%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "正手武器二：吸血鬼之回音水晶劍",
+      "slot": "正手武器二",
+      "name": "吸血鬼之回音水晶劍",
+      "base": "魔法水晶劍",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 5–15",
+        "需要力量 43",
+        "需要等級 48"
+      ],
+      "stats": [
+        {
+          "text": "+3 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 8% 法力",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "頭部：烏賊之回音突擊頭盔",
+      "slot": "頭部",
+      "name": "烏賊之回音突擊頭盔",
+      "base": "野蠻人突擊頭盔 · 兩顆紅寶石",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/assault_helmet.webp",
+      "meta": [
+        "防禦 35",
+        "需要力量 55",
+        "需要等級 45",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "+3 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "+2 恐怖圖騰",
+          "important": false
+        },
+        {
+          "text": "+3 戰鬥命令",
+          "important": false
+        },
+        {
+          "text": "+1 尋找物品",
+          "important": false
+        },
+        {
+          "text": "+150 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "項鍊：財富之回音護身符",
+      "slot": "項鍊",
+      "name": "財富之回音護身符",
+      "base": "魔法護身符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/amulet.webp",
+      "meta": [
+        "需要等級 45"
+      ],
+      "stats": [
+        {
+          "text": "+3 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 80%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "身體：謎團",
+      "slot": "身體",
+      "name": "謎團",
+      "base": "法師鎧甲 · 喬＋伊司＋貝",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/light_plate.webp",
+      "meta": [
+        "防禦 1,076",
+        "需要力量 55",
+        "需要等級 65",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+45% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "+1 傳送術",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+775 防禦",
+          "important": false
+        },
+        {
+          "text": "+74 力量",
+          "important": false
+        },
+        {
+          "text": "生命上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "物理傷害降低 8%",
+          "important": false
+        },
+        {
+          "text": "+14 擊殺生命恢復",
+          "important": false
+        },
+        {
+          "text": "+15% 受到的傷害轉為法力",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 99%",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "手套：法師之拳",
+      "slot": "手套",
+      "name": "法師之拳",
+      "base": "輕型護手",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/light_gauntlets.webp",
+      "meta": [
+        "防禦 25",
+        "需要力量 45",
+        "需要等級 23"
+      ],
+      "stats": [
+        {
+          "text": "+1 火焰技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "附加 1–6 火焰傷害",
+          "important": false
+        },
+        {
+          "text": "+30% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+10 防禦",
+          "important": false
+        },
+        {
+          "text": "法力恢復 +25%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戒指一：喬丹之石",
+      "slot": "戒指一",
+      "name": "喬丹之石",
+      "base": "戒指",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 29"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "附加 1–12 閃電傷害",
+          "important": false
+        },
+        {
+          "text": "+20 法力",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 25%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戒指二：喬丹之石",
+      "slot": "戒指二",
+      "name": "喬丹之石",
+      "base": "戒指",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 29"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "附加 1–12 閃電傷害",
+          "important": false
+        },
+        {
+          "text": "+20 法力",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 25%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "腰帶：蜘蛛之網",
+      "slot": "腰帶",
+      "name": "蜘蛛之網",
+      "base": "蛛網束帶",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/sash.webp",
+      "meta": [
+        "防禦 138",
+        "腰帶空間 +12 格",
+        "耐久度 12 / 12",
+        "需要力量 50",
+        "需要等級 80"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "使目標減慢 10%",
+          "important": false
+        },
+        {
+          "text": "+120% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "等級 3 淬毒（11 次聚氣）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "腳部：地獄闊步",
+      "slot": "腳部",
+      "name": "地獄闊步",
+      "base": "魔皮長靴",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/boots.webp",
+      "meta": [
+        "防禦 105",
+        "需要力量 20",
+        "需要等級 29"
+      ],
+      "stats": [
+        {
+          "text": "被擊中時有 5% 機率施展等級 8 熾烈之徑",
+          "important": false
+        },
+        {
+          "text": "+20% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "附加 12–33 火焰傷害",
+          "important": false
+        },
+        {
+          "text": "+150% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+15 防禦",
+          "important": false
+        },
+        {
+          "text": "火焰抗性上限 +10%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +30%",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 70%",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +2",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "大型咒符：地獄火炬",
+      "slot": "大型咒符",
+      "name": "地獄火炬",
+      "base": "獨特大型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/hellfire-torch-v2.webp",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 5% 機率施展等級 10 火焰風暴",
+          "important": false
+        },
+        {
+          "text": "+3 野蠻人技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +8",
+          "important": false
+        },
+        {
+          "text": "等級 30 多頭蛇（10 次聚氣）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符：毀滅",
+      "slot": "小型咒符",
+      "name": "毀滅",
+      "base": "獨特小型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/annihilus-v2.webp",
+      "meta": [
+        "需要等級 70"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "獲得的經驗值 +5%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 1：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 1",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 2：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 2",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 3：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 3",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 4：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 4",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 5：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 5",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 6：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 6",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 7：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 7",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 8：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 8",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "戰吼板 9：貪婪之鳴響特大咒符",
+      "slot": "戰吼板 9",
+      "name": "貪婪之鳴響特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+1 戰吼（只限野蠻人）",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 1：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 1",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 2：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 2",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 3：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 3",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 4：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 4",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 5：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 5",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 6：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 6",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 7：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 7",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 8：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 8",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 9：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 9",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "I",
+      "label": "小型咒符 10：貪婪之閃耀小型咒符",
+      "slot": "小型咒符 10",
+      "name": "貪婪之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 25"
+      ],
+      "stats": [
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "II",
+      "label": "副手武器一：橡樹之心",
+      "slot": "副手武器一",
+      "name": "橡樹之心",
+      "base": "連枷 · 科＋伐克斯＋普爾＋書爾",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/flail.webp",
+      "meta": [
+        "單手傷害 1–24",
+        "需要敏捷 35",
+        "需要力量 41",
+        "需要等級 55",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "+3 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+75% 對惡魔的傷害",
+          "important": false
+        },
+        {
+          "text": "+100 對惡魔的準確率",
+          "important": false
+        },
+        {
+          "text": "附加 3–14 冰寒傷害",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 法力",
+          "important": false
+        },
+        {
+          "text": "+10 敏捷",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +20",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 15%",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +40",
+          "important": false
+        },
+        {
+          "text": "等級 4 橡木智者（25 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "等級 14 掠鴉（60 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "+50% 對不死怪物的傷害",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "BO 蠻",
+      "weaponSet": "II",
+      "label": "副手武器二：橡樹之心",
+      "slot": "副手武器二",
+      "name": "橡樹之心",
+      "base": "連枷 · 科＋伐克斯＋普爾＋書爾",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/flail.webp",
+      "meta": [
+        "單手傷害 1–24",
+        "需要敏捷 35",
+        "需要力量 41",
+        "需要等級 55",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "+3 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+75% 對惡魔的傷害",
+          "important": false
+        },
+        {
+          "text": "+100 對惡魔的準確率",
+          "important": false
+        },
+        {
+          "text": "附加 3–14 冰寒傷害",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 法力",
+          "important": false
+        },
+        {
+          "text": "+10 敏捷",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +20",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 15%",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +40",
+          "important": false
+        },
+        {
+          "text": "等級 4 橡木智者（25 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "等級 14 掠鴉（60 次聚氣）",
+          "important": false
+        },
+        {
+          "text": "+50% 對不死怪物的傷害",
+          "important": false
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "tree": "戰吼 打錢蠻",
+      "skills": [
+        {
+          "label": "狂嗥，圖中 19 級",
+          "detail": "驅散與走位\n狂嗥\n投入點數\n1\n常駐完成\n19\n戰鬥指揮後\n20\n穿戴通用\n+5\n火炬／毀符\n+4\n分支／單技\n+9\n\n投入 1 點，讓能被驅散的普通怪退開，替本體與傭兵騰出走位空間。但若把怪群趕得太散，也會拖慢擊殺與挖屍。\n\n它主要用來調整站位；無法驅散的目標，仍要交給傭兵接戰。\n\n技能分支\n戰吼\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "尋找藥劑，圖中 38 級",
+          "detail": "挖屍成功率協同\n尋找藥劑\n投入點數\n20\n常駐完成\n38\n戰鬥指揮後\n39\n穿戴通用\n+5\n火炬／毀符\n+4\n分支／單技\n+9\n\n投入 20 點。對屍體使用時，顯示找到藥劑的機率為 95%；投入的硬點也會提高尋找物品的成功率。\n\n裝備與戰吼板增加的技能等級不計入硬點協同。打錢時要把屍體留給尋找物品，別先用尋找藥劑消耗掉。\n\n技能分支\n戰吼\n配置狀態\n核心滿點\n尋找藥劑機率\n95%\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "戰鬥怒吼，圖中 38 級",
+          "detail": "削弱敵方攻防\n戰鬥怒吼\n投入點數\n20\n常駐完成\n38\n戰鬥指揮後\n39\n穿戴通用\n+5\n火炬／毀符\n+4\n分支／單技\n+9\n\n投入 20 點，降低範圍內敵人的傷害與防禦，讓傭兵更容易命中並減少承傷。先讓米山靠近目標，再依議會怪的位置施放。\n\n戰鬥怒吼降低的是傷害與防禦，不會降低物理抗性，也不提供尋找物品的協同或金幣加成。\n\n技能分支\n戰吼\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "尋找物品，圖中 26 級",
+          "detail": "屍體第二次掉落\n尋找物品\n投入點數\n8\n常駐完成\n26\n戰鬥指揮後\n27\n穿戴通用\n+5\n火炬／毀符\n+4\n分支／單技\n+9\n\n投入 8 點，正手完成 26 級，顯示成功率 73%。傭兵擊殺後，本體逐具對可用屍體施放，成功時便能取得另一份掉落。\n\n挖屍的金幣加成依本體施放當下的裝備計算，不會再加上傭兵裝備的詞綴。\n\n技能分支\n戰吼\n配置狀態\n功能投資\n尋找物品機率\n73%\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "戰鬥命令，圖中 38 級",
+          "detail": "生命／法力整備\n戰鬥命令\n投入點數\n20\n常駐完成\n38\n戰鬥指揮後\n39\n穿戴通用\n+5\n火炬／毀符\n+4\n分支／單技\n+9\n\n投入 20 點，接戰前提高自己與傭兵的生命、法力上限。打錢組的技能等級為 38 級，BO 專用配置則為 54 級。\n\n先施放戰鬥指揮再補戰鬥命令，再切回雙藍姆，讓傭兵擊殺並接著挖屍。\n\n技能分支\n戰吼\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "戰鬥指揮，圖中 19 級",
+          "detail": "技能整備\n戰鬥指揮\n投入點數\n1\n常駐完成\n19\n戰鬥指揮後\n20\n穿戴通用\n+5\n火炬／毀符\n+4\n分支／單技\n+9\n\n投入 1 點，先施放戰鬥指揮，再補戰鬥命令與其他戰吼。它能提高技能等級，但增加的軟點不計入尋找藥劑的硬點協同。\n\n切換武器後，要依目前武器組確認尋找物品的等級；戰鬥指揮到期時，也要記得補上。\n\n技能分支\n戰吼\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    },
+    {
+      "tree": "戰鬥專精 打錢蠻",
+      "skills": [
+        {
+          "label": "耐力提升，圖中 5 級",
+          "detail": "移動支援\n耐力提升\n投入點數\n1\n常駐完成\n5\n戰鬥指揮後\n6\n穿戴通用\n+0\n火炬／毀符\n+4\n分支／單技\n+0\n\n投入 1 點，增加跑圖耐力。它提供移動上的幫助，但不會提高尋找物品的成功率，也無法讓傭兵更快追上怪物。\n\n技能分支\n戰鬥專精\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "鋼鐵之膚，圖中 7 級",
+          "detail": "被動防禦\n鋼鐵之膚\n投入點數\n3\n常駐完成\n7\n戰鬥指揮後\n8\n穿戴通用\n+0\n火炬／毀符\n+4\n分支／單技\n+0\n\n投入 3 點，圖中完成 7 級，提高本體防禦。靠近議會怪調整站位時，仍要避免被集中攻擊；防禦無法抵擋所有法術。\n\n技能分支\n戰鬥專精\n配置狀態\n功能投資\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "速度提升，圖中 23 級",
+          "detail": "移動支援\n速度提升\n投入點數\n19\n常駐完成\n23\n戰鬥指揮後\n24\n穿戴通用\n+0\n火炬／毀符\n+4\n分支／單技\n+0\n\n投入 19 點，圖中完成 23 級。方便帶傭兵接戰、逐具挖屍與撿取金幣。比較整輪效率時，仍要算上追怪與存錢的時間。\n\n技能分支\n戰鬥專精\n配置狀態\n功能投資\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "自然抵抗，圖中 13 級",
+          "detail": "元素防護\n自然抵抗\n投入點數\n9\n常駐完成\n13\n戰鬥指揮後\n14\n穿戴通用\n+0\n火炬／毀符\n+4\n分支／單技\n+0\n\n投入 9 點，圖中完成 13 級，被動提高四種抗性。打錢面板為火 85%、冰電毒各 75%；切到 BO 組時，則要依該配置確認抗性。\n\n技能分支\n戰鬥專精\n配置狀態\n功能投資\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    },
+    {
+      "tree": "戰鬥技能 打錢蠻",
+      "skills": [
+        {
+          "label": "跳躍，圖中 12 級",
+          "detail": "跨越地形與脫困\n跳躍\n投入點數\n8\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+0\n火炬／毀符\n+4\n分支／單技\n+0\n\n投入 8 點，圖中完成 12 級。用跳躍跨過障礙、離開包圍，重新調整本體與傭兵的站位。\n\n跳躍主要用來走位，不是這套擊殺議會怪的手段；使用時也要留意傭兵能否跟上。\n\n技能分支\n戰鬥技能\n配置狀態\n功能投資\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    },
+    {
+      "tree": "BO 蠻戰吼 支援配置",
+      "skills": [
+        {
+          "label": "狂嗥，圖中 29 級",
+          "detail": "驅散與走位\n狂嗥\n投入點數\n1\n常駐完成\n29\n戰鬥指揮後\n30\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+9\n\n這套與打錢配置同樣投入 1 點硬點，狂嗥 的技能等級為 29 級。兩套的等級差異來自武器、頭部與其他裝備，硬點配法相同。\n\n比較兩套技能時，要分別看各自的武器與裝備；支援組的技能等級不能直接套用到打錢組。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "尋找藥劑，圖中 48 級",
+          "detail": "挖屍成功率協同\n尋找藥劑\n投入點數\n20\n常駐完成\n48\n戰鬥指揮後\n49\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+9\n\n這套與打錢配置同樣投入 20 點硬點，尋找藥劑 的技能等級為 48 級。兩套的等級差異來自武器、頭部與其他裝備，硬點配法相同。\n\n比較兩套技能時，要分別看各自的武器與裝備；支援組的技能等級不能直接套用到打錢組。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "戰鬥怒吼，圖中 48 級",
+          "detail": "削弱敵方攻防\n戰鬥怒吼\n投入點數\n20\n常駐完成\n48\n戰鬥指揮後\n49\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+9\n\n這套與打錢配置同樣投入 20 點硬點，戰鬥怒吼 的技能等級為 48 級。兩套的等級差異來自武器、頭部與其他裝備，硬點配法相同。\n\n比較兩套技能時，要分別看各自的武器與裝備；支援組的技能等級不能直接套用到打錢組。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "尋找物品，圖中 37 級",
+          "detail": "屍體第二次掉落\n尋找物品\n投入點數\n8\n常駐完成\n37\n戰鬥指揮後\n38\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+10\n\n這套與打錢配置同樣投入 8 點硬點，尋找物品 的技能等級為 37 級。兩套的等級差異來自武器、頭部與其他裝備，硬點配法相同。\n\n比較兩套技能時，要分別看各自的武器與裝備；支援組的技能等級不能直接套用到打錢組。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n功能投資\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "戰鬥命令，圖中 54 級",
+          "detail": "生命／法力整備\n戰鬥命令\n投入點數\n20\n常駐完成\n54\n戰鬥指揮後\n55\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+15\n\n這套與打錢配置同樣投入 20 點硬點，戰鬥命令 的技能等級為 54 級。兩套的等級差異來自武器、頭部與其他裝備，硬點配法相同。\n\n先施放戰鬥指揮，再用這套補戰鬥命令；再切回雙藍姆，讓傭兵擊殺並接著挖屍。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "戰鬥指揮，圖中 32 級",
+          "detail": "技能整備\n戰鬥指揮\n投入點數\n1\n常駐完成\n32\n戰鬥指揮後\n33\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+12\n\n這套與打錢配置同樣投入 1 點硬點，戰鬥指揮 的技能等級為 32 級。兩套的等級差異來自武器、頭部與其他裝備，硬點配法相同。\n\n比較兩套技能時，要分別看各自的武器與裝備；支援組的技能等級不能直接套用到打錢組。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "大吼，圖中 31 級",
+          "detail": "支援配置防禦\n大吼\n投入點數\n0\n常駐完成\n31\n戰鬥指揮後\n32\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+12\n\nBO 配置圖顯示 31 級。用來提高自己與傭兵的防禦；切回打錢裝後，其他面板數值仍要依打錢配置確認。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n裝備賦予\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "恐怖圖騰，圖中 30 級",
+          "detail": "屍體控場\n恐怖圖騰\n投入點數\n0\n常駐完成\n30\n戰鬥指揮後\n31\n穿戴通用\n+15\n火炬／毀符\n+4\n分支／單技\n+11\n\nBO 配置圖顯示 30 級，頭盔帶有 +2 恐怖圖騰。施放時會消耗屍體，也會影響怪物走位。打錢時要盡量把屍體留給尋找物品，因此不適合在挖屍前頻繁使用。\n\n技能分支\nBO 蠻戰吼\n配置狀態\n裝備賦予\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    }
+  ],
+  "character": {
+    "summary": "主力技能\n完成面板\n尋找藥劑\n38 級 · 95%\n尋找物品\n26 級 · 73%",
+    "groups": [
+      {
+        "group": "速度",
+        "rows": [
+          [
+            "快速施法",
+            "副手雙橡樹之心 80 FCR · 9F"
+          ],
+          [
+            "攻擊速度",
+            "正手腰帶 +10 IAS"
+          ],
+          [
+            "跑步／行走速度",
+            "地獄闊步 +20%；速度提升另計"
+          ]
+        ]
+      },
+      {
+        "group": "輸出",
+        "rows": [
+          [
+            "輸出分工",
+            "A2 力量傭兵擊殺；本體尋找物品"
+          ],
+          [
+            "尋找物品",
+            "26 級（打錢組技能圖）"
+          ],
+          [
+            "傭兵傷害",
+            "2,464–11,086"
+          ],
+          [
+            "力量靈氣",
+            "20 級 · +230% 傷害"
+          ]
+        ]
+      },
+      {
+        "group": "防禦",
+        "rows": [
+          [
+            "生命",
+            "2,247"
+          ],
+          [
+            "法力",
+            "148"
+          ],
+          [
+            "防禦",
+            "2,150"
+          ],
+          [
+            "地獄四抗",
+            "火85電75冰75毒75"
+          ],
+          [
+            "魔法傷害降低",
+            "30"
+          ],
+          [
+            "火焰吸收",
+            "30%（雙矮人之星）"
+          ]
+        ]
+      },
+      {
+        "group": "其他",
+        "rows": [
+          [
+            "怪物金幣掉落量提高",
+            "2,427%（人物進階面板）"
+          ],
+          [
+            "尋獲魔法物品機率",
+            "210%"
+          ],
+          [
+            "擊殺法力恢復",
+            "+2（財富鎧甲）"
+          ],
+          [
+            "能量恢復速度",
+            "+30%"
+          ],
+          [
+            "獲得經驗值",
+            "+5%"
+          ],
+          [
+            "照亮範圍",
+            "+18"
+          ]
+        ]
+      }
+    ]
+  },
+  "merc": {
+    "gear": [
+      {
+        "label": "傭兵武器：死亡呼吸",
+        "slot": "武器",
+        "name": "死亡呼吸",
+        "base": "無形征戰長槍 · 伐克斯＋海爾＋艾爾＋艾德＋薩德＋愛斯",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/pike.webp",
+        "meta": [
+          "雙手傷害 252–1,375",
+          "需要敏捷 75",
+          "需要力量 122",
+          "需要等級 69",
+          "鑲孔（6）"
+        ],
+        "stats": [
+          {
+            "text": "永不毀損",
+            "important": false
+          },
+          {
+            "text": "殺死敵人時有 50% 機率施展等級 20 劇毒新星",
+            "important": false
+          },
+          {
+            "text": "+60% 攻擊速度",
+            "important": false
+          },
+          {
+            "text": "+415% 傷害強化",
+            "important": false
+          },
+          {
+            "text": "目標防禦 −25%",
+            "important": false
+          },
+          {
+            "text": "+53 準確率",
+            "important": false
+          },
+          {
+            "text": "+200% 對不死怪物的傷害",
+            "important": false
+          },
+          {
+            "text": "+50 對不死怪物的準確率",
+            "important": false
+          },
+          {
+            "text": "擊中竊取 7% 法力",
+            "important": false
+          },
+          {
+            "text": "擊中竊取 14% 生命",
+            "important": true
+          },
+          {
+            "text": "防止怪物自療",
+            "important": false
+          },
+          {
+            "text": "+30 所有屬性",
+            "important": false
+          },
+          {
+            "text": "照亮範圍 +1",
+            "important": false
+          },
+          {
+            "text": "需求 −20%",
+            "important": false
+          }
+        ]
+      },
+      {
+        "label": "傭兵頭部：八目饕之工匠權冠",
+        "slot": "頭部",
+        "name": "八目饕之工匠權冠",
+        "base": "三顆 15 IAS／40 ED 珠寶",
+        "quality": "magic",
+        "image": "/images/d2r-game-items/diadem.webp",
+        "meta": [
+          "防禦 55",
+          "需要等級 65",
+          "鑲孔（3）"
+        ],
+        "stats": [
+          {
+            "text": "+45% 攻擊速度",
+            "important": false
+          },
+          {
+            "text": "+120% 傷害強化",
+            "important": false
+          },
+          {
+            "text": "擊中竊取 8% 生命",
+            "important": true
+          }
+        ]
+      },
+      {
+        "label": "傭兵身體：剛毅",
+        "slot": "身體",
+        "name": "剛毅",
+        "base": "無形統御者鎧甲 · 艾爾＋羅＋多爾＋索爾",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/light_plate.webp",
+        "meta": [
+          "防禦 2,494",
+          "需要力量 93",
+          "需要等級 63",
+          "鑲孔（4）"
+        ],
+        "stats": [
+          {
+            "text": "被擊中時有 20% 機率施展等級 15 寒冰甲",
+            "important": false
+          },
+          {
+            "text": "+25% 快速施法速度",
+            "important": true
+          },
+          {
+            "text": "+300% 傷害強化",
+            "important": false
+          },
+          {
+            "text": "+215% 防禦強化",
+            "important": false
+          },
+          {
+            "text": "+15 防禦",
+            "important": false
+          },
+          {
+            "text": "+148 生命",
+            "important": false
+          },
+          {
+            "text": "生命恢復 +7",
+            "important": false
+          },
+          {
+            "text": "閃電抗性上限 +5%",
+            "important": false
+          },
+          {
+            "text": "所有抗性 +30",
+            "important": false
+          },
+          {
+            "text": "物理傷害降低 7",
+            "important": false
+          },
+          {
+            "text": "+12% 受到的傷害轉為法力",
+            "important": false
+          },
+          {
+            "text": "照亮範圍 +1",
+            "important": false
+          }
+        ]
+      }
+    ],
+    "support": [
+      "A2 米山 · 等級 98\n力量靈氣\n\n力量傭兵提供物理增傷，支援本套由米山負責的擊殺流程。\n\n力量 · 原生靈氣\n等級 20 · 半徑 36 碼\n提供 +230% 物理傷害；接戰時確認傭兵仍在靈氣覆蓋範圍內。"
+    ],
+    "text": "武器\n頭部\n身體\n身體\n剛毅\n無形統御者鎧甲 · 艾爾＋羅＋多爾＋索爾\n防禦 2,494\n需要力量 93\n需要等級 63\n鑲孔（4）\n被擊中時有 20% 機率施展等級 15 寒冰甲\n+25% 快速施法速度\n重要屬性\n+300% 傷害強化\n+215% 防禦強化\n+15 防禦\n+148 生命\n生命恢復 +7\n閃電抗性上限 +5%\n所有抗性 +30\n物理傷害降低 7\n+12% 受到的傷害轉為法力\n照亮範圍 +1\nA2 米山 · 等級 98\n力量靈氣\n\n力量傭兵提供物理增傷，支援本套由米山負責的擊殺流程。\n\n力量 · 原生靈氣\n等級 20 · 半徑 36 碼\n提供 +230% 物理傷害；接戰時確認傭兵仍在靈氣覆蓋範圍內。"
+  },
+  "field": "FIELD MANUAL · TRAVINCAL GOLD FIND\n先由米山擊殺，再逐具挖屍\n\n這套由米山持死亡呼吸完成擊殺，本體則持雙藍姆武器提高金幣收益，再用尋找物品逐具挖取留下的屍體。\n\n01\n整備後切回打錢組\n\n先用 BO 配置施放戰鬥指揮與戰鬥命令，再切回雙六藍姆水晶劍，並確認 A2 力量傭兵跟在身旁。技能等級與金幣加成要依各自的配置分開看。\n\n02\n讓米山接戰，留意血量\n\n靠近崔凡克議會後，調整站位，讓傭兵靠近目標。本體施放戰鬥怒吼降低附近敵人的攻防，並配合走位，減少米山追怪的時間。遇到九頭海蛇或高傷詞綴，傭兵承受不住時就先退開調整，不必為了等他擊殺而留在原地。\n\n03\n保留屍體，逐具挖取\n\n傭兵擊殺後，本體用 26 級尋找物品逐具挖屍，顯示成功率為 73%。別先用尋找藥劑、恐怖圖騰或其他技能消耗屍體；挖屍時能享有多少金幣加成，要看本體當下使用的武器組。\n\n04\n清點整輪淨收益\n\n撿完金幣後，再計算一整輪的收益。擊殺、等待傭兵、挖屍與存錢的時間，以及傭兵復活費，都要算進去。固定人數與路線，多跑幾輪比較平均淨金幣／分鐘，才能判斷多換一件打錢裝備是否值得。\n\n兩次掉落，分別看當下的裝備\n\n米山擊殺時，第一份掉落會合計本體與該傭兵當下的金幣加成；本體挖屍時，則只看自己施放時的裝備。擊殺後才切手，不會增加已經掉落的金幣。\n\n73% 不是每輪多 73% 金幣\n\n要先留下可用屍體，才能嘗試挖屍；成功後也不保證掉落金幣。傭兵追怪、碎屍與存錢花費的時間，都會影響總收益，因此要看完整一輪的表現。"
+}

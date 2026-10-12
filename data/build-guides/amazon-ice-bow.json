@@ -1,0 +1,1591 @@
+{
+  "class": "amazon",
+  "slug": "ice-bow",
+  "url": "https://d2r-build-journal.pages.dev/builds/amazon/ice-bow/",
+  "crawledAt": "2026-10-12T09:59:33.207Z",
+  "title": "冷霜冰凍箭亞馬遜｜D2R 配裝誌",
+  "description": "等級 99 冰弓：互動裝備、技能配置、完成面板與實戰判讀。",
+  "hero": "AMAZON · ICE BOW · LEVEL 99\n\n冷霜冰凍箭\n★★★★★\n個人實戰五星\n\n等級 99 實際配裝、技能配置、完成面板與米山傭兵資料。\n\n主技能（常駐／指揮）\n冰凍箭 42／43\n冰寒傷害\n3,816–3,866\n攻擊速度\n85 IAS · 8F\n快速施法\n70 FCR · 13F\n打擊恢復\n24 FHR · 8F\n地獄抗性\n75／75／75／75",
+  "bar": {
+    "等級": "99",
+    "難度": "地獄",
+    "剩餘點數": "0"
+  },
+  "telemetry": {
+    "attributes": {
+      "力量": "134",
+      "敏捷": "440",
+      "體能": "190",
+      "能量": "55",
+      "生命": "1,438",
+      "法力": "633",
+      "防禦": "1,549"
+    },
+    "rates": {
+      "攻擊速度": "85 IAS · 8F",
+      "快速施法": "70 FCR · 13F",
+      "打擊恢復": "24 FHR · 8F",
+      "MF": "119%"
+    },
+    "resistances": {
+      "火": "75",
+      "電": "75",
+      "冰": "75",
+      "毒": "75"
+    }
+  },
+  "sections": [
+    {
+      "key": "iceGuideOverview",
+      "text": "02 · 角色定位\n冰凍箭穿過怪群，傳送重新排射線\n\n冰凍箭兼顧遠程控制與範圍輸出；真正的清圖節奏還取決於貫穿角度、箭體物理命中與法力能否持續。謎團讓角色帶回女武神和米山，重新拉出直線，再以 8F 射擊接續輸出。\n\n冰凍箭\n8F 射擊與範圍凍結\n貫穿角度\n朝怪群縱深發射\n傳送重整\n70 FCR · 13F\n續航\n箭體吸法＋擊殺回法",
+      "pairs": [
+        [
+          "冰凍箭",
+          "8F 射擊與範圍凍結"
+        ],
+        [
+          "貫穿角度",
+          "朝怪群縱深發射"
+        ],
+        [
+          "傳送重整",
+          "70 FCR · 13F"
+        ],
+        [
+          "續航",
+          "箭體吸法＋擊殺回法"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideReading",
+      "text": "03 · READING THE BUILD\n射速與傳送各算一條，吸法只看箭體\n兩種速度\n85 IAS · 8F／70 FCR · 13F\n\n前者控制女傑之弓的射擊動畫，後者控制亞馬遜傳送；攻速和高施不能相加。裝備互換時兩個門檻都要重新檢查。\n\n法力竊取\n23% 仍需物理箭體命中\n\n冰凍箭爆炸造成的冰寒傷害不會用來偷取法力；準確率、物理命中與擊殺回法決定持續射擊時的法力表現。\n\n破免次序\n破冰、個人降抗、信念各看來源\n\n新生冰寒裂縫處理冰免；角色寒冰與破冰板的降抗、米山無限的信念要按原本是否免疫分開作用，傭兵脫節時也要重新看覆蓋。\n\n控制範圍\n先凍住，再把後排串進來\n\n冰凍箭落點可以控住前排，但貫穿與後排爆炸需要射線。站位錯誤時，技能面板不會補回被浪費的穿透路徑。",
+      "pairs": [
+        [
+          "兩種速度",
+          "85 IAS · 8F／70 FCR · 13F",
+          "前者控制女傑之弓的射擊動畫，後者控制亞馬遜傳送；攻速和高施不能相加。裝備互換時兩個門檻都要重新檢查。"
+        ],
+        [
+          "法力竊取",
+          "23% 仍需物理箭體命中",
+          "冰凍箭爆炸造成的冰寒傷害不會用來偷取法力；準確率、物理命中與擊殺回法決定持續射擊時的法力表現。"
+        ],
+        [
+          "破免次序",
+          "破冰、個人降抗、信念各看來源",
+          "新生冰寒裂縫處理冰免；角色寒冰與破冰板的降抗、米山無限的信念要按原本是否免疫分開作用，傭兵脫節時也要重新看覆蓋。"
+        ],
+        [
+          "控制範圍",
+          "先凍住，再把後排串進來",
+          "冰凍箭落點可以控住前排，但貫穿與後排爆炸需要射線。站位錯誤時，技能面板不會補回被浪費的穿透路徑。"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideBoundaries",
+      "text": "04 · FIELD BOUNDARIES\n留出射線與回魔空間，別站在怪群裡射\n密集怪群\n\n讓女武神或米山承接前排，對齊怪群縱深射擊，讓箭體繼續穿向後排；分散怪則不必硬追同樣的連續爆炸。\n\n落單精英與首領\n\n缺少穿透目標時以穩定命中和位置控制為主；箭體物理段仍影響吸法，不能只用冰寒面板估算能打多久。\n\n原本冰免的怪\n\n先確認破冰板生效，再看角色降抗與米山信念覆蓋；若傭兵落後，不把他持有的降抗算作角色常駐。\n\n傳送後的空窗\n\n70 FCR 可以重排陣型，但落點前排未就位時先放替身或召回女武神；被凍結時效減半不是無法冰凍，遇強控場要留退路。",
+      "pairs": [
+        [
+          "密集怪群",
+          "讓女武神或米山承接前排，對齊怪群縱深射擊，讓箭體繼續穿向後排；分散怪則不必硬追同樣的連續爆炸。"
+        ],
+        [
+          "落單精英與首領",
+          "缺少穿透目標時以穩定命中和位置控制為主；箭體物理段仍影響吸法，不能只用冰寒面板估算能打多久。"
+        ],
+        [
+          "原本冰免的怪",
+          "先確認破冰板生效，再看角色降抗與米山信念覆蓋；若傭兵落後，不把他持有的降抗算作角色常駐。"
+        ],
+        [
+          "傳送後的空窗",
+          "70 FCR 可以重排陣型，但落點前排未就位時先放替身或召回女武神；被凍結時效減半不是無法冰凍，遇強控場要留退路。"
+        ]
+      ]
+    }
+  ],
+  "logic": "BUILD LOGIC · FROZEN ARROW\n配裝思路\n\n先拆開射擊、傳送與法力三道門檻，再看目前的寒冰與謎團如何把它們接起來。\n\n85 IAS · 8F\n冰凍箭射速\n70 FCR · 13F\n傳送速度\n23%\n面板吸法\n75／75／75／75\n地獄四抗\n\n一、冰弓先決定怎麼把箭射進怪群。冰凍箭的落點、凍結與貫穿共同決定覆蓋範圍。女武神與米山把前排固定後，角色從側面或縱深找射線；若為了看面板傷害而站得太近，往往同時失去安全距離與穿透效果。\n\n二、射速與傳送分開驗算。女傑之弓以目前配裝 85 IAS 達 8F；70 FCR 則跨過亞馬遜 68% 的 13F 傳送門檻。兩者是不同動畫，移走權冠、手套、項鍊或戒指時都可能讓其中一條退檔。\n\n三、吸法要回到箭體物理段。裝備合計 23% 擊中竊取法力，但冰寒爆炸不偷取。物理箭體先通過命中判定，還要受怪物吸取效率影響；若面對難以吸法的目標，擊殺回法、法力容量與米山接敵位置都得一起看。\n\n四、破冰與降抗不替代站位。破冰板先解決原本冰免，「寒冰」與米山無限提供不同來源的降抗。米山未到位或目標分散時，即使數值都寫在裝備上，清場節奏仍可能慢於重新傳送、排出一條能貫穿的射線。\n\n判斷取捨\n只追射速／射擊與傳送並重\n\n比較同一套裝備如何分配攻速、施法和續航欄位。\n\n判讀項目\t優先冰凍箭射速\t射速與傳送同時成立\n攻擊動畫\t先跨過女傑之弓 8F，清群手感直接\t同樣維持 8F，不把 FCR 與 IAS 混算\n移動重整\tFCR 若不足，回收女武神與米山較慢\t70 FCR 使傳送到 13F，方便換射線和拉回前排\n法力續航\t若用吸法部位換 IAS，仍須檢查物理箭體命中\t吸法、擊殺回法與法力容量跟兩條速度一起核對\n危險場景\t站位不佳時高射速仍可能空射或被包圍\t謎團傳送可退回重整，但需留意落點和凍結狀態\n速度門檻\n多出的 IAS 不等於下一階\n\n目前 85 IAS 比所需的 75% 門檻高 10%，但未到下一階；這段餘量不應被誤寫成更快一檔。\n\n資源門檻\n23% 吸法有前提\n\n元素爆炸不參與竊取，擊殺回法才能補齊物理箭體吸不到的場景。\n\n目前的選擇\n寒冰女傑之弓＋謎團，保留 8F 與 13F\n\n目前選用「寒冰」女傑之弓搭配權冠三孔與手套，合計 85 IAS，冰凍箭維持 8F；謎團與施法部位把正手推到 70 FCR，傳送維持 13F。這不是為了把兩項速度加總，而是讓射擊和重新排陣都落在可操作的檔位。\n\n腐化之眼、秩序旋螺、怨怒抓握與野獸爪帶來吸法、額外法力與擊殺回法；物理箭體必須命中，才能把 23% 吸法變成實際回收。遇到難吸取或高冰抗目標時，先看法力下降速度、怪物站位與破免狀況，再決定續射或重新拉線。\n\n米山拿無限協助降抗與控場，女武神提供前排；傳送用來把隊友拉回同一落點。裝備僅有冰凍時效減半，沒有無法冰凍，因此這套更需要提早放替身、避免被包圍後才傳送。\n\n85 IAS · 8F\n冰凍箭射速\n70 FCR · 13F\n傳送速度\n23%\n面板吸法\n寒冰＋破冰板\n冰傷與免疫處理\n配裝判讀重點\nBUILD TARGETS\n8F 射擊\n\n以女傑之弓實際底材驗算，不拿施法速度替代。\n\n13F 傳送\n\n重排射線並召回米山、女武神。\n\n箭體吸法\n\n物理命中才觸發，元素爆炸不參與。\n\n擊殺回法\n\n填補難吸法場景與高消耗。\n\n先破冰免\n\n板子、個人降抗、米山信念依來源分開。\n\n保持退路\n\n冰凍時效減半不等於免疫凍結。",
+  "gear": [
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "頭部：魔導師之工匠",
+      "slot": "頭部",
+      "name": "魔導師之工匠",
+      "base": "權冠 · 3 孔，內含三顆 15 IAS／15 全抗珠寶",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/diadem.webp",
+      "meta": [
+        "防禦 60",
+        "耐久度 14／20",
+        "需要等級 64",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "+45% 提升攻擊速度",
+          "important": true
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "所有抗性 +45",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "身體：謎團",
+      "slot": "身體",
+      "name": "謎團",
+      "base": "法師鎧甲 · 喬＋伊司＋貝",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/light_plate.webp",
+      "meta": [
+        "防禦 1,076",
+        "耐久度 58／69",
+        "需要力量 55",
+        "需要等級 65",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+45% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "+1 傳送術",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+775 防禦",
+          "important": false
+        },
+        {
+          "text": "+74 力量（依角色等級）",
+          "important": false
+        },
+        {
+          "text": "生命上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "傷害降低 8%",
+          "important": false
+        },
+        {
+          "text": "+14 生命在每殺一個敵人後取得",
+          "important": false
+        },
+        {
+          "text": "15% 受到的傷害轉為法力",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 99%（依角色等級）",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "項鍊：腐化之眼",
+      "slot": "項鍊",
+      "name": "腐化之眼",
+      "base": "稀有護身符",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/amulet.webp",
+      "meta": [
+        "需要等級 89"
+      ],
+      "stats": [
+        {
+          "text": "+2 亞馬遜技能等級",
+          "important": false
+        },
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 8% 法力",
+          "important": true
+        },
+        {
+          "text": "+75 法力",
+          "important": true
+        },
+        {
+          "text": "法力恢復 +10%",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +10",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "手套：野獸爪",
+      "slot": "手套",
+      "name": "野獸爪",
+      "base": "手工魔皮手套",
+      "quality": "crafted",
+      "image": "/images/d2r-game-items/leather_gloves.webp",
+      "meta": [
+        "防禦 35",
+        "耐久度 4／12",
+        "需要力量 20",
+        "需要等級 57"
+      ],
+      "stats": [
+        {
+          "text": "+2 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+20% 提升攻擊速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 3% 法力",
+          "important": true
+        },
+        {
+          "text": "+13 法力",
+          "important": true
+        },
+        {
+          "text": "法力恢復 +8%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +11%",
+          "important": false
+        },
+        {
+          "text": "+3 法力在每殺一個敵人後取得",
+          "important": true
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "腰帶：蜘蛛之網",
+      "slot": "腰帶",
+      "name": "蜘蛛之網",
+      "base": "蛛網束帶",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/sash.webp",
+      "meta": [
+        "防禦 138",
+        "腰帶空間 12 格",
+        "耐久度 10／12",
+        "需要力量 50",
+        "需要等級 80"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "使目標減慢 10%",
+          "important": false
+        },
+        {
+          "text": "+120% 增強防禦",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "等級 3 淬毒（11／11 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "戒指一：秩序旋螺",
+      "slot": "戒指一",
+      "name": "秩序旋螺",
+      "base": "稀有戒指",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 74"
+      ],
+      "stats": [
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 6% 法力",
+          "important": true
+        },
+        {
+          "text": "+84 法力",
+          "important": true
+        },
+        {
+          "text": "冰寒抗性 +40%",
+          "important": false
+        },
+        {
+          "text": "電擊抗性 +11%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +11%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "戒指二：怨怒抓握",
+      "slot": "戒指二",
+      "name": "怨怒抓握",
+      "base": "稀有戒指",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 74"
+      ],
+      "stats": [
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 6% 法力",
+          "important": true
+        },
+        {
+          "text": "+83 法力",
+          "important": true
+        },
+        {
+          "text": "冰寒抗性 +25%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +23%",
+          "important": false
+        },
+        {
+          "text": "被凍結的時效減半",
+          "important": true
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "腳部：紗織",
+      "slot": "腳部",
+      "name": "紗織",
+      "base": "升級鐵網靴",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/chain_boots.webp",
+      "meta": [
+        "防禦 130",
+        "耐久度 9／16",
+        "需要力量 65",
+        "需要等級 36"
+      ],
+      "stats": [
+        {
+          "text": "+30% 高速跑步／行走",
+          "important": false
+        },
+        {
+          "text": "+190% 增強防禦",
+          "important": false
+        },
+        {
+          "text": "+200 對遠程防禦",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 10%",
+          "important": false
+        },
+        {
+          "text": "+5 法力在每殺一個敵人後取得",
+          "important": true
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "主手武器：寒冰",
+      "slot": "主手武器",
+      "name": "寒冰",
+      "base": "女傑之弓 · 安姆＋夏＋喬＋羅",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/stag_bow.webp",
+      "meta": [
+        "雙手傷害 65–152",
+        "需要等級 65",
+        "需要敏捷 187",
+        "需要力量 87",
+        "弓類武器－極快的攻擊速度",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 25% 機率施展等級 22 冰霜新星",
+          "important": false
+        },
+        {
+          "text": "升級時有 100% 機率施展等級 40 暴風雪",
+          "important": false
+        },
+        {
+          "text": "裝備時賦予等級 18 神聖冰凍靈氣",
+          "important": false
+        },
+        {
+          "text": "+3 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "攻擊速度 +20%",
+          "important": true
+        },
+        {
+          "text": "+225% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "無視目標防禦",
+          "important": true
+        },
+        {
+          "text": "+3 準確率",
+          "important": false
+        },
+        {
+          "text": "敵人冰寒抗性 −20%",
+          "important": true
+        },
+        {
+          "text": "+30% 冰寒技能傷害",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 7% 生命",
+          "important": true
+        },
+        {
+          "text": "+20% 致命打擊",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 309%（依角色等級而定）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "箭袋：箭矢",
+      "slot": "箭袋",
+      "name": "箭矢",
+      "base": "箭袋",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/arrows.webp",
+      "meta": [],
+      "stats": [
+        {
+          "text": "供弓類武器射擊使用",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "大型咒符：地獄火炬",
+      "slot": "大型咒符",
+      "name": "地獄火炬",
+      "base": "獨特大型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/hellfire-torch-v2.webp",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 5% 機率施展等級 10 火焰風暴",
+          "important": false
+        },
+        {
+          "text": "+3 亞馬遜技能等級",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +8",
+          "important": false
+        },
+        {
+          "text": "等級 30 多頭蛇（10／10 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符：毀滅",
+      "slot": "小型咒符",
+      "name": "毀滅",
+      "base": "獨特小型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/annihilus-v2.webp",
+      "meta": [
+        "需要等級 70"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "獲得的經驗值 +5%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 1：活力之造箭師特大咒符",
+      "slot": "弓板 1",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 2：活力之造箭師特大咒符",
+      "slot": "弓板 2",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 3：活力之造箭師特大咒符",
+      "slot": "弓板 3",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 4：活力之造箭師特大咒符",
+      "slot": "弓板 4",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 5：活力之造箭師特大咒符",
+      "slot": "弓板 5",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 6：活力之造箭師特大咒符",
+      "slot": "弓板 6",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 7：活力之造箭師特大咒符",
+      "slot": "弓板 7",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "弓板 8：活力之造箭師特大咒符",
+      "slot": "弓板 8",
+      "name": "活力之造箭師特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "破冰板：新生冰寒裂縫",
+      "slot": "破冰板",
+      "name": "新生冰寒裂縫",
+      "base": "獨特特大咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna-ice.webp",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "破除怪物的冰寒免疫",
+          "important": true
+        },
+        {
+          "text": "+24% 打擊恢復",
+          "important": true
+        },
+        {
+          "text": "敵人冰寒抗性 −10%",
+          "important": true
+        },
+        {
+          "text": "+62 法力",
+          "important": true
+        },
+        {
+          "text": "冰寒抗性 −70%",
+          "important": false
+        },
+        {
+          "text": "傷害降低 6",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 20%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 1：活力之寶藍小型咒符",
+      "slot": "小咒符 1",
+      "name": "活力之寶藍小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 2：活力之寶藍小型咒符",
+      "slot": "小咒符 2",
+      "name": "活力之寶藍小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 3：活力之寶藍小型咒符",
+      "slot": "小咒符 3",
+      "name": "活力之寶藍小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 4：活力之寶藍小型咒符",
+      "slot": "小咒符 4",
+      "name": "活力之寶藍小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 5：活力之寶綠小型咒符",
+      "slot": "小咒符 5",
+      "name": "活力之寶綠小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 6：活力之琥珀小型咒符",
+      "slot": "小咒符 6",
+      "name": "活力之琥珀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "電擊抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 7：活力之琥珀小型咒符",
+      "slot": "小咒符 7",
+      "name": "活力之琥珀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "電擊抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 8：活力之琥珀小型咒符",
+      "slot": "小咒符 8",
+      "name": "活力之琥珀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "電擊抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 9：活力之閃耀小型咒符",
+      "slot": "小咒符 9",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小咒符 10：活力之閃耀小型咒符",
+      "slot": "小咒符 10",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "II",
+      "label": "副手武器：戰爭召喚",
+      "slot": "副手武器",
+      "name": "戰爭召喚",
+      "base": "次元刃 · 安姆＋拉爾＋馬爾＋伊司特＋歐姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 49–133",
+        "耐久度 20／20",
+        "需要敏捷 60",
+        "需要力量 85",
+        "需要等級 57",
+        "刀劍類武器－極快的攻擊速度",
+        "攻擊距離 2",
+        "鑲孔（5）"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "攻擊速度 +40%",
+          "important": true
+        },
+        {
+          "text": "+282% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "附加 5–30 火焰傷害",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 生命",
+          "important": true
+        },
+        {
+          "text": "+6 至戰鬥指揮",
+          "important": false
+        },
+        {
+          "text": "+6 至戰鬥命令",
+          "important": false
+        },
+        {
+          "text": "+4 至戰鬥怒吼",
+          "important": false
+        },
+        {
+          "text": "防止怪物自療",
+          "important": false
+        },
+        {
+          "text": "生命回復 +12",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 30%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "II",
+      "label": "副手盾牌：燦爛",
+      "slot": "副手盾牌",
+      "name": "燦爛",
+      "base": "鳶盾 · 愛斯＋盧姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/kite_shield.webp",
+      "meta": [
+        "防禦 36",
+        "格擋機率 33%",
+        "耐久度 33／33",
+        "需要力量 47",
+        "需要等級 37",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+10% 施法速度",
+          "important": true
+        },
+        {
+          "text": "+20% 格擋速度",
+          "important": false
+        },
+        {
+          "text": "+94% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+10 能量",
+          "important": false
+        },
+        {
+          "text": "法力恢復 15%",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 50%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 20%",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +3",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 12%",
+          "important": false
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "tree": "弓與弩 41 硬點",
+      "skills": [
+        {
+          "label": "冷霜箭，硬點 20，常駐等級 42，戰鬥指揮後 43",
+          "detail": "冰凍箭傷害協同\n冷霜箭\n投入點數\n20\n常駐完成\n42\n戰鬥指揮後\n43\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+13\n\n投入 20 點，主要把硬點轉成冰凍箭的冰寒傷害協同；裝備提高本招等級，並不增加這份硬點協同。實戰可在殘怪較少或法力吃緊時，用冷霜箭維持較省魔的單點射擊。常駐 42 級、戰鬥指揮後 43 級，群怪仍交給冰凍箭處理。\n\n技能分支\n弓與弩\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "寒冰箭，硬點 1，常駐等級 23，戰鬥指揮後 24",
+          "detail": "前置／凍結協同\n寒冰箭\n投入點數\n1\n常駐完成\n23\n戰鬥指揮後\n24\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+13\n\n投入 1 點，銜接冰凍箭並提供凍結時間協同。它偏向單體凍結，額外投點的重點也不是提高冰凍箭傷害，因此本套保留點數給冷霜箭、替身與女武神。常駐 23 級、戰鬥指揮後 24 級，控場主力仍是冰凍箭。\n\n技能分支\n弓與弩\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "冰凍箭，硬點 20，常駐等級 42，戰鬥指揮後 43",
+          "detail": "主力輸出\n冰凍箭\n投入點數\n20\n常駐完成\n42\n戰鬥指揮後\n43\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+13\n\n投入 20 點作為清群主力，箭矢落點的冰寒爆炸同時負責傷害與凍結。先用替身集中怪群，再調整射線讓貫穿接觸後排；箭體物理命中則支撐吸法續航。常駐 42 級、戰鬥指揮後 43 級，冰寒面板 3,816–3,866，準確率 13,776。\n\n技能分支\n弓與弩\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    },
+    {
+      "tree": "被動與魔法 69 硬點",
+      "skills": [
+        {
+          "label": "心靈視野，硬點 1，常駐等級 10，戰鬥指揮後 11",
+          "detail": "功能點\n心靈視野\n投入點數\n1\n常駐完成\n10\n戰鬥指揮後\n11\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點取得降低附近敵人防禦的功能，幫助箭體物理部分命中，也替傭兵與女武神提供支援。遇到難以命中的目標時再補放，平時優先維持冰凍箭射擊與走位。常駐 10 級、戰鬥指揮後 11 級，無須額外投入核心點數。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "致命攻勢，硬點 20，常駐等級 29，戰鬥指揮後 30",
+          "detail": "主要被動\n致命攻勢\n投入點數\n20\n常駐完成\n29\n戰鬥指揮後\n30\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 20 點，強化箭體物理傷害的致命攻勢機會；這部分物理輸出同時關係到擊中竊取生命與法力，冰寒爆炸本身不會因此翻倍。這是本套兼顧物理續航的投資，與冷霜箭的冰寒協同分工不同。常駐 29 級、戰鬥指揮後 30 級。\n\n技能分支\n被動與魔法\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "閃躲，硬點 1，常駐等級 10，戰鬥指揮後 11",
+          "detail": "防禦被動\n閃躲\n投入點數\n1\n常駐完成\n10\n戰鬥指揮後\n11\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，站立或攻擊時有機率迴避近戰攻擊，補強連續射箭時的安全性。怪物靠近時先以替身或女武神承接，再視情況傳送拉開；被動迴避只提供容錯，仍要保留退路。常駐 10 級、戰鬥指揮後 11 級，其餘點數留給輸出與前排。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "緩箭術，硬點 1，常駐等級 10，戰鬥指揮後 11",
+          "detail": "功能點\n緩箭術\n投入點數\n1\n常駐完成\n10\n戰鬥指揮後\n11\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點作為遠程控場，遇到密集投射物時先施放，替自己與召喚物爭取調整位置的時間。施放後仍要避開交叉火線，再把敵人引向冰凍箭的射線；它補足的是安全空間。常駐 10 級、戰鬥指揮後 11 級，裝備加成足以支援功能用途。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "閃身，硬點 1，常駐等級 10，戰鬥指揮後 11",
+          "detail": "防禦被動\n閃身\n投入點數\n1\n常駐完成\n10\n戰鬥指揮後\n11\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，站立或攻擊時有機率迴避遠程攻擊，對必須停下連射的冰弓尤其實用。面對弓手或其他投射物壓力，可搭配緩箭術與替身調整射擊位置；不要單靠被動承受整群集火。常駐 10 級、戰鬥指揮後 11 級，維持功能投資。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "精準攻勢，硬點 1，常駐等級 10，戰鬥指揮後 11",
+          "detail": "命中支援\n精準攻勢\n投入點數\n1\n常駐完成\n10\n戰鬥指揮後\n11\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點提高準確率，協助箭體物理命中，讓配裝上的法力竊取較能發揮作用。冰寒爆炸傷害與箭體吸法需要分開看，法力不足時也應檢查實際命中與怪物種類。常駐 10 級、戰鬥指揮後 11 級，本套以裝備技能補足此項支援。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "替身，硬點 20，常駐等級 29，戰鬥指揮後 30",
+          "detail": "主要控場\n替身\n投入點數\n20\n常駐完成\n29\n戰鬥指揮後\n30\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 20 點作為主動控場，將替身放在預定交戰位置，分散敵人注意並整理冰凍箭的貫穿角度。替身本身不負責攻擊，位置不佳時重新施放更有用；硬點也能支援女武神的生存。常駐 29 級、戰鬥指揮後 30 級，與女武神共同穩住前排。\n\n技能分支\n被動與魔法\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "閃避，硬點 1，常駐等級 10，戰鬥指揮後 11",
+          "detail": "防禦被動\n閃避\n投入點數\n1\n常駐完成\n10\n戰鬥指揮後\n11\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，跑步或行走時有機率迴避攻擊，補強傳送之間的短距離移動與拉怪安全。射線被障礙或怪物打亂時，利用走位重新排成直線，再停下施放冰凍箭。常駐 10 級、戰鬥指揮後 11 級，機率防護仍需配合安全路線。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "女武神，硬點 20，常駐等級 29，戰鬥指揮後 30",
+          "detail": "主要前排\n女武神\n投入點數\n20\n常駐完成\n29\n戰鬥指揮後\n30\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 20 點建立持續作戰的前排，讓女武神與傭兵牽制怪物，本體才能穩定保持冰凍箭射線。搭配滿點替身分散壓力，女武神落後或站位不佳時可重新召喚調整。常駐 29 級、戰鬥指揮後 30 級，這份投資著重清圖時的安全與輸出空間。\n\n技能分支\n被動與魔法\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "貫穿攻勢，硬點 3，常駐等級 12，戰鬥指揮後 13",
+          "detail": "穿透支援\n貫穿攻勢\n投入點數\n3\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+5\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 3 點提高箭矢穿過目標的機會，讓冰凍箭接觸後方敵人並擴大爆炸覆蓋。實戰先把怪群引成一線，通常比原地追射四散目標更有效；貫穿機率也不能取代站位。常駐 12 級、戰鬥指揮後 13 級，保留其餘點數給滿點前排與物理支援。\n\n技能分支\n被動與魔法\n配置狀態\n功能投資\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    }
+  ],
+  "character": {
+    "summary": "主力輸出\n完成面板\n冷霜箭傷害\n1,198–1,706\n冷霜箭準確率\n13,124\n冰凍箭物理\n612–1,089\n冰凍箭冰寒\n3,816–3,866\n冰凍箭準確率\n13,776",
+    "groups": [
+      {
+        "group": "速度",
+        "rows": [
+          [
+            "攻擊速度",
+            "85 IAS · 8F"
+          ],
+          [
+            "快速施法",
+            "70 FCR · 13F"
+          ],
+          [
+            "跑步／行走速度",
+            "75%"
+          ],
+          [
+            "打擊恢復",
+            "24 FHR · 8F"
+          ]
+        ]
+      },
+      {
+        "group": "輸出",
+        "rows": [
+          [
+            "冰凍箭冰寒傷害",
+            "3,816–3,866"
+          ],
+          [
+            "致命打擊",
+            "20%"
+          ],
+          [
+            "使目標減慢",
+            "10%"
+          ],
+          [
+            "無視目標防禦",
+            "已具備"
+          ],
+          [
+            "破除怪物的冰寒免疫",
+            "已具備",
+            "新生冰寒裂縫"
+          ],
+          [
+            "冰寒技能傷害",
+            "+30%"
+          ],
+          [
+            "敵人冰寒抗性",
+            "−30%"
+          ]
+        ]
+      },
+      {
+        "group": "防禦",
+        "rows": [
+          [
+            "生命",
+            "1,438"
+          ],
+          [
+            "法力",
+            "633"
+          ],
+          [
+            "防禦",
+            "1,549"
+          ],
+          [
+            "地獄四抗",
+            "火75電75冰75毒75"
+          ],
+          [
+            "對遠程防禦",
+            "+200"
+          ],
+          [
+            "物理傷害降低",
+            "6 點／8%"
+          ],
+          [
+            "凍結時效減半",
+            "已具備"
+          ],
+          [
+            "裝備生命上限提高",
+            "5%"
+          ]
+        ]
+      },
+      {
+        "group": "其他",
+        "rows": [
+          [
+            "擊中竊取生命",
+            "7%"
+          ],
+          [
+            "擊中竊取法力",
+            "23%"
+          ],
+          [
+            "擊殺生命恢復",
+            "+14"
+          ],
+          [
+            "擊殺法力恢復",
+            "+8"
+          ],
+          [
+            "法力恢復速度",
+            "18%"
+          ],
+          [
+            "法力上限提高",
+            "15%"
+          ],
+          [
+            "受到傷害轉為法力",
+            "15%"
+          ],
+          [
+            "尋獲魔法物品機率",
+            "119%"
+          ],
+          [
+            "怪物金幣掉落量",
+            "309%"
+          ],
+          [
+            "獲得經驗值",
+            "+5%"
+          ],
+          [
+            "照亮範圍",
+            "+8"
+          ]
+        ]
+      }
+    ]
+  },
+  "merc": {
+    "gear": [
+      {
+        "label": "頭部：治癒",
+        "slot": "頭部",
+        "name": "治癒",
+        "base": "無形日冕之冠 · 夏＋埃歐＋塔爾",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/crown.webp",
+        "meta": [
+          "防禦 535",
+          "耐久度 26／26",
+          "需要力量 164",
+          "需要等級 66",
+          "鑲孔（3）"
+        ],
+        "stats": [
+          {
+            "text": "裝備時賦予等級 1 淨化靈氣",
+            "important": true
+          },
+          {
+            "text": "+20% 快速打擊恢復",
+            "important": true
+          },
+          {
+            "text": "+115% 增強防禦",
+            "important": false
+          },
+          {
+            "text": "+10 體力",
+            "important": false
+          },
+          {
+            "text": "生命上限提高 5%",
+            "important": false
+          },
+          {
+            "text": "毒素抗性 +48%",
+            "important": false
+          },
+          {
+            "text": "毒素的持續效果降低 50%",
+            "important": false
+          },
+          {
+            "text": "無形的（無法修復）",
+            "important": false
+          }
+        ]
+      },
+      {
+        "label": "武器：無限",
+        "slot": "武器",
+        "name": "無限",
+        "base": "無形巨型斬鐮 · 貝＋馬爾＋貝＋伊司特",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/war_scythe.webp",
+        "meta": [
+          "雙手傷害 250–713",
+          "耐久度 28／28",
+          "需要敏捷 130",
+          "需要力量 178",
+          "需要等級 66",
+          "攻擊距離 5",
+          "鑲孔（4）"
+        ],
+        "stats": [
+          {
+            "text": "殺死敵人時 50% 機率施展等級 20 連鎖閃電",
+            "important": false
+          },
+          {
+            "text": "裝備時賦予等級 12 信念靈氣",
+            "important": true
+          },
+          {
+            "text": "+35% 高速跑步／行走",
+            "important": false
+          },
+          {
+            "text": "+317% 增強傷害",
+            "important": false
+          },
+          {
+            "text": "對敵人電擊系抗性 −49%",
+            "important": false
+          },
+          {
+            "text": "40% 機率出現壓碎性打擊",
+            "important": false
+          },
+          {
+            "text": "防止怪物自療",
+            "important": false
+          },
+          {
+            "text": "+49 體力（依角色等級）",
+            "important": false
+          },
+          {
+            "text": "30% 更佳機會取得魔法裝備",
+            "important": false
+          },
+          {
+            "text": "等級 21 氣旋護甲（30／30 聚氣）",
+            "important": false
+          },
+          {
+            "text": "無形的（無法修復）",
+            "important": false
+          }
+        ]
+      },
+      {
+        "label": "身體：榮耀之鍊",
+        "slot": "身體",
+        "name": "榮耀之鍊",
+        "base": "無形統御者鎧甲 · 多爾＋烏姆＋貝＋伊司特",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/light_plate.webp",
+        "meta": [
+          "防禦 1,455",
+          "耐久度 31／31",
+          "需要力量 93",
+          "需要等級 63",
+          "鑲孔（4）"
+        ],
+        "stats": [
+          {
+            "text": "+2 所有技能",
+            "important": false
+          },
+          {
+            "text": "+200% 對惡魔的傷害",
+            "important": false
+          },
+          {
+            "text": "+100% 對不死生物的傷害",
+            "important": false
+          },
+          {
+            "text": "擊中竊取 8% 生命",
+            "important": true
+          },
+          {
+            "text": "+85% 增強防禦",
+            "important": false
+          },
+          {
+            "text": "+20 力量",
+            "important": false
+          },
+          {
+            "text": "生命恢復速度 +7",
+            "important": false
+          },
+          {
+            "text": "所有抗性 +65",
+            "important": false
+          },
+          {
+            "text": "傷害降低 8%",
+            "important": false
+          },
+          {
+            "text": "25% 更佳機會取得魔法裝備",
+            "important": false
+          },
+          {
+            "text": "無形的（無法修復）",
+            "important": false
+          }
+        ]
+      }
+    ],
+    "support": [
+      "A2 米山 · 等級 98\n力量 × 信念 × 淨化\n\n力量支援物理攻擊，信念降低敵方元素抗性與防禦，淨化縮短中毒與詛咒時間。靠近米山，讓怪物與角色各自保持在所需靈氣的有效範圍內。\n\n力量 · 原生靈氣\n等級 22 · 半徑 38.6 碼\n98 級傭兵的原生力量 20 級，加榮耀之鍊 2 級，提供 +250% 物理傷害；不直接增加法術元素傷害。\n信念 · 無限\n等級 12 · 半徑 13.3 碼\n降低敵人火焰、冰寒與閃電抗性 85%，降低防禦 83%；對已破免目標的降抗依破免規則折減。\n淨化 · 治癒\n等級 1 · 半徑 10.6 碼\n縮短中毒與詛咒時效 39%。裝備賦予的靈氣固定為 1 級，不受所有技能加成提高。"
+    ],
+    "text": "頭部\n武器\n身體\n身體\n榮耀之鍊\n無形統御者鎧甲 · 多爾＋烏姆＋貝＋伊司特\n防禦 1,455\n耐久度 31／31\n需要力量 93\n需要等級 63\n鑲孔（4）\n+2 所有技能\n+200% 對惡魔的傷害\n+100% 對不死生物的傷害\n擊中竊取 8% 生命\n重要屬性\n+85% 增強防禦\n+20 力量\n生命恢復速度 +7\n所有抗性 +65\n傷害降低 8%\n25% 更佳機會取得魔法裝備\n無形的（無法修復）\nA2 米山 · 等級 98\n力量 × 信念 × 淨化\n\n力量支援物理攻擊，信念降低敵方元素抗性與防禦，淨化縮短中毒與詛咒時間。靠近米山，讓怪物與角色各自保持在所需靈氣的有效範圍內。\n\n力量 · 原生靈氣\n等級 22 · 半徑 38.6 碼\n98 級傭兵的原生力量 20 級，加榮耀之鍊 2 級，提供 +250% 物理傷害；不直接增加法術元素傷害。\n信念 · 無限\n等級 12 · 半徑 13.3 碼\n降低敵人火焰、冰寒與閃電抗性 85%，降低防禦 83%；對已破免目標的降抗依破免規則折減。\n淨化 · 治癒\n等級 1 · 半徑 10.6 碼\n縮短中毒與詛咒時效 39%。裝備賦予的靈氣固定為 1 級，不受所有技能加成提高。"
+  },
+  "field": "FIELD MANUAL\n地獄實戰循環\n\n把速度、控場與法力續航拆成能直接照做的四段操作。\n\nI\n傳送收隊\n\n用 70 FCR 跨越房塊並重整傭兵與女武神位置。\n\nII\n替身接怪\n\n戰鬥指揮後等級 30 的替身先承接仇恨，避免傳送落點被包圍。\n\nIII\n冰凍箭貫穿\n\n對齊怪群後，以 85 IAS 連射，讓爆炸覆蓋後排。\n\nIV\n判斷冰免\n\n新生冰寒裂縫先破除冰寒免疫；寒冰與破冰板合計 −30% 個人降冰抗。對原本免疫的目標，無限的等級 12 信念只以五分之一效果套用。\n\n法力續航\n\n23% 法力竊取只由箭體物理命中段觸發，元素爆炸不能整段拿來吸法。\n\n速度分工\n\n85 IAS 影響弓箭攻擊；70 FCR 影響傳送。兩者是不同動畫，不能相加。"
+}

@@ -38,6 +38,13 @@ export class Build {
   @Column('text', { nullable: true })
   description!: string;
 
+  // 以下兩欄由 import-build-guides 寫入：傭兵裝備／靈氣、攻略文章與技能說明（JSON）
+  @Column('text', { nullable: true })
+  merc!: string;
+
+  @Column('text', { nullable: true })
+  guide!: string;
+
   // null = 原有資料；'build-journal' = 由 fetch-build-journal 匯入
   @Column({ nullable: true })
   source!: string;

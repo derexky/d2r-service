@@ -1,0 +1,2797 @@
+{
+  "class": "assassin",
+  "slug": "fire-traps",
+  "url": "https://d2r-build-journal.pages.dev/builds/assassin/fire-traps/",
+  "crawledAt": "2026-10-12T09:59:44.133Z",
+  "title": "火焰陷阱刺客｜D2R 配裝誌",
+  "description": "焰痕衛哨的技能機制、火珠增傷與降抗、五種武器盾牌組合及部署續航比較。獨立配裝頁。",
+  "hero": "ASSASSIN · WAKE OF FIRE · FIRE TRAPS\n\n轟擊焰痕衛哨\n★★★★★\n個人實戰四星\n\n等級 99 實際配裝、技能配置、完成面板與米山傭兵資料。\n\n焰痕衛哨傷害\n1,508–1,703\n火焰轟擊傷害\n6,234–7,300\n敵人火焰抗性\n−83%\n快速施法\n70 FCR · 11F\n打擊恢復\n30 FHR · 6F\n地獄抗性\n90／75／80／75",
+  "bar": {
+    "等級": "99",
+    "難度": "地獄",
+    "剩餘點數": "0"
+  },
+  "telemetry": {
+    "attributes": {
+      "力量": "156",
+      "敏捷": "136",
+      "體能": "521",
+      "能量": "65",
+      "生命": "2,599",
+      "法力": "381",
+      "防禦": "1,665"
+    },
+    "rates": {
+      "焰痕衛哨": "41 級 · 1,508–1,703",
+      "快速施法": "70 FCR · 11F",
+      "攻擊速度": "速度爆發 · 幻化之刃",
+      "打擊恢復": "30 FHR · 6F"
+    },
+    "resistances": {
+      "火": "90",
+      "電": "75",
+      "冰": "80",
+      "毒": "75"
+    }
+  },
+  "sections": [
+    {
+      "key": "iceGuideOverview",
+      "text": "02 · 角色定位\n先讓火浪擊倒一隻，再由屍爆接力\n\n焰痕衛哨是清群主力，但怪得留在火浪經過的路線上。神聖冰凍米山放慢能被緩速的怪，無限的信念幫火傷打進去；取得第一具屍體後，死亡衛哨才有機會擴大清場。兩種實穿配置保留相同的清怪核心，差別在部署、防護與生命法力怎麼回復。\n\n焰痕衛哨\n火浪覆蓋怪群\n火焰轟擊\n補首屍與單體\n死亡衛哨\n屍體出現後接力\n米山支援\n神聖冰凍與信念",
+      "pairs": [
+        [
+          "焰痕衛哨",
+          "火浪覆蓋怪群"
+        ],
+        [
+          "火焰轟擊",
+          "補首屍與單體"
+        ],
+        [
+          "死亡衛哨",
+          "屍體出現後接力"
+        ],
+        [
+          "米山支援",
+          "神聖冰凍與信念"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideReading",
+      "text": "03 · READING THE BUILD\n技能面板、降抗與速度分開看\n焰痕等級\n火寶劍 41 級 · 雙爪 51 級\n\n雙爪把技能等級拉得更高；但比較實際火傷時，還要把火珠增傷、敵人火抗與米山信念放進同一條件。不能只拿兩張技能面板比大小。\n\n個人降抗\n火寶劍 −83% · 雙爪 −40%\n\n這是角色裝備的敵人火抗詞綴，不等於對所有怪物固定多出相同傷害。火免先確認能否解除，再看降抗對該目標實際有多少效果。\n\n兩種速度\n放陷阱看底材與 IAS · 傳送看 FCR\n\n火寶劍開速度爆發，雙爪以巨鷹爪和 70 IAS 達放置最快檔；傳送等施法分別是 70 和 80 FCR，兩套面板均顯示 11F。IAS 不會加快已放下的火浪。\n\n回復條件\n救贖要屍體 · 飛鏢要物理命中\n\n鳳凰的救贖會自動利用附近屍體；雙爪沒有救贖，得用狂怒旋刃打中可偷取的目標。第一群怪尚未倒下時，兩邊都要留意法力與藥水。",
+      "pairs": [
+        [
+          "焰痕等級",
+          "火寶劍 41 級 · 雙爪 51 級",
+          "雙爪把技能等級拉得更高；但比較實際火傷時，還要把火珠增傷、敵人火抗與米山信念放進同一條件。不能只拿兩張技能面板比大小。"
+        ],
+        [
+          "個人降抗",
+          "火寶劍 −83% · 雙爪 −40%",
+          "這是角色裝備的敵人火抗詞綴，不等於對所有怪物固定多出相同傷害。火免先確認能否解除，再看降抗對該目標實際有多少效果。"
+        ],
+        [
+          "兩種速度",
+          "放陷阱看底材與 IAS · 傳送看 FCR",
+          "火寶劍開速度爆發，雙爪以巨鷹爪和 70 IAS 達放置最快檔；傳送等施法分別是 70 和 80 FCR，兩套面板均顯示 11F。IAS 不會加快已放下的火浪。"
+        ],
+        [
+          "回復條件",
+          "救贖要屍體 · 飛鏢要物理命中",
+          "鳳凰的救贖會自動利用附近屍體；雙爪沒有救贖，得用狂怒旋刃打中可偷取的目標。第一群怪尚未倒下時，兩邊都要留意法力與藥水。"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideBoundaries",
+      "text": "04 · FIELD BOUNDARIES\n火浪和續航失靈時，先查原因\n怪散開或跑太快\n\n火浪只走固定方向；神聖冰凍能拖慢部分怪，卻不能把整群固定在原地。怪穿過火浪或從旁邊繞開時，換角度重新放，比原地等下一波有效。\n\n沒有第一具屍體\n\n死亡衛哨無屍可炸，鳳凰救贖也無從回復。落單與首領改用火焰轟擊補單體；雙爪若要投鏢吸取，先確認目標能被物理攻擊命中及偷取。\n\n火免仍打不動\n\n破火板、信念和個人降抗各按自己的規則作用；破不掉的火免不能只靠堆高面板火傷解決。先確認米山有沒有靠近、還活著，再考慮改由物理攻擊或傭兵處理。\n\n回復突然中斷\n\n鳳凰需要屍體，救贖與死亡衛哨也可能先後用掉同一批屍體；雙爪碰上物免、難命中或不能偷取的怪，飛鏢回復就不可靠。兩套都要留藥水作為空檔保險。",
+      "pairs": [
+        [
+          "怪散開或跑太快",
+          "火浪只走固定方向；神聖冰凍能拖慢部分怪，卻不能把整群固定在原地。怪穿過火浪或從旁邊繞開時，換角度重新放，比原地等下一波有效。"
+        ],
+        [
+          "沒有第一具屍體",
+          "死亡衛哨無屍可炸，鳳凰救贖也無從回復。落單與首領改用火焰轟擊補單體；雙爪若要投鏢吸取，先確認目標能被物理攻擊命中及偷取。"
+        ],
+        [
+          "火免仍打不動",
+          "破火板、信念和個人降抗各按自己的規則作用；破不掉的火免不能只靠堆高面板火傷解決。先確認米山有沒有靠近、還活著，再考慮改由物理攻擊或傭兵處理。"
+        ],
+        [
+          "回復突然中斷",
+          "鳳凰需要屍體，救贖與死亡衛哨也可能先後用掉同一批屍體；雙爪碰上物免、難命中或不能偷取的怪，飛鏢回復就不可靠。兩套都要留藥水作為空檔保險。"
+        ]
+      ]
+    }
+  ],
+  "logic": "BUILD LOGIC · WAKE OF FIRE\n配裝思路\n\n先看火浪如何取得第一具屍體，再比較技能、速度、防護和回復各自要從哪裡補。\n\n70 FCR · 11F\n快速施法\n30 FHR · 6F\n打擊恢復\n−83%\n敵人火焰抗性\n15 級救贖\n鳳凰回復\n一、先弄懂火浪怎麼清怪\n\n焰痕衛哨把火浪往前送。怪聚在一起、沿著火浪方向走時清得快；怪跑開了，就換位置重新放。場上最多五座衛哨，死亡衛哨也占名額。先用焰痕取得第一具屍體，再讓死亡衛哨接力清群。\n\n火焰轟擊和獄火衛哨是焰痕的傷害協同：每投入一點實際技能點，焰痕傷害增加 10%。兩項各投入 20 點，合計 +400%，讓技能基礎傷害成為原本的五倍；裝備加上去的協同等級不算硬點。提高焰痕本身的等級，才會直接提高它的基礎火傷。\n\n三個火系核心技能各投 20 點，已用掉 60 點。其餘點數還要照顧前置、死亡衛哨與暗影技能。清群以火浪和屍爆為主，剩餘點數則要看單體、控場與續航缺哪一塊，不能只照火陷阱的面板傷害分配。\n\n二、火珠的兩行字，解決的是不同問題\n\n目前的 D2R 版本，裝備的＋火焰技能傷害與−敵人火焰抗性都能幫到陷阱。前者放大自己的火傷，後者讓目標少抵擋一些。鳳凰盾的 −28% 敵人火抗可以算進來；它的武器物理傷害強化，則不是焰痕的火傷。\n\n看一個簡化例子：假設焰痕基礎傷害 1,000、怪物原本火抗 50%，沒有其他裝備增傷或降抗。＋50% 火傷、−50% 火抗，怪物火抗會到 0%，約承受 1,500；＋30% 火傷、−58% 火抗，火抗會到 −8%，約承受 1,404。這只說明兩種詞綴不能直接比百分比；技能爪的等級、其他部位的火珠、信念和怪物抗性一變，結果也會變。\n\n碰到火免時，先看免疫能不能解除，再算個人的 −敵抗。個人降抗無法單獨破火免；破火板與傭兵的信念各有自己的作用條件。一般怪、破免後的怪、首領，最好分開比較。技能面板高，不一定代表三種目標都打得最快。\n\n三、放陷阱與傳送，速度分開算\n\n放焰痕衛哨看武器底材、IAS 和是否開速度爆發。FCR 影響傳送術、心靈震爆等施法，不會讓放陷阱變快；IAS 也不會加快衛哨已放下後的火浪。每換一種武器底材或光環狀態，都要重新核對放置速度。\n\n速度爆發讓部署和走位更俐落；影散則提供抗性、防護與較短的詛咒時間，兩者不能同時維持。若選影散，IAS 可能要從武器、手套或鑲孔補足。爪孔改鑲攻速珠，就少一顆火珠；比較火傷時，也要把這項代價算進去。\n\nWEAPON & SHIELD CHOICES\n四、五種武器與盾牌，放在相同條件下比較\n\n先固定其他裝備，只看武器和盾牌：火寶劍假設六孔放滿 5/5 火珠；火盾假設四孔放滿 5/5 火珠；每把技能爪假設有 +3 陷阱、+3 焰痕、兩孔放滿 5/5 火珠。這是比較用的理想條件，不是已穿戴的裝備。實物如果少孔、火珠數值不同，或需要鑲 IAS，就要重新加總。\n\n五種武器與盾牌：相同假設下的詞綴合計\n組合\t焰痕／陷阱等級\t火焰技能增傷\t敵人火焰抗性\t主要取捨\n火寶劍＋鳳凰\t＋0／＋0\t＋30%\t−58%\t有救贖可回生命與法力；技能等級和放陷阱速度要從其他部位補。\n火寶劍＋四火珠盾\t＋0／＋0\t＋50%\t−50%\t把武器和盾牌都用來堆火珠；失去救贖，須另外安排回復。\n雙 3 陷阱／3 焰痕雙孔爪\t＋12／＋6\t＋20%\t−20%\t主攻等級最高，還能用武器格擋；降抗較少，也沒有救贖。\n3 陷阱／3 焰痕雙孔爪＋鳳凰\t＋6／＋3\t＋10%\t−38%\t保留一把技能爪，同時取得鳳凰的降抗與救贖；失去雙爪格擋。\n3 陷阱／3 焰痕雙孔爪＋四火珠盾\t＋6／＋3\t＋30%\t−30%\t主攻技能與火珠較均衡；回復、防護和盾牌需求由其餘裝備承擔。\n\n表中的「焰痕／陷阱等級」要分開讀：一把 +3 陷阱／+3 焰痕的爪，焰痕合計 +6，其他陷阱只有 +3；雙爪是焰痕 +12、其他陷阱 +6。這些都是裝備加的技能等級，不會變成協同硬點。\n\n想讓第一具屍體快出現\n\n先比較焰痕對一般怪及高火抗怪的實傷。雙爪偏技能等級，火寶劍和火盾偏火珠；清場不能只看技能面板。\n\n想省藥、少停下來補給\n\n鳳凰的救贖可利用屍體回生命與法力；但死亡衛哨也要用屍體。若以屍爆接力為主，記得觀察救贖是否搶先把屍體用掉。\n\n想兼顧站位和防護\n\n雙爪可投資武器格擋，單爪配盾則看盾牌本身與敏捷投資。兩種格擋的條件不同；也要連抗性、生命、法力與速度一起比較。\n\n五、買技能爪，先看能否真的裝進整套\n\n+3 陷阱是爪子的魔法詞綴，+3 焰痕是底材帶的技能；同一把爪可以同時有兩者。除了「3／3」，還要看底材速度、IAS、實際孔數、力量敏捷需求，以及有沒有順便帶影散或心靈震爆。魔法爪交給拉蘇克打孔，不保證一定出兩孔，交易時先看成品。\n\n雙爪的優勢是焰痕和其他陷阱一起提高，並可使用武器格擋；代價是少了盾牌的救贖或四火珠。單爪加盾比較好保留盾牌的功能，卻失去武器格擋。實際挑選順序：先確認能用、放得快，再比較傷害。若為了穿爪多點了許多力量敏捷，生命也要一起算。\n\n六、火傷不能偷取，先決定如何回復\n\n火陷阱和屍爆的傷害，不能拿來觸發武器上的生命、法力偷取。若用救贖，必須先有屍體；死亡衛哨也會使用屍體，要看清怪與回復怎麼分配。剛進場和單一首領沒有屍體時，仍要靠法力、回魔與藥水撐過空檔。\n\n另一種做法是保留狂怒旋刃作為物理攻擊，讓裝備上的偷取詞綴有機會發揮。飛鏢得先命中、造成可偷取的物理傷害，目標也得能被偷取；碰到物免、難命中的首領或不能有效偷取的怪，回復就會不穩。這種做法也會占用技能點，不能只比較火系技能的完成等級。\n\n傭兵可用信念幫忙處理怪物抗性，或以其他裝備補回復與支援。挑選時要把傭兵能否靠近目標、能否存活，以及本體缺的是傷害還是續航，一起考慮。\n\n七、補足缺口，再用整輪清圖驗證\n\n頭盔、護甲、項鍊、手套和戒指可以補技能、IAS、FCR、抗性、法力或火珠孔位。傳送護甲方便拉位，火珠護甲偏向傷害；背包則用火炬、毀符、陷阱板與小符補技能及生存。破火板也會降低自己的火抗，放進背包後要重看抗性。別把每個部位最好的單一詞綴當成同時拿得到。\n\n比較候選組合時，先重新確認放陷阱速度、傳送速度、受擊恢復、生命法力與四抗。再到同一個區域，用相同人數測試第一具屍體要多久、整群清完要多久、打首領要補幾次藥。這比只看一張面板，更容易找出真正的缺口。\n\n目前的選擇\n火寶劍靠救贖，雙爪靠飛鏢偷取\n\n我整理了火寶劍＋鳳凰和雙爪兩種配置。共同的傭兵選神聖冰凍米山：讓能被緩速的怪走慢一些，較容易留在焰痕火浪內，也讓我有時間調整陷阱位置。米山拿無限提供信念、戴治癒頭提供淨化；兩種配裝都用謎團帶他靠近怪群，讓信念能覆蓋目標。\n\n火寶劍＋鳳凰：六火珠幻化之刃配速度爆發，讓我鋪陷阱和走位都更順。項鍊、法師之拳、蛛網束帶和戒指合計 70 FCR · 11F，用來傳送與施放心靈震爆；放陷阱速度則看幻化之刃底材與速度爆發，不能拿 FCR 代替。這套的回復核心是鳳凰 15 級救贖：有屍體就能補生命和法力，謎團另有擊殺回血 +14。怪還很密集時，我會及早放死亡衛哨接屍爆；鳳凰救贖會自動利用附近屍體，兩者可能先後消耗同一批屍體。剛進場或打沒有屍體的首領，仍靠回魔和藥水撐過空檔。\n\n雙爪＋影散：我的巨鷹爪主爪有 40 IAS，手套再補 30 IAS，合計 70 IAS；以這組底材與裝備，已達放置陷阱的最快檔位。這套開影散取得抗性與防護，配合武器格擋守住站位；頭盔、項鍊、蛛網和雙戒指則組成 80 FCR · 11F，供傳送等施法使用。\n\n雙爪沒有救贖，因此技能點法特別留給狂怒旋刃一個位置。焰痕仍負責清群；需要補生命或法力時，改用飛鏢造成物理命中，讓裝備上的生命／法力偷取發揮作用。這不是火傷吸取，也不是每次投鏢都保證回滿：打不到、對方物理免疫或無法有效偷取時，仍要用藥水處理。兩種回復方式各有條件，也會改變技能點與操作的分配。\n\n70 FCR · 11F\n火寶劍施法\n15 級救贖\n鳳凰利用屍體回復\n80 FCR · 11F\n雙爪施法\n70 IAS · 影散\n雙爪放置與防護\n判讀回顧\n選好方向後，再逐項確認\n01 · 技能\n\n焰痕等級要看；協同只算硬點。\n\n02 · 火珠\n\n增傷和降抗分別算，再看目標火抗。\n\n03 · 速度\n\nIAS 管放陷阱；FCR 管傳送等施法。\n\n04 · 武器盾牌\n\n比較時帶上孔位和防護代價。\n\n05 · 回復\n\n鳳凰用屍體；雙爪靠飛鏢物理命中偷取。\n\n06 · 實測\n\n看首屍、首領、補藥與傭兵存活。",
+  "gear": [
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "正手武器：六火珠幻化之刃",
+      "slot": "正手武器",
+      "name": "六火珠幻化之刃",
+      "base": "特等的幻化之刃 · 6 顆火焰珠寶",
+      "quality": "normal",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 35–40",
+        "需要敏捷 136",
+        "需要力量 25",
+        "需要等級 54",
+        "刀劍類武器－極快的攻擊速度",
+        "鑲孔（6）"
+      ],
+      "stats": [
+        {
+          "text": "死亡時有 300% 機率施展等級 31 隕石術",
+          "important": false
+        },
+        {
+          "text": "升級時有 300% 機率施展等級 29 熾烈之徑",
+          "important": false
+        },
+        {
+          "text": "+15% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "+3 準確率",
+          "important": false
+        },
+        {
+          "text": "附加火焰傷害 102–270",
+          "important": false
+        },
+        {
+          "text": "+30% 火焰技能傷害",
+          "important": true
+        },
+        {
+          "text": "−30% 敵人火焰抗性",
+          "important": true
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "正手盾牌：鳳凰",
+      "slot": "正手盾牌",
+      "name": "鳳凰",
+      "base": "君主盾 · 伐克斯＋伐克斯＋羅＋喬",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/kite_shield.webp",
+      "meta": [
+        "防禦 171",
+        "格擋機率 47%",
+        "耐久度 86 / 98",
+        "需要力量 156",
+        "需要等級 65",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 40% 機率施展等級 22 火焰風暴",
+          "important": false
+        },
+        {
+          "text": "升級時有 100% 機率施展等級 40 熾烈之徑",
+          "important": false
+        },
+        {
+          "text": "裝備時賦予等級 15 救贖靈氣",
+          "important": false
+        },
+        {
+          "text": "+397% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "−28% 敵人火焰抗性",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+359 對遠程防禦",
+          "important": false
+        },
+        {
+          "text": "+50 生命",
+          "important": false
+        },
+        {
+          "text": "閃電抗性上限 +5%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性上限 +10%",
+          "important": false
+        },
+        {
+          "text": "火焰吸收 +15",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "頭部：搖曳焰火",
+      "slot": "頭部",
+      "name": "搖曳焰火",
+      "base": "權冠 · 那夫＋普爾＋伐克斯",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/diadem.webp",
+      "meta": [
+        "防禦 88",
+        "耐久度 15 / 23",
+        "需要等級 64",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "裝備時賦予等級 8 抗火靈氣",
+          "important": false
+        },
+        {
+          "text": "+3 火焰技能",
+          "important": false
+        },
+        {
+          "text": "−15% 敵人火焰抗性",
+          "important": true
+        },
+        {
+          "text": "+45% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+30 對遠程防禦",
+          "important": false
+        },
+        {
+          "text": "+68 法力",
+          "important": false
+        },
+        {
+          "text": "火焰抗性上限 +5%",
+          "important": false
+        },
+        {
+          "text": "冰凍時效減半",
+          "important": false
+        },
+        {
+          "text": "中毒時效縮短 50%",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "項鍊：食屍鬼項圈",
+      "slot": "項鍊",
+      "name": "食屍鬼項圈",
+      "base": "護身符",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/amulet.webp",
+      "meta": [
+        "需要等級 89"
+      ],
+      "stats": [
+        {
+          "text": "+2 刺客技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+17 法力",
+          "important": false
+        },
+        {
+          "text": "法力恢復速度 +8%",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +19",
+          "important": false
+        },
+        {
+          "text": "中毒時效縮短 25%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "手套：法師之拳",
+      "slot": "手套",
+      "name": "法師之拳",
+      "base": "聖教軍護手",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/light_gauntlets.webp",
+      "meta": [
+        "防禦 98",
+        "耐久度 14 / 18",
+        "需要力量 151",
+        "需要等級 69"
+      ],
+      "stats": [
+        {
+          "text": "+1 火焰技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "附加火焰傷害 1–6",
+          "important": false
+        },
+        {
+          "text": "+30% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+10 防禦",
+          "important": false
+        },
+        {
+          "text": "法力恢復速度 +25%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "戒指一：野獸之結",
+      "slot": "戒指一",
+      "name": "野獸之結",
+      "base": "戒指",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 66"
+      ],
+      "stats": [
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+76 準確率",
+          "important": false
+        },
+        {
+          "text": "+16 力量",
+          "important": false
+        },
+        {
+          "text": "+13 敏捷",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +10%",
+          "important": false
+        },
+        {
+          "text": "閃電抗性 +31%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +10%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +10%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "戒指二：烏鴉之霜",
+      "slot": "戒指二",
+      "name": "烏鴉之霜",
+      "base": "戒指",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 45"
+      ],
+      "stats": [
+        {
+          "text": "+250 準確率",
+          "important": false
+        },
+        {
+          "text": "附加冰寒傷害 15–45",
+          "important": false
+        },
+        {
+          "text": "+20 敏捷",
+          "important": false
+        },
+        {
+          "text": "+40 法力",
+          "important": false
+        },
+        {
+          "text": "冰寒吸收 +20%",
+          "important": false
+        },
+        {
+          "text": "無法冰凍",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "腳部：惡魔蹤跡",
+      "slot": "腳部",
+      "name": "惡魔蹤跡",
+      "base": "聖甲蟲殼皮靴",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/heavy_boots.webp",
+      "meta": [
+        "防禦 60",
+        "踢擊傷害 60–110",
+        "耐久度 8 / 14",
+        "需要力量 91",
+        "需要等級 49"
+      ],
+      "stats": [
+        {
+          "text": "+20% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "+10% 打擊恢復",
+          "important": true
+        },
+        {
+          "text": "+5 敏捷",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +34%",
+          "important": false
+        },
+        {
+          "text": "閃電抗性 +39%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +40%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "身體：謎團",
+      "slot": "身體",
+      "name": "謎團",
+      "base": "法師鎧甲 · 喬＋伊司＋貝",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/light_plate.webp",
+      "meta": [
+        "防禦 1,076",
+        "耐久度 45 / 69",
+        "需要力量 55",
+        "需要等級 65",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+45% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "+1 傳送術",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+775 防禦",
+          "important": false
+        },
+        {
+          "text": "+74 力量（依角色等級）",
+          "important": false
+        },
+        {
+          "text": "生命上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "物理傷害降低 8%",
+          "important": false
+        },
+        {
+          "text": "擊殺生命恢復 +14",
+          "important": false
+        },
+        {
+          "text": "受到傷害轉為法力 +15%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 99%（依角色等級）",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "腰帶：蛛網束帶",
+      "slot": "腰帶",
+      "name": "蛛網束帶",
+      "base": "蛛網束帶",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/sash.webp",
+      "meta": [
+        "防禦 138",
+        "腰帶空間 +12 格",
+        "耐久度 6 / 12",
+        "需要力量 50",
+        "需要等級 80"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "目標緩速 10%",
+          "important": false
+        },
+        {
+          "text": "+120% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "等級 3 淬毒（11 / 11 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "背包 · 火炬：地獄火炬",
+      "slot": "背包 · 火炬",
+      "name": "地獄火炬",
+      "base": "獨特大型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/hellfire-torch-v2.webp",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 5% 機率施展等級 10 火焰風暴",
+          "important": false
+        },
+        {
+          "text": "+3 刺客技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +8",
+          "important": false
+        },
+        {
+          "text": "等級 30 多頭蛇（10／10 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "背包 · 毀符：毀滅",
+      "slot": "背包 · 毀符",
+      "name": "毀滅",
+      "base": "獨特小型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/annihilus-v2.webp",
+      "meta": [
+        "需要等級 70"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "獲得經驗值 +5%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 1：活力之誘騙特大咒符",
+      "slot": "特大咒符 1",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 2：活力之誘騙特大咒符",
+      "slot": "特大咒符 2",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 3：活力之誘騙特大咒符",
+      "slot": "特大咒符 3",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 4：活力之誘騙特大咒符",
+      "slot": "特大咒符 4",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 5：活力之誘騙特大咒符",
+      "slot": "特大咒符 5",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 6：活力之誘騙特大咒符",
+      "slot": "特大咒符 6",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 7：活力之誘騙特大咒符",
+      "slot": "特大咒符 7",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "特大咒符 8：活力之誘騙特大咒符",
+      "slot": "特大咒符 8",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "破火板：新生火焰裂隙",
+      "slot": "破火板",
+      "name": "新生火焰裂隙",
+      "base": "獨特特大咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "破除怪物的火焰免疫",
+          "important": true
+        },
+        {
+          "text": "+20% 打擊恢復",
+          "important": true
+        },
+        {
+          "text": "−10% 敵人火焰抗性",
+          "important": true
+        },
+        {
+          "text": "+62 生命",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 −70%",
+          "important": false
+        },
+        {
+          "text": "傷害降低 9",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 20%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 1：活力之閃耀小型咒符",
+      "slot": "小型咒符 1",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 2：活力之閃耀小型咒符",
+      "slot": "小型咒符 2",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 3：活力之閃耀小型咒符",
+      "slot": "小型咒符 3",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 4：活力之閃耀小型咒符",
+      "slot": "小型咒符 4",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 5：活力之閃耀小型咒符",
+      "slot": "小型咒符 5",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 6：活力之閃耀小型咒符",
+      "slot": "小型咒符 6",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 7：活力之閃耀小型咒符",
+      "slot": "小型咒符 7",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 8：活力之閃耀小型咒符",
+      "slot": "小型咒符 8",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 9：活力之閃耀小型咒符",
+      "slot": "小型咒符 9",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "I",
+      "label": "小型咒符 10：活力之寶紅小型咒符",
+      "slot": "小型咒符 10",
+      "name": "活力之寶紅小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "II",
+      "label": "副手武器：戰爭召喚",
+      "slot": "副手武器",
+      "name": "戰爭召喚",
+      "base": "水晶劍 · 安姆＋拉爾＋馬爾＋伊司特＋歐姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 18–55",
+        "耐久度 16 / 20",
+        "需要力量 43",
+        "需要等級 57",
+        "刀劍類武器－極快的攻擊速度",
+        "攻擊距離 2",
+        "鑲孔（5）"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 攻擊速度",
+          "important": false
+        },
+        {
+          "text": "+271% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "+1 準確率",
+          "important": false
+        },
+        {
+          "text": "附加火焰傷害 5–30",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 生命",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥指揮",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥命令",
+          "important": false
+        },
+        {
+          "text": "+4 戰鬥怒吼",
+          "important": false
+        },
+        {
+          "text": "防止怪物自療",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +12",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 30%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "火寶劍＋鳳凰",
+      "weaponSet": "II",
+      "label": "副手盾牌：精神",
+      "slot": "副手盾牌",
+      "name": "精神",
+      "base": "君主盾 · 塔爾＋書爾＋歐特＋安姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/kite_shield.webp",
+      "meta": [
+        "防禦 171",
+        "格擋機率 47%",
+        "耐久度 97 / 98",
+        "需要力量 156",
+        "需要等級 54",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+35% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+55% 打擊恢復",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+250 對遠程防禦",
+          "important": false
+        },
+        {
+          "text": "+22 體能",
+          "important": false
+        },
+        {
+          "text": "+112 法力",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +35%",
+          "important": false
+        },
+        {
+          "text": "閃電抗性 +35%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +35%",
+          "important": false
+        },
+        {
+          "text": "魔法吸收 +6",
+          "important": false
+        },
+        {
+          "text": "攻擊者反傷 14",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "正手武器：快速之女巫獵人",
+      "slot": "正手武器",
+      "name": "快速之女巫獵人",
+      "base": "巨鷹爪 · 雙火珠",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/claws.webp",
+      "meta": [
+        "單手傷害 21–35",
+        "耐久度 69 / 69",
+        "需要敏捷 79",
+        "需要力量 79",
+        "需要等級 49",
+        "爪類武器－極快的攻擊速度",
+        "攻擊距離 2",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "死亡時有 200% 機率施展等級 31 隕石術",
+          "important": false
+        },
+        {
+          "text": "+2 刺客技能",
+          "important": false
+        },
+        {
+          "text": "+40% 攻擊速度",
+          "important": false
+        },
+        {
+          "text": "附加火焰傷害 34–90",
+          "important": false
+        },
+        {
+          "text": "+10% 火焰技能傷害",
+          "important": true
+        },
+        {
+          "text": "−10% 敵人火焰抗性",
+          "important": true
+        },
+        {
+          "text": "+1 利刃之盾（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+1 心靈震爆（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+3 焰痕衛哨（只限刺客）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "正手副爪：劇毒之狡猾",
+      "slot": "正手副爪",
+      "name": "劇毒之狡猾",
+      "base": "巨鷹爪 · 雙火珠",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/claws.webp",
+      "meta": [
+        "單手傷害 21–35",
+        "耐久度 65 / 69",
+        "需要敏捷 79",
+        "需要力量 79",
+        "需要等級 49",
+        "爪類武器－極快的攻擊速度",
+        "攻擊距離 2",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "死亡時有 200% 機率施展等級 31 隕石術",
+          "important": false
+        },
+        {
+          "text": "+3 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "附加火焰傷害 34–90",
+          "important": false
+        },
+        {
+          "text": "附加毒素傷害 21（4 秒）",
+          "important": false
+        },
+        {
+          "text": "+10% 火焰技能傷害",
+          "important": true
+        },
+        {
+          "text": "−10% 敵人火焰抗性",
+          "important": true
+        },
+        {
+          "text": "+3 武器格擋（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+3 焰痕衛哨（只限刺客）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "頭部：魔導師之狡猾",
+      "slot": "頭部",
+      "name": "魔導師之狡猾",
+      "base": "權冠 · 雙火珠",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/diadem.webp",
+      "meta": [
+        "防禦 60",
+        "耐久度 20 / 20",
+        "需要等級 64",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "死亡時有 200% 機率施展等級 31 隕石術",
+          "important": false
+        },
+        {
+          "text": "+3 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "附加火焰傷害 34–90",
+          "important": false
+        },
+        {
+          "text": "+10% 火焰技能傷害",
+          "important": true
+        },
+        {
+          "text": "−10% 敵人火焰抗性",
+          "important": true
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "項鍊：符文項鍊",
+      "slot": "項鍊",
+      "name": "符文項鍊",
+      "base": "護身符",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/amulet-dot-cross.webp",
+      "meta": [
+        "需要等級 89"
+      ],
+      "stats": [
+        {
+          "text": "+2 刺客技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 8% 法力",
+          "important": false
+        },
+        {
+          "text": "+12 法力",
+          "important": false
+        },
+        {
+          "text": "法力恢復速度 +10%",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +15",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "手套：赫拉森的掌控",
+      "slot": "手套",
+      "name": "赫拉森的掌控",
+      "base": "魔皮手套",
+      "quality": "set",
+      "image": "/images/d2r-game-items/leather_gloves.webp",
+      "meta": [
+        "防禦 35",
+        "耐久度 9 / 12",
+        "需要力量 20",
+        "需要等級 48"
+      ],
+      "stats": [
+        {
+          "text": "+150 準確率",
+          "important": false
+        },
+        {
+          "text": "附加火焰傷害 140–270",
+          "important": false
+        },
+        {
+          "text": "+10% 粉碎打擊",
+          "important": false
+        },
+        {
+          "text": "+15 敏捷",
+          "important": false
+        },
+        {
+          "text": "+40 生命",
+          "important": false
+        },
+        {
+          "text": "+30% 攻擊速度",
+          "important": false
+        },
+        {
+          "text": "套裝加成：+20 敏捷",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "戒指一：飛鷹旋環",
+      "slot": "戒指一",
+      "name": "飛鷹旋環",
+      "base": "戒指",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 74"
+      ],
+      "stats": [
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 6% 法力",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 8% 生命",
+          "important": false
+        },
+        {
+          "text": "+77 法力",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +10",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "戒指二：死亡之圈",
+      "slot": "戒指二",
+      "name": "死亡之圈",
+      "base": "戒指",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 74"
+      ],
+      "stats": [
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+19 準確率",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 6% 法力",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 8% 生命",
+          "important": false
+        },
+        {
+          "text": "+89 法力",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +7",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "腳部：赫拉森的傳承",
+      "slot": "腳部",
+      "name": "赫拉森的傳承",
+      "base": "幻鏡戰靴",
+      "quality": "set",
+      "image": "/images/d2r-game-items/greaves.webp",
+      "meta": [
+        "防禦 68",
+        "耐久度 16 / 18",
+        "需要力量 115",
+        "需要等級 67"
+      ],
+      "stats": [
+        {
+          "text": "+30% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "+15 力量",
+          "important": false
+        },
+        {
+          "text": "+15 敏捷",
+          "important": false
+        },
+        {
+          "text": "魔法抗性 +30%",
+          "important": false
+        },
+        {
+          "text": "無法冰凍",
+          "important": false
+        },
+        {
+          "text": "需求 −30%",
+          "important": false
+        },
+        {
+          "text": "套裝加成：+10% 跑步／行走速度、+20 敏捷",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "身體：謎團",
+      "slot": "身體",
+      "name": "謎團",
+      "base": "法師鎧甲 · 喬＋伊司＋貝",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/light_plate.webp",
+      "meta": [
+        "防禦 1,076",
+        "耐久度 45 / 69",
+        "需要力量 55",
+        "需要等級 65",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+45% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "+1 傳送術",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+775 防禦",
+          "important": false
+        },
+        {
+          "text": "+74 力量（依角色等級）",
+          "important": false
+        },
+        {
+          "text": "生命上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "物理傷害降低 8%",
+          "important": false
+        },
+        {
+          "text": "擊殺生命恢復 +14",
+          "important": false
+        },
+        {
+          "text": "受到傷害轉為法力 +15%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 99%（依角色等級）",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "腰帶：蛛網束帶",
+      "slot": "腰帶",
+      "name": "蛛網束帶",
+      "base": "蛛網束帶",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/sash.webp",
+      "meta": [
+        "防禦 138",
+        "腰帶空間 +12 格",
+        "耐久度 6 / 12",
+        "需要力量 50",
+        "需要等級 80"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "目標緩速 10%",
+          "important": false
+        },
+        {
+          "text": "+120% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "等級 3 淬毒（11 / 11 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "背包 · 火炬：地獄火炬",
+      "slot": "背包 · 火炬",
+      "name": "地獄火炬",
+      "base": "獨特大型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/hellfire-torch-v2.webp",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 5% 機率施展等級 10 火焰風暴",
+          "important": false
+        },
+        {
+          "text": "+3 刺客技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +8",
+          "important": false
+        },
+        {
+          "text": "等級 30 多頭蛇（10／10 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "背包 · 毀符：毀滅",
+      "slot": "背包 · 毀符",
+      "name": "毀滅",
+      "base": "獨特小型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/annihilus-v2.webp",
+      "meta": [
+        "需要等級 70"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "獲得經驗值 +5%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 1：活力之誘騙特大咒符",
+      "slot": "特大咒符 1",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 2：活力之誘騙特大咒符",
+      "slot": "特大咒符 2",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 3：活力之誘騙特大咒符",
+      "slot": "特大咒符 3",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 4：活力之誘騙特大咒符",
+      "slot": "特大咒符 4",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 5：活力之誘騙特大咒符",
+      "slot": "特大咒符 5",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 6：活力之誘騙特大咒符",
+      "slot": "特大咒符 6",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 7：活力之誘騙特大咒符",
+      "slot": "特大咒符 7",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "特大咒符 8：活力之誘騙特大咒符",
+      "slot": "特大咒符 8",
+      "name": "活力之誘騙特大咒符",
+      "base": "特大咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 83"
+      ],
+      "stats": [
+        {
+          "text": "+1 陷阱技能（只限刺客）",
+          "important": false
+        },
+        {
+          "text": "+45 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "破火板：新生火焰裂隙",
+      "slot": "破火板",
+      "name": "新生火焰裂隙",
+      "base": "獨特特大咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/charm-shapes/grand-dna.png",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "破除怪物的火焰免疫",
+          "important": true
+        },
+        {
+          "text": "+20% 打擊恢復",
+          "important": true
+        },
+        {
+          "text": "−10% 敵人火焰抗性",
+          "important": true
+        },
+        {
+          "text": "+62 生命",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 −70%",
+          "important": false
+        },
+        {
+          "text": "傷害降低 9",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 20%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 1：活力之閃耀小型咒符",
+      "slot": "小型咒符 1",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 2：活力之閃耀小型咒符",
+      "slot": "小型咒符 2",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 3：活力之閃耀小型咒符",
+      "slot": "小型咒符 3",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 4：活力之閃耀小型咒符",
+      "slot": "小型咒符 4",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 5：活力之閃耀小型咒符",
+      "slot": "小型咒符 5",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 6：活力之閃耀小型咒符",
+      "slot": "小型咒符 6",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 7：活力之閃耀小型咒符",
+      "slot": "小型咒符 7",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 8：活力之閃耀小型咒符",
+      "slot": "小型咒符 8",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 9：活力之閃耀小型咒符",
+      "slot": "小型咒符 9",
+      "name": "活力之閃耀小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +5",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "I",
+      "label": "小型咒符 10：活力之寶紅小型咒符",
+      "slot": "小型咒符 10",
+      "name": "活力之寶紅小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+20 生命",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "II",
+      "label": "副手武器：戰爭召喚",
+      "slot": "副手武器",
+      "name": "戰爭召喚",
+      "base": "水晶劍 · 安姆＋拉爾＋馬爾＋伊司特＋歐姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 18–55",
+        "耐久度 16 / 20",
+        "需要力量 43",
+        "需要等級 57",
+        "刀劍類武器－極快的攻擊速度",
+        "攻擊距離 2",
+        "鑲孔（5）"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 攻擊速度",
+          "important": false
+        },
+        {
+          "text": "+271% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "+1 準確率",
+          "important": false
+        },
+        {
+          "text": "附加火焰傷害 5–30",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 生命",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥指揮",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥命令",
+          "important": false
+        },
+        {
+          "text": "+4 戰鬥怒吼",
+          "important": false
+        },
+        {
+          "text": "防止怪物自療",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +12",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 30%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": "雙爪",
+      "weaponSet": "II",
+      "label": "副手盾牌：精神",
+      "slot": "副手盾牌",
+      "name": "精神",
+      "base": "君主盾 · 塔爾＋書爾＋歐特＋安姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/kite_shield.webp",
+      "meta": [
+        "防禦 171",
+        "格擋機率 47%",
+        "耐久度 97 / 98",
+        "需要力量 156",
+        "需要等級 54",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+35% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+55% 打擊恢復",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+250 對遠程防禦",
+          "important": false
+        },
+        {
+          "text": "+22 體能",
+          "important": false
+        },
+        {
+          "text": "+112 法力",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +35%",
+          "important": false
+        },
+        {
+          "text": "閃電抗性 +35%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +35%",
+          "important": false
+        },
+        {
+          "text": "魔法吸收 +6",
+          "important": false
+        },
+        {
+          "text": "攻擊者反傷 14",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "tree": "陷阱 107 硬點",
+      "skills": [
+        {
+          "label": "火焰轟擊，顯示 45 級",
+          "detail": "主動補傷與焰痕協同\n火焰轟擊\n投入點數\n20\n常駐完成\n45\n戰鬥指揮後\n46\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n直接投擲火焰轟擊，適合補落單目標、首領，或在衛哨放好後繼續攻擊。火浪角度不佳時，可以用它補上第一具屍體所需的傷害。\n\n兩套都投入 20 點，為焰痕衛哨提供 +200% 硬點協同。裝備提高火焰轟擊本身的等級與傷害，但不會增加它給焰痕的協同比例。\n\n技能分支\n陷阱\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "雷電網，顯示 26 級",
+          "detail": "技能路線前置\n雷電網\n投入點數\n1\n常駐完成\n26\n戰鬥指揮後\n27\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n鋪設雷電網攻擊經過的目標，也是通往後續電系衛哨的前置。這套不以電網清場，主要是取得雷光與死亡衛哨的技能路線。\n\n火寶劍方案投入 3 點，雙爪投入 1 點；完成等級還包含裝備加成。這些點數不會提高焰痕衛哨的火焰協同。\n\n技能分支\n陷阱\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "電能衛哨，顯示 26 級",
+          "detail": "技能路線前置\n電能衛哨\n投入點數\n1\n常駐完成\n26\n戰鬥指揮後\n27\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n放置發射電能彈的衛哨，兩套都只投入 1 點，主要是開啟後續技能。清群仍先使用焰痕，取得屍體後再由死亡衛哨接力。\n\n它也占場上衛哨名額。若額外放置，會減少留給火浪或屍爆的數量，不能把每種衛哨都按五座同時計算。\n\n技能分支\n陷阱\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "焰痕衛哨，顯示 51 級",
+          "detail": "火浪清群\n焰痕衛哨\n投入點數\n20\n常駐完成\n51\n戰鬥指揮後\n52\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+20\n\n主力技能，放置後持續送出火浪。讓怪群沿火浪方向走，比一味把衛哨放滿更有效；敵人走出覆蓋範圍就重新調整位置，取得首屍後再補死亡衛哨。\n\n兩套都投入 20 點，並點滿火焰轟擊與獄火衛哨的硬點協同。雙爪靠技能加成提高基礎傷害，火寶劍加鳳凰則同時利用火焰增傷與敵人降抗；實際表現還要看怪物抗性。\n\n技能分支\n陷阱\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "戒衛旋刃，顯示 45 級",
+          "detail": "雙爪的刃系技能\n戒衛旋刃\n投入點數\n20\n常駐完成\n45\n戰鬥指揮後\n46\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n刀刃沿指定路徑來回移動，提供火浪之外的物理攻擊。雙爪投入 20 點，讓它本身有傷害，也為狂怒旋刃提供 +200% 技能傷害協同。\n\n只有實際投入的硬點計入協同，裝備加上的等級不算。投鏢續航時，這份協同會提高飛鏢的技能物傷；仍要搭配武器物傷與有效命中一起看。\n\n技能分支\n陷阱\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "狂怒旋刃，顯示 45 級",
+          "detail": "雙爪的刃系技能\n狂怒旋刃\n投入點數\n20\n常駐完成\n45\n戰鬥指揮後\n46\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n雙爪投入 20 點，使用物理飛鏢補單體，也靠裝備的生命與法力偷取回復。需要打中可偷取的目標，並造成物理傷害；打不中、物理免疫或不能偷取時，仍須使用藥水。\n\n飛鏢的持續連發速度固定，不會因 IAS 或速度爆發變快。技能等級提高技能物傷與準確率，戒衛旋刃的硬點則提供傷害協同；陷阱放置速度要另外按爪底材與 IAS 核對。\n\n技能分支\n陷阱\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "雷光衛哨，顯示 26 級",
+          "detail": "非主力技能\n雷光衛哨\n投入點數\n1\n常駐完成\n26\n戰鬥指揮後\n27\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n用閃電攻擊補不同的傷害類型。火寶劍方案投入 20 點，雙爪只投 1 點前置，因此不能把兩套的電系補傷能力視為相同。\n\n雷光與焰痕、死亡衛哨共用場上數量上限。高火抗目標可按實際傷害補放，但仍要確認目標電抗與傭兵信念，並保留需要的火浪或屍爆覆蓋。\n\n技能分支\n陷阱\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "獄火衛哨，顯示 45 級",
+          "detail": "焰痕協同與定向補傷\n獄火衛哨\n投入點數\n20\n常駐完成\n45\n戰鬥指揮後\n46\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n朝目標持續噴出定向火焰，較適合位置穩定的敵人；怪物不停移動時，火焰不一定能持續打中。\n\n兩套都投入 20 點，主要為焰痕衛哨提供 +200% 硬點協同。裝備軟點只提高獄火本身的等級；實際補放這招時，也會占衛哨名額。\n\n技能分支\n陷阱\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "死亡衛哨，顯示 29 級",
+          "detail": "屍體接力\n死亡衛哨\n投入點數\n4\n常駐完成\n29\n戰鬥指揮後\n30\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+14\n\n附近出現屍體後引發屍爆，把第一隻怪倒下的成果擴大成整群清場。沒有屍體時不能靠屍爆開局，應先用火浪或火焰轟擊取得首屍。\n\n火寶劍投入 20 點，雙爪投入 4 點，完成等級會影響屍爆範圍。鳳凰救贖會自動消耗附近屍體回復生命、法力，可能與屍爆爭用屍體；部署時要留意屍體能否及時被死亡衛哨利用。\n\n技能分支\n陷阱\n配置狀態\n功能投資\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "利刃之盾，顯示 26 級",
+          "detail": "雙爪的刃系技能\n利刃之盾\n投入點數\n0\n常駐完成\n26\n戰鬥指揮後\n27\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+15\n\n開啟後週期性攻擊身旁目標，是近身物理補傷技能。雙爪由主爪的 +1 利刃之盾解鎖，沒有另外投入硬點，因此不提供狂怒旋刃的硬點協同。\n\n這招會耗武器耐久，使用無形武器須有無法破壞或自動修復屬性。需要靠近才能發揮，別為了讓它命中而站進危險怪群。\n\n技能分支\n陷阱\n配置狀態\n裝備賦予\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    },
+    {
+      "tree": "暗影修行 3 硬點",
+      "skills": [
+        {
+          "label": "利爪專精，顯示 12 級",
+          "detail": "爪系技能\n利爪專精\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+0\n\n兩套各投入 1 點。使用爪進行物理攻擊時，提供傷害、準確率與技能致命機會；對雙爪配置的飛鏢物理段有幫助。\n\n焰痕衛哨不靠爪物傷輸出，火寶劍也不吃爪專精的武器加成。這招的完成等級不能直接換算成火浪傷害。\n\n技能分支\n暗影修行\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "速度爆發，顯示 12 級",
+          "detail": "火寶劍方案常駐狀態\n速度爆發\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+0\n\n提高攻擊速度與跑步／行走速度。火寶劍加鳳凰把它作為常駐狀態，配合幻化之刃底材改善放陷阱與走位的節奏。\n\n它不提高 FCR，因此不會讓傳送術或心靈震爆施法更快。速度爆發與影散互相取代；雙爪配置以影散為主，放陷阱速度另由裝備 IAS 支撐。\n\n技能分支\n暗影修行\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "心靈震爆，顯示 12 級",
+          "detail": "控場與站位\n心靈震爆\n投入點數\n0\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+1\n\n擊退、昏迷怪物，並有機會暫時轉化可受影響的目標。怪群逼近或火浪角度不好時，用它爭取重新部署的時間。\n\n火寶劍方案投入 1 點；雙爪由主爪的 +1 心靈震爆解鎖，沒有投入硬點。施法速度按 FCR 判讀，與放陷阱的 IAS 分開。\n\n技能分支\n暗影修行\n配置狀態\n裝備賦予\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "影散，顯示 12 級",
+          "detail": "雙爪方案常駐狀態\n影散\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+0\n\n提供元素抗性、物理減傷與較短的詛咒持續時間。雙爪以它作為常駐防護，站定鋪陷阱或投鏢時較容易維持安全距離。\n\n開啟後會取代速度爆發，放陷阱的速度要靠爪底材、主爪 40 IAS 與手套 30 IAS。兩套都投入 1 點，但火寶劍加鳳凰平常使用速度爆發。\n\n技能分支\n暗影修行\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "武器格擋，顯示 14 級",
+          "detail": "雙爪防護\n武器格擋\n投入點數\n0\n常駐完成\n14\n戰鬥指揮後\n15\n穿戴通用\n+7\n火炬／毀符\n+4\n分支／單技\n+3\n\n雙持爪子時提供武器格擋。這套由副爪的 +3 武器格擋解鎖，沒有投入硬點；其餘通用技能加成把完成等級提高到 14 級。\n\n站立、施法或攻擊時可發揮，走路與跑步時不能照站立的格擋機率估算。它和盾牌格擋的規則不同，火寶劍加鳳凰應看盾牌與人物格擋。\n\n技能分支\n暗影修行\n配置狀態\n裝備賦予\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    }
+  ],
+  "character": {
+    "summary": "主要輸出\n完成面板\n焰痕衛哨\n51 級 · 2,151–2,418\n火焰轟擊傷害\n5,523–6,432",
+    "groups": [
+      {
+        "group": "速度",
+        "rows": [
+          [
+            "快速施法",
+            "80 FCR · 11F"
+          ],
+          [
+            "攻擊速度（放置陷阱）",
+            "70 IAS · 影散"
+          ],
+          [
+            "打擊恢復",
+            "20 FHR · 7F"
+          ],
+          [
+            "跑步／行走速度",
+            "85%"
+          ]
+        ]
+      },
+      {
+        "group": "輸出",
+        "rows": [
+          [
+            "焰痕衛哨",
+            "51 級 · 2,151–2,418"
+          ],
+          [
+            "火焰轟擊",
+            "5,523–6,432"
+          ],
+          [
+            "火焰技能傷害",
+            "+30%"
+          ],
+          [
+            "敵人火焰抗性",
+            "−40%"
+          ],
+          [
+            "壓碎性打擊",
+            "10%"
+          ],
+          [
+            "破除怪物的火焰免疫",
+            "已具備",
+            "新生火焰裂隙"
+          ]
+        ]
+      },
+      {
+        "group": "防禦",
+        "rows": [
+          [
+            "生命",
+            "2,672"
+          ],
+          [
+            "法力",
+            "437"
+          ],
+          [
+            "防禦",
+            "1,595"
+          ],
+          [
+            "地獄四抗",
+            "火75電75冰75毒75"
+          ],
+          [
+            "物理傷害降低",
+            "20%"
+          ],
+          [
+            "受到的物理傷害減少",
+            "9"
+          ],
+          [
+            "魔法抗性",
+            "30%"
+          ],
+          [
+            "無法冰凍",
+            "已具備"
+          ]
+        ]
+      },
+      {
+        "group": "其他",
+        "rows": [
+          [
+            "法力上限提高",
+            "5%"
+          ],
+          [
+            "法力恢復速度",
+            "10%"
+          ],
+          [
+            "擊殺生命恢復",
+            "+14"
+          ],
+          [
+            "受到傷害轉為法力",
+            "15%"
+          ],
+          [
+            "擊中竊取生命",
+            "16%",
+            "僅武器命中可吸取"
+          ],
+          [
+            "擊中竊取法力",
+            "20%",
+            "僅武器命中可吸取"
+          ],
+          [
+            "尋獲魔法物品機率",
+            "119%"
+          ],
+          [
+            "獲得經驗值",
+            "5%"
+          ],
+          [
+            "照亮範圍",
+            "+8"
+          ],
+          [
+            "目標緩速",
+            "10%"
+          ]
+        ]
+      }
+    ]
+  },
+  "merc": {
+    "gear": [
+      {
+        "label": "傭兵武器：無限",
+        "slot": "武器",
+        "name": "無限",
+        "base": "無形巨型斬鐮 · 貝爾＋馬爾＋貝爾＋伊司特",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/war_scythe.webp",
+        "meta": [
+          "雙手傷害 252–719",
+          "耐久度 28 / 28",
+          "需要敏捷 130",
+          "需要力量 178",
+          "需要等級 66",
+          "長柄類武器－一般的攻擊速度",
+          "無形（無法修復）",
+          "攻擊距離 5",
+          "鑲孔（4）"
+        ],
+        "stats": [
+          {
+            "text": "殺敵時有 50% 機率施展等級 20 連鎖閃電",
+            "important": false
+          },
+          {
+            "text": "裝備時賦予等級 12 信念靈氣",
+            "important": true
+          },
+          {
+            "text": "+35% 跑步／行走速度",
+            "important": false
+          },
+          {
+            "text": "+321% 傷害強化",
+            "important": false
+          },
+          {
+            "text": "−51% 敵人閃電抗性",
+            "important": false
+          },
+          {
+            "text": "+40% 粉碎打擊",
+            "important": false
+          },
+          {
+            "text": "防止怪物自療",
+            "important": false
+          },
+          {
+            "text": "+49 體能（依角色等級）",
+            "important": false
+          },
+          {
+            "text": "尋獲魔法物品機率提高 30%",
+            "important": false
+          },
+          {
+            "text": "等級 21 氣旋護甲（30 / 30 次）",
+            "important": false
+          }
+        ]
+      },
+      {
+        "label": "傭兵頭部：治癒",
+        "slot": "頭部",
+        "name": "治癒",
+        "base": "無形日冕之冠 · 夏＋埃歐＋塔爾",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/crown.webp",
+        "meta": [
+          "防禦 535",
+          "耐久度 26 / 26",
+          "需要力量 164",
+          "需要等級 66",
+          "無形（無法修復）",
+          "鑲孔（3）"
+        ],
+        "stats": [
+          {
+            "text": "裝備時賦予等級 1 淨化靈氣",
+            "important": true
+          },
+          {
+            "text": "+20% 打擊恢復",
+            "important": true
+          },
+          {
+            "text": "+115% 防禦強化",
+            "important": false
+          },
+          {
+            "text": "+10 體能",
+            "important": false
+          },
+          {
+            "text": "生命上限提高 5%",
+            "important": false
+          },
+          {
+            "text": "毒素抗性 +49%",
+            "important": false
+          },
+          {
+            "text": "中毒時效縮短 50%",
+            "important": false
+          }
+        ]
+      },
+      {
+        "label": "傭兵身體：榮耀之鍊",
+        "slot": "身體",
+        "name": "榮耀之鍊",
+        "base": "無形統御者鎧甲 · 多爾＋烏姆＋貝爾＋伊司特",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/light_plate.webp",
+        "meta": [
+          "防禦 1,455",
+          "耐久度 31 / 31",
+          "需要力量 93",
+          "需要等級 63",
+          "無形（無法修復）",
+          "鑲孔（4）"
+        ],
+        "stats": [
+          {
+            "text": "+2 所有技能",
+            "important": false
+          },
+          {
+            "text": "+200% 對惡魔的傷害",
+            "important": false
+          },
+          {
+            "text": "+100% 對不死怪物的傷害",
+            "important": false
+          },
+          {
+            "text": "擊中竊取 8% 生命",
+            "important": true
+          },
+          {
+            "text": "+85% 防禦強化",
+            "important": false
+          },
+          {
+            "text": "+20 力量",
+            "important": false
+          },
+          {
+            "text": "生命恢復 +7",
+            "important": false
+          },
+          {
+            "text": "所有抗性 +65",
+            "important": false
+          },
+          {
+            "text": "物理傷害降低 8%",
+            "important": false
+          },
+          {
+            "text": "尋獲魔法物品機率提高 25%",
+            "important": false
+          }
+        ]
+      }
+    ],
+    "support": [
+      "A2 米山 · 等級 98\n神聖冰凍 × 信念 × 淨化\n\n神聖冰凍減緩近身敵人，無限的信念降低火抗與防禦，治癒縮短中毒及詛咒時間。\n\n神聖冰凍 · 原生靈氣\n等級 18 · 半徑 15.3 碼\n降低附近敵人的速度 53%；榮耀之鍊的 +2 技能已計入。\n信念 · 無限\n等級 12 · 半徑 13.3 碼\n降低敵人火焰、冰寒與閃電抗性 85%，並降低防禦 83%。\n淨化 · 治癒\n等級 1 · 半徑 10.6 碼\n縮短中毒與詛咒時效 39%。裝備賦予的靈氣固定為 1 級，不受所有技能加成提高。"
+    ],
+    "text": "武器\n頭部\n身體\n身體\n榮耀之鍊\n無形統御者鎧甲 · 多爾＋烏姆＋貝爾＋伊司特\n防禦 1,455\n耐久度 31 / 31\n需要力量 93\n需要等級 63\n無形（無法修復）\n鑲孔（4）\n+2 所有技能\n+200% 對惡魔的傷害\n+100% 對不死怪物的傷害\n擊中竊取 8% 生命\n重要屬性\n+85% 防禦強化\n+20 力量\n生命恢復 +7\n所有抗性 +65\n物理傷害降低 8%\n尋獲魔法物品機率提高 25%\nA2 米山 · 等級 98\n神聖冰凍 × 信念 × 淨化\n\n神聖冰凍減緩近身敵人，無限的信念降低火抗與防禦，治癒縮短中毒及詛咒時間。\n\n神聖冰凍 · 原生靈氣\n等級 18 · 半徑 15.3 碼\n降低附近敵人的速度 53%；榮耀之鍊的 +2 技能已計入。\n信念 · 無限\n等級 12 · 半徑 13.3 碼\n降低敵人火焰、冰寒與閃電抗性 85%，並降低防禦 83%。\n淨化 · 治癒\n等級 1 · 半徑 10.6 碼\n縮短中毒與詛咒時效 39%。裝備賦予的靈氣固定為 1 級，不受所有技能加成提高。"
+  },
+  "field": "火寶劍＋鳳凰\n雙爪\nFIELD MANUAL · FIRE TRAPS\n雙爪守住戰線，焰痕先開怪群\n\n影散與雙爪格擋守住站位；用狂怒旋刃的物理命中偷取生命、法力。\n\n01\n先整備雙爪與影散\n\n副手施放戰鬥指揮與戰鬥命令後切回雙爪，開影散。巨鷹爪主爪 40 IAS、手套 30 IAS，這組已達放陷阱的最快檔位；不要把速度爆發算進來。\n\n02\n讓火浪覆蓋怪群\n\n讓神聖冰凍米山靠近，緩下能受影響的怪並以無限信念覆蓋目標；焰痕沿怪群前進方向放。怪散開就重新調整角度，先以火浪取得首屍。\n\n03\n首屍交給死亡衛哨\n\n取得第一具屍體後補死亡衛哨，讓屍爆接力。要補生命法力時，挑能被物理偷取的目標投狂怒旋刃；這一步不必等屍體。打不中或不能偷取，就用藥水。\n\n04\n高火抗和首領分開處理\n\n高火抗目標先確認破火板、米山信念和個人降抗的實際作用。落單與首領用火焰轟擊補傷；影散和武器格擋能提高容錯，危險地面仍要移開。\n\n火免先確認解除條件\n\n破火板、信念與裝備的個人降抗按各自規則處理。傭兵不在範圍或陣亡時，實際輸出會改變。\n\n火陷阱傷害無法靠武器偷取回復\n\n雙爪要靠狂怒旋刃打中、造成可偷取的物理傷害，裝備上的生命與法力偷取才會發揮作用；鳳凰救贖則要有屍體。"
+}

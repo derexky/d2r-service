@@ -1,0 +1,2146 @@
+{
+  "class": "amazon",
+  "slug": "3mm-bow",
+  "url": "https://d2r-build-journal.pages.dev/builds/amazon/3mm-bow/",
+  "crawledAt": "2026-10-12T09:59:33.466Z",
+  "title": "3MM 物理飛弓亞馬遜｜D2R 配裝誌",
+  "description": "新版自持信心、京子迷霧的 3MM 飛弓：互動配裝、技能、面板與實戰。",
+  "hero": "AMAZON · PHYSICAL BOW · LEVEL 99\n\n3MM 物理飛弓\n★★★★★\n個人實戰五星\n\n等級 99 實際配裝、技能配置、完成面板與京子傭兵資料。\n\n掃射傷害\n1,614–7,489\n多重箭傷害\n1,077–4,783\n攻擊速度（掃射）\n50 IAS · 2F\n攻擊速度（多重箭）\n50 IAS · 8F\n本體狂熱\n15 級\n京子專注\n12 級\n快速施法\n60 FCR · 14F\n地獄抗性\n75／75／75／75",
+  "bar": {
+    "等級": "99",
+    "難度": "地獄",
+    "剩餘點數": "0"
+  },
+  "telemetry": {
+    "attributes": {
+      "力量": "144",
+      "敏捷": "589",
+      "體能": "70",
+      "能量": "55",
+      "生命": "1,258",
+      "法力": "230",
+      "防禦": "1,637"
+    },
+    "rates": {
+      "攻擊速度（掃射）": "50 IAS · 2F",
+      "快速施法": "60 FCR · 14F",
+      "跑速": "70%",
+      "尋寶": "149%"
+    },
+    "resistances": {
+      "火": "75",
+      "電": "75",
+      "冰": "75",
+      "毒": "75"
+    }
+  },
+  "sections": [
+    {
+      "key": "iceGuideOverview",
+      "text": "02 · 角色定位\n女武神在前，雙弓手在後\n\n「3MM」是亞馬遜、第一章羅格傭兵京子和女武神三位女性角色的合稱。這套本體拿信心固定取得狂熱，京子持迷霧補專注並以冰凍箭提供冰傷控場；女武神與替身接敵，本體以 2F 連段掃射為主要輸出、8F 多重箭處理零散殘怪，導引箭補足移動單體。亞特瑪的聖甲蟲有機率觸發傷害加深，能幫物理隊伍處理高物抗目標。\n\n掃射 · 2F 連段\n主要輸出\n多重箭 · 8F\n殘怪收尾\n女武神\n前排牽制\n京子冰傷\n迷霧穿刺 · 冰凍箭",
+      "pairs": [
+        [
+          "掃射 · 2F 連段",
+          "主要輸出"
+        ],
+        [
+          "多重箭 · 8F",
+          "殘怪收尾"
+        ],
+        [
+          "女武神",
+          "前排牽制"
+        ],
+        [
+          "京子冰傷",
+          "迷霧穿刺 · 冰凍箭"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideReading",
+      "text": "03 · READING THE BUILD\n先看靈氣，再看射速與續航\n新版持弓\n信心在本體\n\n本體狂熱不會因京子跑位而中斷；京子的迷霧專注仍須維持在靈氣範圍。風之力在本體、信心在京子則是另一種單發傷害路線。\n\n攻擊速度（掃射）\n50 IAS · 2F\n\n權冠 30% 加按手禮 20%；主母之弓搭配本體 15 級狂熱，掃射達2F 連段，多重箭維持 8F 次急速。主打掃射可把其他欄位留給續航和抗性。\n\n命中與物抗\n信心＋亞特瑪\n\n信心補準確率，忽視目標防禦不等於對首領必中。背包一枚 451 毒傷小板壓住可中毒怪物的回血；不帶破物板。物免靠京子冰凍箭與本體魔法箭補位，掃射連續命中則增加亞特瑪觸發傷害加深的機會。\n\n續航\n6% 吸血 · 6% 吸法\n\n這套實穿按手禮而非擊退手工手套；兩枚稀有戒指分別補生命與法力竊取。怪物若不能被吸取，先讓女武神接怪並調整射線。",
+      "pairs": [
+        [
+          "新版持弓",
+          "信心在本體",
+          "本體狂熱不會因京子跑位而中斷；京子的迷霧專注仍須維持在靈氣範圍。風之力在本體、信心在京子則是另一種單發傷害路線。"
+        ],
+        [
+          "攻擊速度（掃射）",
+          "50 IAS · 2F",
+          "權冠 30% 加按手禮 20%；主母之弓搭配本體 15 級狂熱，掃射達2F 連段，多重箭維持 8F 次急速。主打掃射可把其他欄位留給續航和抗性。"
+        ],
+        [
+          "命中與物抗",
+          "信心＋亞特瑪",
+          "信心補準確率，忽視目標防禦不等於對首領必中。背包一枚 451 毒傷小板壓住可中毒怪物的回血；不帶破物板。物免靠京子冰凍箭與本體魔法箭補位，掃射連續命中則增加亞特瑪觸發傷害加深的機會。"
+        ],
+        [
+          "續航",
+          "6% 吸血 · 6% 吸法",
+          "這套實穿按手禮而非擊退手工手套；兩枚稀有戒指分別補生命與法力竊取。怪物若不能被吸取，先讓女武神接怪並調整射線。"
+        ]
+      ]
+    },
+    {
+      "key": "iceGuideBoundaries",
+      "text": "04 · FIELD BOUNDARIES\n把雙弓手留在安全射線\n進場整備\n\n副手戰爭召喚＋燦爛施放戰鬥指揮和戰鬥命令，切回信心並召喚女武神。替身放在怪物與雙弓手之間。\n\n清群節奏\n\n主力是 50 IAS 的 2F 連段掃射，讓女武神先接怪再持續連射。8F 多重箭收拾零散殘怪；移動的精英或首領用導引箭補角度。\n\n京子跑位\n\n本體狂熱仍在，京子的專注卻可能因距離或死亡而中斷。必要時傳送集合，重新放替身，讓女武神先進場。\n\n物免與續航\n\n亞特瑪的傷害加深有觸發機率，吸血吸法也依怪物可竊取量變動。物免優先讓京子冰傷和本體魔法箭處理；遇到冰免或高壓怪，先調整站位與前排。",
+      "pairs": [
+        [
+          "進場整備",
+          "副手戰爭召喚＋燦爛施放戰鬥指揮和戰鬥命令，切回信心並召喚女武神。替身放在怪物與雙弓手之間。"
+        ],
+        [
+          "清群節奏",
+          "主力是 50 IAS 的 2F 連段掃射，讓女武神先接怪再持續連射。8F 多重箭收拾零散殘怪；移動的精英或首領用導引箭補角度。"
+        ],
+        [
+          "京子跑位",
+          "本體狂熱仍在，京子的專注卻可能因距離或死亡而中斷。必要時傳送集合，重新放替身，讓女武神先進場。"
+        ],
+        [
+          "物免與續航",
+          "亞特瑪的傷害加深有觸發機率，吸血吸法也依怪物可竊取量變動。物免優先讓京子冰傷和本體魔法箭處理；遇到冰免或高壓怪，先調整站位與前排。"
+        ]
+      ]
+    }
+  ],
+  "logic": "BUILD LOGIC · THREE MAIDENS\n配裝思路\n\n本體、京子與女武神同場；比較兩種持弓方式，再看這套實穿。\n\n信心\n本體 · 15 級狂熱\n迷霧\n京子 · 專注\n50 IAS · 2F\n攻擊速度（掃射）\n50 IAS · 8F\n攻擊速度（多重箭）\n60 FCR · 14F\n快速施法\n\n「3MM」就是三個美眉。亞馬遜本體、第一章羅格弓箭傭兵「京子」和召喚的女武神同場作戰。女武神與替身在前排分散怪物注意，本體和京子在後排射擊。這裡的「舊版／新版」專指玩家慣用的兩種持弓配置，不代表遊戲版本限定。\n\n舊版由本體拿風之力、京子拿信心；新版則是本體拿信心、京子拿迷霧。迷霧在 D2R 2.4 加入，提供專注靈氣，讓第二種配置成立。兩者皆能玩，裝備與隊伍站位的取捨不同。\n\n2.4 之後，第一章俠盜傭兵可使用亞馬遜專屬弓，冰寒路線也能施放冰凍箭。京子因此不只是提供靈氣：迷霧的穿刺、她自己的冰寒傷害與冰凍控場，讓三位美眉各有清楚的工作。本體的 2F 連段掃射仍是這套的主要輸出。\n\n掃射、導引箭與多重箭也在技能點上互相配合。2.4 移除了掃射原有的武器傷害折減，並讓多重箭、導引箭成為掃射的傷害加成來源。這套兩招各投入 20 點，多重箭雖只作收尾，技能點並沒有浪費；掃射連射時角色短暫站定，先放替身、確定安全射線再開火。\n\n持弓比較\n風之力＋信心／信心＋迷霧\n\n先決定狂熱靈氣由誰攜帶，後續的手套、戒指與站位才容易安排。\n\n判讀項目\t舊版 · 本體風之力／京子信心\t新版 · 本體信心／京子迷霧\n核心靈氣\t京子的信心提供狂熱；距離與傭兵存活影響覆蓋。\t本體信心常駐狂熱；京子的迷霧另提供專注。\n主手特性\t風之力依等級增加最大傷害，自帶 8% 擊中竊取法力、擊退與 20% IAS。\t信心自帶準確率加成、對一般怪有用的忽視目標防禦，並有復活骷髏的機率。\n續航與安全\t武器已補吸法與擊退，手套、戒指較能自由調整。\t武器不帶吸法與擊退，要從戒指、手套、站位或召喚物補足。\n清圖體感\t高單發上限；若京子脫離狂熱範圍，實際攻速可能掉檔。\t本體狂熱不會因京子落後而消失；專注覆蓋仍取決於京子位置。\n物免與控場\t京子也可選冰寒系，但信心沒有迷霧的 100% 穿刺；本體可用魔法箭和亞特瑪補位。\t迷霧的穿刺讓京子冰凍箭更容易覆蓋密集怪群；本體仍靠魔法箭、冰傷與傷害加深處理物免。\n這次實穿\t作為對照路線。\t信心主母之弓、京子迷霧；手套使用按手禮，兩枚稀有戒指分別補生命與法力竊取。\n單發傷害與便利\n風之力＋信心京子\n\n風之力把高物理傷害、吸法、擊退放在武器上；代價是狂熱跟著京子走。先依實際弓底材、狂熱等級與裝備 IAS 判讀射速，不能把 7F 當成所有配裝的常數。\n\n本次實穿\n信心＋迷霧京子\n\n本體固定取得 15 級狂熱，京子用迷霧補專注。頭部 30 IAS＋按手禮 20 IAS 達掃射 2F 連段（完整序列 4+(2)+6F），多重箭 8F 用於收尾；6% 擊中竊取法力靠戒指；沒有硬綁擊退手工手套。\n\n目前的選擇\n信心本體 · 迷霧京子 · 女武神\n\n我以本體自持信心為核心，讓狂熱不受傭兵 AI 跑位影響；京子帶迷霧提供專注。女武神與替身牽制怪群後，以掃射作主要輸出；零散殘怪用多重箭收尾，導引箭補足移動單體的角度。\n\n完成面板顯示多重箭 1,077–4,783、掃射 1,614–7,489；準確率分別為 23,827 和 35,370。此數字是這套人物的記錄，不是對所有底材與靈氣條件的保證。首領與特殊怪仍要看實際命中；信心的忽視目標防禦不應解讀成所有目標必中。\n\n背包只放一枚 451 毒傷小型咒符，以持續毒傷壓住可中毒怪物的自然回血；若只為了這項用途，再塞同類毒板的效益不高。弓馬身板較薄，我沒有帶會降低自身物理抗性的破物板。碰到物免，京子的冰寒傷害和本體魔法箭先補非物理輸出；掃射連續命中可多次嘗試觸發亞特瑪的傷害加深，詛咒生效後再看物理傷害能否打進去。\n\n這套也有物理＋冰寒混傷的第二條輸出線。京子持女傑之弓底材的「迷霧」，武器自帶 20 IAS，受到本體 15 級狂熱加速時，再補至少 10 IAS 便能到 8F；目前頭部 15 IAS 珠寶已跨過這個門檻。她的冰凍箭配合迷霧 100% 穿刺與頭、身體鑲嵌的冰寒彩虹刻面，在密集怪群有冰寒輸出和控場作用。京子的降冰抗只強化她自己的命中傷害，並不會替本體降低敵人冰抗。\n\n頭部與按手禮合計 50 IAS，讓掃射達2F 連段，多重箭維持 8F 次急速。以掃射為主便可把其餘裝備欄位留給續航、抗性與傳送，不必為多重箭最後一檔犧牲配裝彈性。雙戒指分別提供 6% 擊中竊取生命和 6% 擊中竊取法力，謎團維持傳送機動，蜘蛛之網與裝備提供 60 FCR。這套並未把手工擊退手套當成必需，若要更重視推開怪物，可再拿該欄位與按手禮的攻速、對惡魔傷害交換。\n\n15 級\n本體狂熱\n50 IAS · 2F\n攻擊速度（掃射）\n50 IAS · 8F\n攻擊速度（多重箭）\n8F\n京子冰凍箭 · 迷霧\n75×4\n地獄四抗\n配裝判讀重點\nBUILD TARGETS\n狂熱歸屬\n\n本體持信心能維持自己的狂熱；京子的專注仍要看距離。\n\n掃射主輸出\n\n先讓女武神和替身接怪，50 IAS 的 2F 連段掃射連射清群；多重箭 8F 負責殘怪收尾。\n\n物理竊取\n\n本次生命、法力各 6%；吸取效率仍因怪物類型而異。\n\n射速取捨\n\n這套信心主母之弓與 15 級狂熱下，50 IAS 達掃射 2F 連段、多重箭 8F；主掃射可保留更多配裝空間。\n\n擊退取捨\n\n按手禮是實穿；手工擊退手套是另一種防守方向。\n\n京子冰傷\n\n女傑之弓迷霧與 15 級狂熱配合，頭部補 15 IAS 達 8F；冰凍箭穿刺和冰寒刻面兼顧控場。",
+  "gear": [
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "正手武器：信心",
+      "slot": "正手武器",
+      "name": "信心",
+      "base": "主母之弓 · 歐姆＋喬＋藍姆＋艾德",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/reflex_bow.webp",
+      "meta": [
+        "雙手傷害 62–320",
+        "需要敏捷 152",
+        "需要力量 108",
+        "需要等級 65",
+        "鑲孔（4）"
+      ],
+      "stats": [
+        {
+          "text": "裝備時賦予等級 15 狂熱靈氣",
+          "important": true
+        },
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+3 弓與弩技能（僅限亞馬遜）",
+          "important": false
+        },
+        {
+          "text": "+345% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "無視目標防禦",
+          "important": true
+        },
+        {
+          "text": "300% 準確率加成",
+          "important": false
+        },
+        {
+          "text": "+3 準確率",
+          "important": false
+        },
+        {
+          "text": "+75% 對不死生物的傷害",
+          "important": false
+        },
+        {
+          "text": "+50 對不死生物的準確率",
+          "important": false
+        },
+        {
+          "text": "附加 120 火焰傷害",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +15",
+          "important": false
+        },
+        {
+          "text": "擊殺目標時有 10% 機率復活為亡靈骷髏",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 75%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "箭袋：箭矢",
+      "slot": "箭袋",
+      "name": "箭矢",
+      "base": "弓箭消耗品",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/arrows.webp",
+      "meta": [],
+      "stats": [
+        {
+          "text": "維持足夠箭矢，避免長圖途中斷箭。",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "頭部：靈魂澆洒",
+      "slot": "頭部",
+      "name": "靈魂澆洒",
+      "base": "稀有權冠 · 2 孔，內含兩顆 15 IAS／15 最大傷害珠寶",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/diadem.webp",
+      "meta": [
+        "防禦 50",
+        "需要等級 79",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "+2 亞馬遜技能",
+          "important": false
+        },
+        {
+          "text": "+30% 攻擊速度",
+          "important": true
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+30 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+19 敏捷",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "項鍊：亞特瑪的聖甲蟲",
+      "slot": "項鍊",
+      "name": "亞特瑪的聖甲蟲",
+      "base": "獨特護身符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/amulet.webp",
+      "meta": [
+        "需要等級 60"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 5% 機率施展等級 2 傷害加深",
+          "important": true
+        },
+        {
+          "text": "準確率加成 20%",
+          "important": false
+        },
+        {
+          "text": "附加 40 毒素傷害，時效 4 秒",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +75%",
+          "important": false
+        },
+        {
+          "text": "攻擊者反傷 5",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +3",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "身體：謎團",
+      "slot": "身體",
+      "name": "謎團",
+      "base": "法師鎧甲 · 喬＋伊司＋貝",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/light_plate.webp",
+      "meta": [
+        "防禦 1,076",
+        "耐久度 60／69",
+        "需要力量 55",
+        "需要等級 65",
+        "鑲孔（3）"
+      ],
+      "stats": [
+        {
+          "text": "+2 所有技能",
+          "important": false
+        },
+        {
+          "text": "+45% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "+1 傳送術",
+          "important": true
+        },
+        {
+          "text": "+15% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+775 防禦",
+          "important": false
+        },
+        {
+          "text": "+74 力量（依角色等級）",
+          "important": false
+        },
+        {
+          "text": "生命上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "傷害降低 8%",
+          "important": false
+        },
+        {
+          "text": "+14 生命在每殺一個敵人後取得",
+          "important": false
+        },
+        {
+          "text": "15% 受到的傷害轉為法力",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 99%",
+          "important": false
+        },
+        {
+          "text": "耐久度上限提高 15%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "手套：按手禮",
+      "slot": "手套",
+      "name": "按手禮",
+      "base": "獨特荊棘手套",
+      "quality": "unique",
+      "image": "/images/builds/three-mm-bow/laying-of-hands-preview.webp",
+      "meta": [
+        "防禦 87",
+        "需要等級 63"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 10% 機率施展等級 3 聖光彈",
+          "important": false
+        },
+        {
+          "text": "+20% 攻擊速度",
+          "important": true
+        },
+        {
+          "text": "+350% 對惡魔的傷害",
+          "important": true
+        },
+        {
+          "text": "+25 防禦",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +50%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "戒指一：骸骨之眼",
+      "slot": "戒指一",
+      "name": "骸骨之眼",
+      "base": "稀有戒指",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 48"
+      ],
+      "stats": [
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 6% 生命",
+          "important": true
+        },
+        {
+          "text": "+30 生命",
+          "important": false
+        },
+        {
+          "text": "冰寒抗性 +40%",
+          "important": false
+        },
+        {
+          "text": "電擊抗性 +40%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +11%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +11%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "腰帶：蜘蛛之網",
+      "slot": "腰帶",
+      "name": "蜘蛛之網",
+      "base": "蛛網束帶",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/sash.webp",
+      "meta": [
+        "防禦 138",
+        "需要等級 80"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "使目標減慢 10%",
+          "important": false
+        },
+        {
+          "text": "+120% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "法力上限提高 5%",
+          "important": false
+        },
+        {
+          "text": "等級 3 淬毒（11／11 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "戒指二：畏怖之眼",
+      "slot": "戒指二",
+      "name": "畏怖之眼",
+      "base": "稀有戒指",
+      "quality": "rare",
+      "image": "/images/d2r-game-items/ring.webp",
+      "meta": [
+        "需要等級 74"
+      ],
+      "stats": [
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "擊中竊取 6% 法力",
+          "important": true
+        },
+        {
+          "text": "冰寒抗性 +32%",
+          "important": false
+        },
+        {
+          "text": "電擊抗性 +39%",
+          "important": false
+        },
+        {
+          "text": "火焰抗性 +9%",
+          "important": false
+        },
+        {
+          "text": "毒素抗性 +9%",
+          "important": false
+        },
+        {
+          "text": "被凍結的時效減半",
+          "important": true
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "腳部：戰爭旅者",
+      "slot": "腳部",
+      "name": "戰爭旅者",
+      "base": "獨特戰鬥靴",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/light_plated_boots.webp",
+      "meta": [
+        "防禦 139",
+        "需要力量 95",
+        "需要等級 42"
+      ],
+      "stats": [
+        {
+          "text": "+25% 跑步／行走速度",
+          "important": false
+        },
+        {
+          "text": "附加 15–25 傷害",
+          "important": true
+        },
+        {
+          "text": "+190% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+10 力量",
+          "important": false
+        },
+        {
+          "text": "+10 體力",
+          "important": false
+        },
+        {
+          "text": "耐力消耗減緩 40%",
+          "important": false
+        },
+        {
+          "text": "攻擊者反傷 10",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 50%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "大型咒符：地獄火炬",
+      "slot": "大型咒符",
+      "name": "地獄火炬",
+      "base": "獨特大型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/hellfire-torch-v2.webp",
+      "meta": [
+        "需要等級 75"
+      ],
+      "stats": [
+        {
+          "text": "擊中時有 5% 機率施展等級 10 火焰風暴",
+          "important": false
+        },
+        {
+          "text": "+3 亞馬遜技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +8",
+          "important": false
+        },
+        {
+          "text": "等級 30 多頭蛇（10／10 次）",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符：毀滅",
+      "slot": "小型咒符",
+      "name": "毀滅",
+      "base": "獨特小型咒符",
+      "quality": "unique",
+      "image": "/images/d2r-game-items/annihilus-v2.webp",
+      "meta": [
+        "需要等級 70"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+20 所有屬性",
+          "important": false
+        },
+        {
+          "text": "所有抗性 +20",
+          "important": false
+        },
+        {
+          "text": "獲得的經驗值 +5%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 1：活力之良質小型咒符",
+      "slot": "小型咒符 1",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 2：活力之良質小型咒符",
+      "slot": "小型咒符 2",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 3：活力之良質小型咒符",
+      "slot": "小型咒符 3",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 4：活力之良質小型咒符",
+      "slot": "小型咒符 4",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 5：活力之良質小型咒符",
+      "slot": "小型咒符 5",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 6：活力之良質小型咒符",
+      "slot": "小型咒符 6",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 7：活力之良質小型咒符",
+      "slot": "小型咒符 7",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 8：活力之良質小型咒符",
+      "slot": "小型咒符 8",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 9：炭疽之疫病小型咒符",
+      "slot": "小型咒符 9",
+      "name": "炭疽之疫病小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 80"
+      ],
+      "stats": [
+        {
+          "text": "+451 毒素傷害，時效 12 秒",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 10：活力之良質小型咒符",
+      "slot": "小型咒符 10",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 11：活力之良質小型咒符",
+      "slot": "小型咒符 11",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 12：活力之良質小型咒符",
+      "slot": "小型咒符 12",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 13：活力之良質小型咒符",
+      "slot": "小型咒符 13",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 14：活力之良質小型咒符",
+      "slot": "小型咒符 14",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 15：活力之良質小型咒符",
+      "slot": "小型咒符 15",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 16：活力之良質小型咒符",
+      "slot": "小型咒符 16",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 17：活力之良質小型咒符",
+      "slot": "小型咒符 17",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 18：活力之良質小型咒符",
+      "slot": "小型咒符 18",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 19：活力之良質小型咒符",
+      "slot": "小型咒符 19",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 20：活力之良質小型咒符",
+      "slot": "小型咒符 20",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 21：活力之良質小型咒符",
+      "slot": "小型咒符 21",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 22：活力之良質小型咒符",
+      "slot": "小型咒符 22",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 23：活力之良質小型咒符",
+      "slot": "小型咒符 23",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 24：活力之良質小型咒符",
+      "slot": "小型咒符 24",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 25：活力之良質小型咒符",
+      "slot": "小型咒符 25",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 26：活力之良質小型咒符",
+      "slot": "小型咒符 26",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 27：活力之良質小型咒符",
+      "slot": "小型咒符 27",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 28：活力之良質小型咒符",
+      "slot": "小型咒符 28",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 29：活力之良質小型咒符",
+      "slot": "小型咒符 29",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 30：活力之良質小型咒符",
+      "slot": "小型咒符 30",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 31：活力之良質小型咒符",
+      "slot": "小型咒符 31",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 32：活力之良質小型咒符",
+      "slot": "小型咒符 32",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 33：活力之良質小型咒符",
+      "slot": "小型咒符 33",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 34：活力之良質小型咒符",
+      "slot": "小型咒符 34",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 35：活力之良質小型咒符",
+      "slot": "小型咒符 35",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 36：活力之良質小型咒符",
+      "slot": "小型咒符 36",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "I",
+      "label": "小型咒符 37：活力之良質小型咒符",
+      "slot": "小型咒符 37",
+      "name": "活力之良質小型咒符",
+      "base": "小型咒符",
+      "quality": "magic",
+      "image": "/images/d2r-game-items/charm-shapes/small-bear-claw.png",
+      "meta": [
+        "需要等級 39"
+      ],
+      "stats": [
+        {
+          "text": "+3 最大傷害",
+          "important": false
+        },
+        {
+          "text": "+17 準確率",
+          "important": false
+        },
+        {
+          "text": "+20 生命",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "II",
+      "label": "副手武器：戰爭召喚",
+      "slot": "副手武器",
+      "name": "戰爭召喚",
+      "base": "水晶劍 · 安姆＋拉爾＋馬爾＋伊司特＋歐姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/crystal_sword.webp",
+      "meta": [
+        "單手傷害 18–56",
+        "耐久度 17／20",
+        "需要力量 43",
+        "需要等級 57",
+        "極快攻擊速度",
+        "攻擊距離 2",
+        "鑲孔（5）"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+40% 攻擊速度",
+          "important": false
+        },
+        {
+          "text": "+274% 傷害強化",
+          "important": false
+        },
+        {
+          "text": "附加 5–30 火焰傷害",
+          "important": false
+        },
+        {
+          "text": "擊中竊取 7% 生命",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥指揮",
+          "important": false
+        },
+        {
+          "text": "+6 戰鬥命令",
+          "important": false
+        },
+        {
+          "text": "+4 戰鬥怒吼",
+          "important": false
+        },
+        {
+          "text": "防止怪物治療",
+          "important": false
+        },
+        {
+          "text": "生命恢復 +12",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 30%",
+          "important": false
+        }
+      ]
+    },
+    {
+      "loadout": null,
+      "weaponSet": "II",
+      "label": "副手盾牌：燦爛",
+      "slot": "副手盾牌",
+      "name": "燦爛",
+      "base": "鳶盾 · 愛斯＋盧姆",
+      "quality": "runeword",
+      "image": "/images/d2r-game-items/kite_shield.webp",
+      "meta": [
+        "防禦 39",
+        "格擋機率 33%",
+        "耐久度 30／30",
+        "需要力量 47",
+        "需要等級 37",
+        "鑲孔（2）"
+      ],
+      "stats": [
+        {
+          "text": "+1 所有技能",
+          "important": false
+        },
+        {
+          "text": "+10% 快速施法速度",
+          "important": true
+        },
+        {
+          "text": "+20% 快速格擋速度",
+          "important": false
+        },
+        {
+          "text": "+108% 防禦強化",
+          "important": false
+        },
+        {
+          "text": "+10 能量",
+          "important": false
+        },
+        {
+          "text": "法力恢復速度提高 15%",
+          "important": false
+        },
+        {
+          "text": "怪物金幣掉落量提高 50%",
+          "important": false
+        },
+        {
+          "text": "尋獲魔法物品機率提高 20%",
+          "important": false
+        },
+        {
+          "text": "照亮範圍 +3",
+          "important": false
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "tree": "弓與弩 62 硬點",
+      "skills": [
+        {
+          "label": "魔法箭，投入 1 點，常駐 15 級",
+          "detail": "前置／物理免疫備案\n魔法箭\n投入點數\n1\n常駐完成\n15\n戰鬥指揮後\n16\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+3\n\n投入 1 點保留魔法傷害射擊，物理免疫尚未處理時，可配合京子的冰寒輸出逐一補刀。這招將部分物理傷害轉為魔法傷害，並可在缺少箭矢時使用；本套以裝備把它提升至常駐 15 級，主要點數仍留給掃射及其協同。\n\n技能分支\n弓與弩\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "冷霜箭，投入 1 點，常駐 15 級",
+          "detail": "前置技能\n冷霜箭\n投入點數\n1\n常駐完成\n15\n戰鬥指揮後\n16\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+3\n\n投入 1 點作為導引箭與掃射路線的前置，常駐 15 級；需要單點緩速時也能補上一箭。這套以物理弓技為主，沒有繼續投資冰寒傷害協同，清群控場則由京子的冰凍箭與雙前排支援，把硬點留給主攻與召喚配置。\n\n技能分支\n弓與弩\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "多重箭，投入 20 點，常駐 34 級",
+          "detail": "收尾補漏\n多重箭\n投入點數\n20\n常駐完成\n34\n戰鬥指揮後\n35\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+3\n\n投入 20 點，除了用 8F 箭幕收掉寬面殘怪，也以硬點支援掃射的傷害協同。它適合補漏與快速照顧散開的目標，持續主攻仍交給掃射；射前先調整方向，避免箭幕大量打空而增加法力壓力。常駐 34 級，面板傷害 1,077–4,783。\n\n技能分支\n弓與弩\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "導引箭，投入 20 點，常駐 34 級",
+          "detail": "單體補位\n導引箭\n投入點數\n20\n常駐完成\n34\n戰鬥指揮後\n35\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+3\n\n投入 20 點，同時支援掃射與多重箭的傷害協同，讓這份投資不只用在單體補刀。導引箭可追蹤目標，適合處理移動中的殘怪或不易直射的角度；它不會因貫穿攻勢而反覆穿越敵人。常駐 34 級，主要連射火力仍由掃射負責。\n\n技能分支\n弓與弩\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "掃射，投入 20 點，常駐 34 級",
+          "detail": "主力輸出 · 2F 連段\n掃射\n投入點數\n20\n常駐完成\n34\n戰鬥指揮後\n35\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+3\n\n投入 20 點作為主要輸出；50 IAS 配合 15 級狂熱達掃射 2F 連段（完整序列 4+(2)+6F），常駐 34 級，面板傷害 1,614–7,489。先讓替身與女武神接怪，再連射集中火力；掃射期間角色會短暫站定，遇到側面包圍時先重整位置，再開下一輪。\n\n技能分支\n弓與弩\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    },
+    {
+      "tree": "被動與魔法 48 硬點",
+      "skills": [
+        {
+          "label": "心靈視野，投入 1 點，常駐 12 級",
+          "detail": "降低敵方防禦\n心靈視野\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點降低附近敵人的防禦，替本體的物理命中與前排攻擊提供支援。信心雖有準確率加成，仍應觀察首領與特殊怪的命中情況，必要時先補放此技再掃射。常駐 12 級，保留功能即可，把更多點數投入主攻技能與前排。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "致命攻勢，投入 1 點，常駐 12 級",
+          "detail": "物理傷害被動\n致命攻勢\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，讓物理箭矢有機率造成雙倍物理傷害；常駐 12 級，主要靠穿戴技能補足效果。掃射、多重箭與導引箭都能從物理輸出受益，但此被動不會把京子的冰寒傷害一起放大。點數優先維持三項弓技和雙前排的完整配置。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "閃躲，投入 1 點，常駐 12 級",
+          "detail": "近戰防禦\n閃躲\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，站立或攻擊時有機率迴避近戰攻擊，替掃射停留原地的時段增加容錯。女武神與替身仍要先放在前方；近戰怪繞到本體旁時，優先走位或傳送重整隊伍。常駐 12 級，以裝備加成支援防禦，不額外分散主攻點數。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "緩箭術，投入 1 點，常駐 12 級",
+          "detail": "遠程控場\n緩箭術\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，面對密集遠程投射物時先減緩壓力，讓本體與京子有時間換位。配合替身把火力引向前方，再找安全射線開掃射；這招適合在開戰前或遠程怪增援時補放。常駐 12 級，保留功能用途，無須為此犧牲核心協同。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "閃身，投入 1 點，常駐 12 級",
+          "detail": "遠程防禦\n閃身\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，站立或攻擊時有機率迴避遠程攻擊，支援掃射連射期間的安全。被動效果與緩箭術、替身可以共同減輕遠程壓力，但交叉火線仍需靠走位避開。常駐 12 級，讓裝備技能提供防護，硬點留給輸出與女武神。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "精準攻勢，投入 1 點，常駐 12 級",
+          "detail": "準確率支援\n精準攻勢\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點提高準確率，支援掃射、多重箭的物理命中與擊中竊取。信心已有準確率加成及無視目標防禦，仍不能把首領與所有特殊目標都當成必中。常駐 12 級，若續航或輸出不順，先檢查實際命中，再評估是否需要調整投資。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "替身，投入 20 點，常駐 31 級",
+          "detail": "站位控場\n替身\n投入點數\n20\n常駐完成\n31\n戰鬥指揮後\n32\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 20 點，將怪群的注意力引到本體與京子前方，替雙弓手保留射擊空間。可先在路口或預定交戰位置放置，怪群轉向後再接掃射；位置不佳時直接重放。常駐 31 級，硬點也支援女武神生存，使雙前排配置更穩定。\n\n技能分支\n被動與魔法\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "閃避，投入 1 點，常駐 12 級",
+          "detail": "移動防禦\n閃避\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點，在行走或跑步時提供機率迴避，補強傳送前後的短距離拉怪與調整射線。先移到女武神、替身能承接壓力的位置，再停下掃射，能讓被動與主動操作各有用途。常駐 12 級，無須為此拆減三項弓技的協同投資。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "女武神，投入 20 點，常駐 31 級",
+          "detail": "第三位美眉／前排\n女武神\n投入點數\n20\n常駐完成\n31\n戰鬥指揮後\n32\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 20 點召喚第三位美眉，讓女武神承擔近身牽制，本體與京子在後方持續射擊。配合滿點替身分散敵人注意，女武神走偏或前排空缺時可重新召喚。常駐 31 級，這套的重點是維持雙弓手安全輸出，不要求本體承受整群近戰。\n\n技能分支\n被動與魔法\n配置狀態\n核心滿點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        },
+        {
+          "label": "貫穿攻勢，投入 1 點，常駐 12 級",
+          "detail": "群怪覆蓋\n貫穿攻勢\n投入點數\n1\n常駐完成\n12\n戰鬥指揮後\n13\n穿戴通用\n+7\n火炬／毀符\n+4\n分支加成\n+0\n\n投入 1 點提高箭矢穿過敵人的機會，讓掃射與多重箭更容易覆蓋同一直線的後排。常駐 12 級，以裝備補足被動後，把硬點留給主攻與雙前排；開火前先聚怪與調整角度。京子迷霧的穿刺屬於她自身，本體仍以自己的貫穿攻勢判定。\n\n技能分支\n被動與魔法\n配置狀態\n前置／功能點\n常駐完成為正手配裝等級；施放戰鬥指揮並切回正手後提高 1 級。"
+        }
+      ]
+    }
+  ],
+  "character": {
+    "summary": "主要輸出\n完成面板\n掃射傷害\n1,614–7,489\n掃射準確率\n35,370\n多重箭傷害\n1,077–4,783\n多重箭準確率\n23,827",
+    "groups": [
+      {
+        "group": "速度",
+        "rows": [
+          [
+            "攻擊速度（掃射）",
+            "50 IAS · 2F"
+          ],
+          [
+            "攻擊速度（多重箭）",
+            "50 IAS · 8F"
+          ],
+          [
+            "快速施法",
+            "60 FCR · 14F"
+          ],
+          [
+            "快速施法（副手）",
+            "70 FCR · 13F"
+          ],
+          [
+            "打擊恢復",
+            "0 FHR · 11F"
+          ],
+          [
+            "跑步／行走速度",
+            "70%"
+          ],
+          [
+            "本體狂熱",
+            "15 級"
+          ]
+        ]
+      },
+      {
+        "group": "輸出",
+        "rows": [
+          [
+            "掃射傷害",
+            "1,614–7,489"
+          ],
+          [
+            "多重箭傷害",
+            "1,077–4,783"
+          ],
+          [
+            "掃射準確率",
+            "35,370"
+          ],
+          [
+            "多重箭準確率",
+            "23,827"
+          ],
+          [
+            "對惡魔傷害",
+            "+350%"
+          ],
+          [
+            "對不死生物傷害",
+            "+75%"
+          ],
+          [
+            "無視目標防禦",
+            "已具備"
+          ],
+          [
+            "亞特瑪傷害加深",
+            "擊中時機率觸發"
+          ],
+          [
+            "使目標減慢",
+            "10%"
+          ]
+        ]
+      },
+      {
+        "group": "防禦",
+        "rows": [
+          [
+            "生命",
+            "1,258"
+          ],
+          [
+            "法力",
+            "230"
+          ],
+          [
+            "防禦",
+            "1,637"
+          ],
+          [
+            "地獄四抗",
+            "火75電75冰75毒75"
+          ],
+          [
+            "物理傷害降低",
+            "8%"
+          ],
+          [
+            "凍結時效減半",
+            "已具備"
+          ],
+          [
+            "裝備生命上限提高",
+            "5%"
+          ]
+        ]
+      },
+      {
+        "group": "其他",
+        "rows": [
+          [
+            "擊中竊取生命",
+            "6%"
+          ],
+          [
+            "擊中竊取法力",
+            "6%"
+          ],
+          [
+            "擊殺生命恢復",
+            "+14"
+          ],
+          [
+            "法力上限提高",
+            "5%"
+          ],
+          [
+            "受到傷害轉為法力",
+            "15%"
+          ],
+          [
+            "耐力消耗減緩",
+            "40%"
+          ],
+          [
+            "尋獲魔法物品機率",
+            "149%"
+          ],
+          [
+            "怪物金幣掉落量",
+            "75%"
+          ],
+          [
+            "獲得經驗值",
+            "+5%"
+          ],
+          [
+            "照亮範圍",
+            "+11"
+          ],
+          [
+            "攻擊者反傷",
+            "15 點"
+          ]
+        ]
+      }
+    ]
+  },
+  "merc": {
+    "gear": [
+      {
+        "label": "武器：迷霧",
+        "slot": "武器",
+        "name": "迷霧",
+        "base": "女傑之弓 · 查姆＋夏＋古爾＋書爾＋伊司",
+        "quality": "runeword",
+        "image": "/images/d2r-game-items/stag_bow.webp",
+        "meta": [
+          "雙手傷害 97–236",
+          "需要力量 87",
+          "需要敏捷 187",
+          "需要等級 67",
+          "鑲孔（5）"
+        ],
+        "stats": [
+          {
+            "text": "裝備時賦予等級 12 專注靈氣",
+            "important": true
+          },
+          {
+            "text": "+3 所有技能",
+            "important": false
+          },
+          {
+            "text": "+3 弓與弩技能（僅限亞馬遜）",
+            "important": false
+          },
+          {
+            "text": "+20% 攻擊速度",
+            "important": false
+          },
+          {
+            "text": "+100% 穿刺攻擊",
+            "important": true
+          },
+          {
+            "text": "+385% 傷害強化",
+            "important": false
+          },
+          {
+            "text": "+9 最大傷害",
+            "important": false
+          },
+          {
+            "text": "+20% 準確率加成",
+            "important": false
+          },
+          {
+            "text": "+3 準確率",
+            "important": false
+          },
+          {
+            "text": "附加 3–14 冰寒傷害",
+            "important": false
+          },
+          {
+            "text": "凍結目標 +3",
+            "important": false
+          },
+          {
+            "text": "+24 體力",
+            "important": false
+          },
+          {
+            "text": "所有抗性 +40",
+            "important": false
+          }
+        ]
+      },
+      {
+        "label": "頭部：骸骨節章",
+        "slot": "頭部",
+        "name": "骸骨節章",
+        "base": "稀有權冠 · 2 孔，內含 15 IAS／40 ED 珠寶與冰寒彩虹刻面",
+        "quality": "rare",
+        "image": "/images/d2r-game-items/diadem.webp",
+        "meta": [
+          "防禦 56",
+          "需要等級 79",
+          "鑲孔（2）"
+        ],
+        "stats": [
+          {
+            "text": "死亡時有 100% 機率施展等級 37 暴風雪",
+            "important": false
+          },
+          {
+            "text": "+2 亞馬遜技能",
+            "important": false
+          },
+          {
+            "text": "+30% 跑步／行走速度",
+            "important": false
+          },
+          {
+            "text": "+15% 攻擊速度",
+            "important": false
+          },
+          {
+            "text": "+40% 傷害強化",
+            "important": false
+          },
+          {
+            "text": "附加 24–38 冰寒傷害",
+            "important": false
+          },
+          {
+            "text": "敵人冰寒抗性 −5%",
+            "important": true
+          },
+          {
+            "text": "冰寒技能傷害 +5%",
+            "important": true
+          },
+          {
+            "text": "擊中竊取 7% 生命",
+            "important": true
+          },
+          {
+            "text": "+20 敏捷",
+            "important": false
+          },
+          {
+            "text": "火焰抗性 +6%",
+            "important": false
+          }
+        ]
+      },
+      {
+        "label": "身體：巨鯨之珠寶匠",
+        "slot": "身體",
+        "name": "巨鯨之珠寶匠",
+        "base": "統御者鎧甲 · 4 孔，內含四枚冰寒彩虹刻面",
+        "quality": "magic",
+        "image": "/images/builds/three-mm-bow/merc-armor-preview.webp",
+        "meta": [
+          "防禦 453",
+          "需要力量 103",
+          "需要等級 63",
+          "鑲孔（4）"
+        ],
+        "stats": [
+          {
+            "text": "死亡時有 400% 機率施展等級 37 暴風雪",
+            "important": false
+          },
+          {
+            "text": "附加 96–152 冰寒傷害",
+            "important": false
+          },
+          {
+            "text": "敵人冰寒抗性 −20%",
+            "important": true
+          },
+          {
+            "text": "冰寒技能傷害 +20%",
+            "important": true
+          },
+          {
+            "text": "+97 生命",
+            "important": false
+          }
+        ]
+      }
+    ],
+    "support": [
+      "A1 京子 · 等級 98\n專注 × 狂熱 · 冰箭控場\n\n京子的迷霧提供專注，角色的信心提供狂熱，兩種靈氣分別支援物理傷害與攻擊節奏。冰凍箭搭配穿刺，在怪群中補冰傷並控制可冰凍目標。\n\n專注 · 傭兵迷霧\n等級 12 · 半徑 25.3 碼\n提供 +225% 物理傷害與 20% 攻擊不被中斷機率；裝備靈氣固定 12 級。\n狂熱 · 角色信心\n等級 15 · 半徑 16.6 碼\n提供技能攻速 33%、準確率 +110%；隊友與傭兵獲得 +144% 物理傷害。角色切到副手後，此靈氣不再由信心提供。\n心靈視野\n等級 36 · 半徑 18 碼\n降低範圍內怪物防禦，協助角色、傭兵與召喚物命中。等級包含迷霧與頭冠共 +5 技能。\n冷霜箭／冰凍箭\n等級 39／17 · 冰凍箭半徑 3.3 碼\n弓技另取得迷霧底材 +3 弓與弩技能；迷霧 100% 穿刺配合冰箭控場，首領與不可冰凍目標不會被同樣凍住。"
+    ],
+    "text": "武器\n頭部\n身體\n身體\n巨鯨之珠寶匠\n統御者鎧甲 · 4 孔，內含四枚冰寒彩虹刻面\n防禦 453\n需要力量 103\n需要等級 63\n鑲孔（4）\n死亡時有 400% 機率施展等級 37 暴風雪\n附加 96–152 冰寒傷害\n敵人冰寒抗性 −20%\n重要屬性\n冰寒技能傷害 +20%\n重要屬性\n+97 生命\nA1 京子 · 等級 98\n專注 × 狂熱 · 冰箭控場\n\n京子的迷霧提供專注，角色的信心提供狂熱，兩種靈氣分別支援物理傷害與攻擊節奏。冰凍箭搭配穿刺，在怪群中補冰傷並控制可冰凍目標。\n\n專注 · 傭兵迷霧\n等級 12 · 半徑 25.3 碼\n提供 +225% 物理傷害與 20% 攻擊不被中斷機率；裝備靈氣固定 12 級。\n狂熱 · 角色信心\n等級 15 · 半徑 16.6 碼\n提供技能攻速 33%、準確率 +110%；隊友與傭兵獲得 +144% 物理傷害。角色切到副手後，此靈氣不再由信心提供。\n心靈視野\n等級 36 · 半徑 18 碼\n降低範圍內怪物防禦，協助角色、傭兵與召喚物命中。等級包含迷霧與頭冠共 +5 技能。\n冷霜箭／冰凍箭\n等級 39／17 · 冰凍箭半徑 3.3 碼\n弓技另取得迷霧底材 +3 弓與弩技能；迷霧 100% 穿刺配合冰箭控場，首領與不可冰凍目標不會被同樣凍住。"
+  },
+  "field": "FIELD MANUAL · THREE MAIDENS\n先架前排，再展開箭幕\n\n讓女武神、替身接怪，本體和京子留在能持續輸出的射線上。\n\nI\n副手整備\n\n戰爭召喚＋燦爛完成戰鬥指揮與戰鬥命令，切回信心；檢查箭袋數量並召喚女武神。\n\nII\n雙弓手站位\n\n本體狂熱常駐，京子的專注要看實際距離。讓女武神、替身在前方牽制怪群，避免京子落後。\n\nIII\n2F 連段掃射清群\n\n掃射是主要輸出，50 IAS 配合本體狂熱達 2F 連段；讓女武神與替身先接怪，再從安全射線連射。\n\nIV\n多重箭收尾\n\n零散殘怪用 8F 多重箭收尾，移動中的精英或首領用導引箭補角度；掃射期間留意近身威脅。\n\n傭兵脫隊\n\n新版配裝仍保有本體狂熱，但京子的專注可能因距離或死亡而中斷。傳送集合、重新放替身，再繼續輸出。\n\n續航與物免\n\n兩枚戒指各提供 6% 物理竊取；物免由京子冰凍箭、本體魔法箭與亞特瑪傷害加深分工。遇到冰免、不能吸取或詛咒尚未觸發時，先改站位與控場。"
+}
