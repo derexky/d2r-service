@@ -10,10 +10,9 @@ export class RunewordsService {
     private readonly repo: Repository<Runeword>,
   ) {}
 
-  findAll(query: { slot?: string; version?: string }) {
+  findAll(query: { slot?: string }) {
     const where: FindOptionsWhere<Runeword> = {};
     if (query.slot) where.slot = query.slot;
-    if (query.version) where.version = query.version;
     return this.repo.find({
       where,
       relations: { stat_list: true },

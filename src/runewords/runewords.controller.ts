@@ -6,11 +6,8 @@ export class RunewordsController {
   constructor(private readonly service: RunewordsService) {}
 
   @Get()
-  async findAll(
-    @Query('slot') slot?: string,
-    @Query('version') version?: string,
-  ) {
-    const data = await this.service.findAll({ slot, version });
+  async findAll(@Query('slot') slot?: string) {
+    const data = await this.service.findAll({ slot });
     return { data, total: data.length };
   }
 

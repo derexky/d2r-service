@@ -21,14 +21,14 @@ export class Runeword {
   @Column('text')
   runes!: string;
 
-  @Column({ nullable: true })
-  version!: string;
-
   @Column('text', { nullable: true })
   effects!: string;
 
   @Column('text', { nullable: true })
   stat_labels!: string;
+
+  @Column({ name: 'is_only_ladder', default: false })
+  isOnlyLadder!: boolean;
 
   @OneToMany(() => RunewordStat, (stat: RunewordStat) => stat.runeword)
   stat_list!: RunewordStat[];
