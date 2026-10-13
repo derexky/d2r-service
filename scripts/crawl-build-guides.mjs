@@ -63,7 +63,11 @@ async function clickAll(page, selector, fn) {
 async function openTab(page, en) {
   await page.locator('.d2PlannerTabs button').filter({ hasText: en }).click();
   await page.waitForTimeout(300);
+  await expandDetails(page);
 }
+
+// 摺疊的 <details> 內容不計入 innerText，抓文字前全部展開
+const expandDetails = (page) => page.evaluate(() => document.querySelectorAll('details').forEach((d) => (d.open = true)));
 
 const viewText = (page) => page.locator('.d2Planner .d2View').first().innerText();
 
@@ -145,6 +149,7 @@ async function crawlPage(page, url) {
       .map((d) => [d.querySelector('dt').textContent.trim(), d.querySelector('dd').textContent.trim()])),
   }));
   // 工作台區塊就是角色介面本身，下面逐分頁抓，這裡略過避免重複
+  await expandDetails(page);
   const sections = (await page.locator('.iceGuideMain').evaluate(readSections)).filter((s) => s.key !== 'iceGuideWorkbench');
   const telemetry = await page.locator('.iceGuideTelemetry').evaluate((el) => ({
     attributes: Object.fromEntries([...el.querySelectorAll('dl > div')]
