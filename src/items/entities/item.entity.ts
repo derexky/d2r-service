@@ -38,6 +38,9 @@ export class Item {
   stats_v2!: string;
 
   @Column({ nullable: true })
+  class_restrict!: string;
+
+  @Column({ nullable: true })
   baseItemId!: number;
 
   @ManyToOne(() => BaseItem, { nullable: true })

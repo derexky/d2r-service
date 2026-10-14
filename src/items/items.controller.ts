@@ -10,8 +10,9 @@ export class ItemsController {
     @Query('category') category?: string,
     @Query('tier') tier?: string,
     @Query('search') search?: string,
+    @Query('class') cls?: string,
   ) {
-    const data = await this.service.findAll({ category, tier, search });
+    const data = await this.service.findAll({ category, tier, search, class: cls });
     return { data, total: data.length };
   }
 

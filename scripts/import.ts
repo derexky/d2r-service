@@ -195,7 +195,7 @@ async function main() {
     if (!fs.existsSync(fp)) continue;
     const parsed = parseItemFile(fp, conf.file);
     for (const p of parsed) {
-      allItems.push({ ...nullToUndef(p), category: conf.category, tier: conf.tier });
+      allItems.push({ ...nullToUndef(p), category: conf.category, tier: conf.tier, class_restrict: conf.class_restrict });
     }
   }
   // D2R patch additions (items not in iya-backup)
