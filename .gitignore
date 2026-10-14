@@ -3,3 +3,4 @@ dist
 ## *.sqlite  # d2r.sqlite is committed for production deployment
 *.local
 .DS_Store
+.env

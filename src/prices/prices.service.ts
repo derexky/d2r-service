@@ -1,32 +1,22 @@
-import { Injectable, OnModuleInit } from '@nestjs/common';
-import * as admin from 'firebase-admin';
+import { Injectable } from '@nestjs/common';
 
 export type Mode = 'sc' | 'hc';
-type Combo = `${'ladder' | 'nonladder'}_${Mode}`;
 
-function comboKey(ladder: boolean, mode: Mode): Combo {
-  return `${ladder ? 'ladder' : 'nonladder'}_${mode}`;
+const TRADERIE_URL = process.env.TRADERIE_URL ?? 'http://localhost:7432';
+
+async function traderie(path: string, params: Record<string, string> = {}) {
+  const res = await fetch(`${TRADERIE_URL}/api/prices/${path}?${new URLSearchParams(params)}`, {
+    headers: { 'x-api-token': process.env.TRADERIE_TOKEN ?? '' },
+  });
+  if (!res.ok) throw new Error(`traderie ${path}: HTTP ${res.status}`);
+  const text = await res.text();
+  return text ? JSON.parse(text) : null;
 }
 
 @Injectable()
-export class PricesService implements OnModuleInit {
-  private db!: admin.firestore.Firestore;
-
-  onModuleInit() {
-    if (!admin.apps.length) admin.initializeApp();
-    this.db = admin.firestore();
-  }
-
+export class PricesService {
   async getLatest(item: string, ladder: boolean, mode: Mode) {
-    const snap = await this.db
-      .collection('price_snapshots')
-      .doc(item)
-      .collection(comboKey(ladder, mode))
-      .orderBy('synced_at', 'desc')
-      .limit(1)
-      .get();
-    if (snap.empty) return null;
-    return snap.docs[0].data();
+    return traderie('latest', { item, ladder: String(ladder), mode });
   }
 
   private trackedItemsCache: string[] | null = null;
@@ -38,20 +28,12 @@ export class PricesService implements OnModuleInit {
     if (this.trackedItemsCache && now - this.trackedItemsCacheTime < PricesService.CACHE_TTL) {
       return this.trackedItemsCache;
     }
-    const docs = await this.db.collection('price_snapshots').listDocuments();
-    this.trackedItemsCache = docs.map((d) => d.id);
+    this.trackedItemsCache = (await traderie('items')) as string[];
     this.trackedItemsCacheTime = now;
     return this.trackedItemsCache;
   }
 
   async getHistory(item: string, ladder: boolean, mode: Mode, limit = 24) {
-    const snap = await this.db
-      .collection('price_snapshots')
-      .doc(item)
-      .collection(comboKey(ladder, mode))
-      .orderBy('synced_at', 'desc')
-      .limit(limit)
-      .get();
-    return snap.docs.map((d) => d.data());
+    return traderie('history', { item, ladder: String(ladder), mode, limit: String(limit) });
   }
 }
