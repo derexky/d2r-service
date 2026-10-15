@@ -443,7 +443,7 @@ export function buildStatLabel(
 // ─── Label 標準化 ─────────────────────────────────────────────────────────────
 // 消除 source HTML 翻譯不一致造成的重複 stat_def
 // 職業限制資訊由 item_stats.skill_id 承載，label 不需重複攜帶
-function normalizeLabel(label: string): string {
+export function normalizeLabel(label: string): string {
   return label
     // 去除空括號翻譯殘留：" ( )"、" ()"、"( )"
     .replace(/\s*\(\s*\)\s*/g, '')
@@ -474,6 +474,9 @@ function normalizeLabel(label: string): string {
     .replace(/^\+\s*\d+-\d+\s+(\S+技能)\s*\(限[^)]+\)$/, '$1')
     // 統一 lv / lv. 格式 → 等級（如「機會施展lv5」→「機會施展等級5」）
     .replace(/lv\.?\s*(\d+)/gi, '等級$1')
+    // ── 屬性名與聖騎士靈氣撞名（力量 = Might、精力 = Vigor 舊譯）：保留限定字樣（改全形括號
+    //    避開下一條通用規則），讓「+2 精力 (限聖騎士)」技能與「+15 精力」屬性分屬不同 stat_def
+    .replace(/^(力量|敏捷|體力|精力|活力)\s*\(限([^)]+)\)\s*$/, '$1（限$2）')
     // ── 通用：剝掉「(限xxx)」後綴——職業限制由 skill_id 承載
     // 只剝後綴（前面有其他內容）；純 (限xxx) 獨立行保留原字串
     .replace(/^(.+?)\s*\(限[^)]+\)\s*$/, '$1')

@@ -511,12 +511,17 @@ await ds.getRepository(Build).save(allBuilds);
       if (skill) skillByName.set(typo, skill);
     }
 
-    // label_zh 已在 parseItems normalizeLabel 中剝掉 (限xxx)，直接比名稱即可
+    // label_zh 已在 parseItems normalizeLabel 中剝掉 (限xxx)，直接比名稱即可。
+    // 例外：屬性名與靈氣撞名（力量 = Might、精力 = Vigor 舊譯），純屬性標籤不可連技能；
+    // 技能版本由 normalizeLabel 保留成「精力（限聖騎士）」，去掉後綴再找技能
+    const ATTRIBUTE_LABELS = new Set(['力量', '敏捷', '體力', '精力', '活力']);
     const allStatDefs = await ds.getRepository(StatDef).find();
     const defToSkill = new Map<number, Skill>();
     for (const def of allStatDefs) {
       if (!def.label_zh) continue;
-      const skill = skillByName.get(def.label_zh.trim());
+      const name = def.label_zh.trim();
+      if (ATTRIBUTE_LABELS.has(name)) continue;
+      const skill = skillByName.get(name.replace(/（限[^）]+）$/, ''));
       if (skill) defToSkill.set(def.id, skill);
     }
 
