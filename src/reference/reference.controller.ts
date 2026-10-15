@@ -7,7 +7,13 @@ export class ReferenceController {
 
   @Get('affixes')
   findAffixes(
-    @Query() query: { kind?: string; type?: string; search?: string },
+    @Query()
+    query: {
+      kind?: string;
+      type?: string;
+      search?: string;
+      base?: string;
+    },
   ) {
     return this.referenceService.findAffixes(query);
   }

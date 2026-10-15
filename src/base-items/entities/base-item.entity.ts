@@ -47,4 +47,8 @@ export class BaseItem {
 
   @Column({ nullable: true })
   max_sockets_3!: number;
+
+  // itemtypes.txt code + ancestors, e.g. ["helm", "armo"]; matched against affixes.item_types
+  @Column('simple-json', { nullable: true })
+  item_types!: string[];
 }

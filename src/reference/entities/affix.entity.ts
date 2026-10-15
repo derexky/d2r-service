@@ -32,6 +32,17 @@ export class Affix {
   @Column('simple-json', { nullable: true })
   excluded_types!: string[];
 
+  // game property codes (properties.txt); min/max are raw game values, see `stats` for display text
   @Column('simple-json', { nullable: true })
-  mods!: { code: string; text: string; variable: boolean }[];
+  mods!: { code: string; param: number | string; min: number; max: number }[];
+
+  // itemtypes.txt codes the affix spawns on (`types` holds the d2r.world category gids)
+  @Column('simple-json', { nullable: true })
+  item_types!: string[];
+
+  @Column({ nullable: true })
+  class_specific!: string;
+
+  @Column('simple-json', { nullable: true })
+  stats!: string[];
 }

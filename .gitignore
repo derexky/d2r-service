@@ -4,3 +4,5 @@ dist
 *.local
 .DS_Store
 .env
+backups/
+__pycache__/

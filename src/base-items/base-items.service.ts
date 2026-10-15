@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { FindOptionsWhere, Repository } from 'typeorm';
 import { BaseItem } from './entities/base-item.entity';
 
 @Injectable()
@@ -11,7 +11,7 @@ export class BaseItemsService {
   ) {}
 
   findAll(query: { gid?: string; category?: string; grade?: string }) {
-    const where: Partial<BaseItem> = {};
+    const where: FindOptionsWhere<BaseItem> = {};
     if (query.gid) where.gid = query.gid;
     if (query.category) where.category = query.category;
     if (query.grade) where.grade = query.grade;

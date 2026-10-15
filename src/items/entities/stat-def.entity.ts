@@ -19,6 +19,10 @@ export class StatDef {
   @Column()
   value_type!: string;
 
+  // canonical game property key, shared with affixes.mods[].stat (scripts/d2props.py)
+  @Column({ nullable: true })
+  code!: string;
+
   @OneToMany(() => ItemStat, (stat: ItemStat) => stat.stat_def)
   item_stats!: ItemStat[];
 }

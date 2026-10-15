@@ -2,6 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindOptionsWhere, Repository } from 'typeorm';
 import { Affix } from './entities/affix.entity';
+import { BaseItem } from '../base-items/entities/base-item.entity';
 import { Rune } from './entities/rune.entity';
 import { Mercenary } from './entities/mercenary.entity';
 import { Breakpoint } from './entities/breakpoint.entity';
@@ -9,10 +10,24 @@ import { ExperienceRatio } from './entities/experience-ratio.entity';
 import { Monster } from './entities/monster.entity';
 import { MonsterLevel } from './entities/monster-level.entity';
 
+// affixes.class_specific -> itemtypes.txt class item type
+const CLASS_ITEM_TYPE: Record<string, string> = {
+  ama: 'amaz',
+  ass: 'assn',
+  bar: 'barb',
+  dru: 'drui',
+  nec: 'necr',
+  pal: 'pala',
+  sor: 'sorc',
+  war: 'warl',
+};
+
 @Injectable()
 export class ReferenceService {
   constructor(
     @InjectRepository(Affix) private readonly affixes: Repository<Affix>,
+    @InjectRepository(BaseItem)
+    private readonly baseItems: Repository<BaseItem>,
     @InjectRepository(Rune) private readonly runes: Repository<Rune>,
     @InjectRepository(Mercenary)
     private readonly mercenaries: Repository<Mercenary>,
@@ -25,7 +40,12 @@ export class ReferenceService {
     private readonly monsterLevels: Repository<MonsterLevel>,
   ) {}
 
-  findAffixes(query: { kind?: string; type?: string; search?: string }) {
+  async findAffixes(query: {
+    kind?: string;
+    type?: string;
+    search?: string;
+    base?: string;
+  }) {
     const qb = this.affixes
       .createQueryBuilder('a')
       .orderBy('a.level', 'ASC')
@@ -38,7 +58,24 @@ export class ReferenceService {
       });
     if (query.search)
       qb.andWhere('a.name_zh LIKE :search', { search: `%${query.search}%` });
-    return qb.getMany();
+    const affixes = await qb.getMany();
+    if (!query.base) return affixes;
+
+    // affixes that can roll on this base: a spawn type matches, no excluded type matches,
+    // and class-specific affixes skip other classes' items
+    const base = await this.baseItems.findOneBy({ id: Number(query.base) });
+    if (!base) throw new NotFoundException(`base item ${query.base} not found`);
+    const types = new Set(base.item_types ?? []);
+    return affixes.filter(
+      (a) =>
+        (a.item_types ?? []).some((t) => types.has(t)) &&
+        !(a.excluded_types ?? []).some((t) => types.has(t)) &&
+        !(
+          a.class_specific &&
+          types.has('clas') &&
+          !types.has(CLASS_ITEM_TYPE[a.class_specific])
+        ),
+    );
   }
 
   findRunes() {

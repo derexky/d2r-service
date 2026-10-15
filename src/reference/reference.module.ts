@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Affix } from './entities/affix.entity';
+import { BaseItem } from '../base-items/entities/base-item.entity';
 import { Rune } from './entities/rune.entity';
 import { Mercenary } from './entities/mercenary.entity';
 import { Breakpoint } from './entities/breakpoint.entity';
@@ -14,6 +15,7 @@ import { ReferenceController } from './reference.controller';
   imports: [
     TypeOrmModule.forFeature([
       Affix,
+      BaseItem,
       Rune,
       Mercenary,
       Breakpoint,
