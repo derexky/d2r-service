@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { HttpException, Injectable } from '@nestjs/common';
 
 export type Mode = 'sc' | 'hc';
 
@@ -16,13 +16,34 @@ async function traderie(path: string, params: Record<string, string> = {}) {
   return text ? JSON.parse(text) : null;
 }
 
+// For the admin pages: passes traderie's status and message through (400/404/409)
+async function traderieAdmin(method: string, path: string, body?: unknown) {
+  const res = await fetch(`${TRADERIE_URL}/api/prices/${path}`, {
+    method,
+    headers: {
+      'content-type': 'application/json',
+      'x-api-token': process.env.TRADERIE_TOKEN ?? '',
+    },
+    body: body === undefined ? undefined : JSON.stringify(body),
+  });
+  const data = (await res.json().catch(() => null)) as {
+    message?: string;
+  } | null;
+  if (!res.ok)
+    throw new HttpException(
+      data?.message ?? `traderie ${path}: HTTP ${res.status}`,
+      res.status,
+    );
+  return data;
+}
+
 @Injectable()
 export class PricesService {
   async getLatest(item: string, ladder: boolean, mode: Mode) {
     return traderie('latest', { item, ladder: String(ladder), mode });
   }
 
-  // the tracked item lists change only when d2r-traderie syncs or redeploys
+  // the tracked item lists change only when d2r-traderie syncs or the admin edits them
   private cache = new Map<string, { at: number; data: unknown }>();
   private static readonly CACHE_TTL = 5 * 60 * 1000;
 
@@ -43,6 +64,35 @@ export class PricesService {
     return this.cached<
       { category: string; items: string[]; zh: Record<string, string> }[]
     >('groups');
+  }
+
+  listTracked() {
+    return traderieAdmin('GET', 'tracked');
+  }
+
+  async addTracked(body: unknown) {
+    const data = await traderieAdmin('POST', 'tracked', body);
+    this.cache.clear();
+    return data;
+  }
+
+  async updateTracked(name: string, body: unknown) {
+    const data = await traderieAdmin(
+      'PATCH',
+      `tracked/${encodeURIComponent(name)}`,
+      body,
+    );
+    this.cache.clear();
+    return data;
+  }
+
+  async removeTracked(name: string) {
+    const data = await traderieAdmin(
+      'DELETE',
+      `tracked/${encodeURIComponent(name)}`,
+    );
+    this.cache.clear();
+    return data;
   }
 
   async getHistory(item: string, ladder: boolean, mode: Mode, limit = 24) {

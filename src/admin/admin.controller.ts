@@ -12,16 +12,44 @@ import {
 import { AdminGuard } from './admin.guard';
 import { AdminService } from './admin.service';
 import type { ListQuery } from './admin.service';
+import { PricesService } from '../prices/prices.service';
 
 @Controller('admin')
 @UseGuards(AdminGuard)
 export class AdminController {
-  constructor(private readonly service: AdminService) {}
+  constructor(
+    private readonly service: AdminService,
+    private readonly prices: PricesService,
+  ) {}
 
   // 須宣告在 :table 之前，避免被當成資料表名稱
   @Get('tables')
   tables() {
     return this.service.tables();
+  }
+
+  // d2r-traderie 的價格追蹤清單（存在 traderie 自己的 DB，改了立即生效，不用重新部署）
+  @Get('tracked')
+  listTracked() {
+    return this.prices.listTracked();
+  }
+
+  @Post('tracked')
+  addTracked(@Body() body: Record<string, unknown>) {
+    return this.prices.addTracked(body);
+  }
+
+  @Patch('tracked/:name')
+  updateTracked(
+    @Param('name') name: string,
+    @Body() body: Record<string, unknown>,
+  ) {
+    return this.prices.updateTracked(name, body);
+  }
+
+  @Delete('tracked/:name')
+  removeTracked(@Param('name') name: string) {
+    return this.prices.removeTracked(name);
   }
 
   @Get(':table')

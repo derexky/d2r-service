@@ -5,5 +5,6 @@ import { PricesController } from './prices.controller';
 @Module({
   providers: [PricesService],
   controllers: [PricesController],
+  exports: [PricesService],
 })
 export class PricesModule {}
