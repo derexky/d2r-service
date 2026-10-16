@@ -10,6 +10,11 @@ export class PricesController {
     return this.svc.getTrackedItems();
   }
 
+  @Get('groups')
+  getTrackedGroups() {
+    return this.svc.getTrackedGroups();
+  }
+
   @Get('latest')
   async getLatest(
     @Query('item') item: string,
@@ -17,7 +22,11 @@ export class PricesController {
     @Query('mode') mode: string,
   ) {
     if (!item?.trim()) throw new BadRequestException('item is required');
-    return this.svc.getLatest(item.trim(), ladder === 'true', validateMode(mode));
+    return this.svc.getLatest(
+      item.trim(),
+      ladder === 'true',
+      validateMode(mode),
+    );
   }
 
   @Get('history')
