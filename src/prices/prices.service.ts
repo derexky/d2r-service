@@ -40,7 +40,9 @@ export class PricesService {
   }
 
   getTrackedGroups() {
-    return this.cached<{ category: string; items: string[] }[]>('groups');
+    return this.cached<
+      { category: string; items: string[]; zh: Record<string, string> }[]
+    >('groups');
   }
 
   async getHistory(item: string, ladder: boolean, mode: Mode, limit = 24) {
