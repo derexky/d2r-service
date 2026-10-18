@@ -10,11 +10,24 @@ export class BuildsService {
     private readonly repo: Repository<Build>,
   ) {}
 
-  findAll(query: { class?: string; source?: string }) {
+  // 列表只回卡片要用的欄位；有內容的排前面，再依評分（SQLite DESC 時 null 墊底）
+  async findAll(query: { class?: string; source?: string }) {
     const where: Partial<Build> = {};
     if (query.class) where.class = query.class;
     if (query.source) where.source = query.source;
-    return this.repo.find({ where, order: { id: 'ASC' } });
+    const rows = await this.repo.find({ where, order: { rating: 'DESC', id: 'ASC' } });
+    return rows
+      .map((b) => ({
+        id: b.id,
+        class: b.class,
+        name: b.name,
+        rating: b.rating,
+        description: b.description,
+        test_info: b.test_info,
+        source: b.source,
+        has_detail: !!(b.stats || b.skills || b.gear || b.merc || b.guide),
+      }))
+      .sort((a, b) => Number(b.has_detail) - Number(a.has_detail));
   }
 
   findOne(id: number) {
