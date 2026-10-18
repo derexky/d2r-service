@@ -1,6 +1,6 @@
 /**
  * fetch-build-journal.mjs
- * Usage: node scripts/fetch-build-journal.mjs [--dry-run]
+ * Usage: node scripts/fetch-build-journal.mjs [--dry-run] [--builds-only]
  *
  * 從 d2r-build-journal.pages.dev 抓取資料並寫入 d2r.sqlite：
  *   - affixes / runes / mercenaries / breakpoints / experience_ratios / monsters / monster_levels：每次整表重建
@@ -19,6 +19,8 @@ import { fileURLToPath } from 'url';
 const SITE = 'https://d2r-build-journal.pages.dev';
 const DB_PATH = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../d2r.sqlite');
 const DRY_RUN = process.argv.includes('--dry-run');
+// 只重建 builds：其他表已有後續腳本（如 import_affixes.py）的修正，不宜整表蓋回
+const BUILDS_ONLY = process.argv.includes('--builds-only');
 const CHUNKS = [
   'd2Catalog-', 'referenceData-', 'EquipmentArchive-', 'page-', 'BreakpointCenter-',
   'experienceMechanics-', 'MonsterDatabase-', 'SkillCodex-',
@@ -266,6 +268,10 @@ async function main() {
         (SELECT 1 FROM base_items WHERE lower(name_en) = lower(?)))`);
     const unmatched = socketBases.filter((x) => updBase.run(x.max1, x.max2, x.max3, x.en, x.name, x.en).changes === 0);
 
+    console.log(`技能新增 ${added} 招；打孔對不到的底材 ${unmatched.length} 筆：${unmatched.map((x) => x.name).join('、')}`);
+  });
+
+  const replaceBuilds = db.transaction(() => {
     // 網站流派以 source 區分，重跑時只替換這批，不動既有 builds
     db.prepare("DELETE FROM builds WHERE source = 'build-journal'").run();
     const insBuild = db.prepare(`INSERT INTO builds (class, name, test_info, rating, guide_url, description, source)
@@ -274,7 +280,6 @@ async function main() {
       insBuild.run(b.c.en.toLowerCase(), b.name, b.guide?.title ?? null, b.rating, b.guide?.url ?? null,
         b.guide?.description ?? null);
     }
-    console.log(`技能新增 ${added} 招；打孔對不到的底材 ${unmatched.length} 筆：${unmatched.map((x) => x.name).join('、')}`);
   });
 
   // ─── 補缺漏的暗金／套裝 ───
@@ -322,9 +327,12 @@ async function main() {
   if (DRY_RUN) return console.log('--dry-run：未寫入 DB');
 
   migrate();
-  replaceReference();
-  mergeExisting();
-  fillMissing();
+  replaceBuilds();
+  if (!BUILDS_ONLY) {
+    replaceReference();
+    mergeExisting();
+    fillMissing();
+  }
   console.log('寫入完成');
 }
 
