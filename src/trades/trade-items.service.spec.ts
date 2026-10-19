@@ -13,6 +13,7 @@ function make() {
     { item_id: 'crown_shield', name_zh: '冠冕之盾', gid: 'pal-shields' },
     { item_id: 'war_hammer', name_zh: '戰鎚', gid: 'hammers' },
     { item_id: 'katar', name_zh: '拳刃', gid: 'katars' },
+    { item_id: 'diadem', name_zh: '權冠', gid: 'helms' },
   ]);
   return {
     service: new TradeItemsService(
@@ -55,6 +56,12 @@ describe('TradeItemsService', () => {
           name: '拳刃',
           kind: 'base',
           category: 'class_specific',
+        },
+        {
+          ref: 'base:diadem',
+          name: '權冠',
+          kind: 'base',
+          category: 'circlets',
         },
         { ref: 'misc:pk1', name: '恐懼之鑰', kind: 'misc', category: 'keys' },
         {

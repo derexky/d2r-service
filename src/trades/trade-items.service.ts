@@ -25,6 +25,9 @@ const BASE_CATEGORY: Record<string, string> = {
   katars: 'class_specific',
 };
 
+// base_items files circlets under helms, but items gives them their own category
+const CIRCLETS = new Set(['circlet', 'coronet', 'tiara', 'diadem']);
+
 // Tradeable items the item DB doesn't have
 const MISC: TradeItem[] = [
   { ref: 'misc:pk1', name: '恐懼之鑰', kind: 'misc', category: 'keys' },
@@ -142,7 +145,9 @@ export class TradeItemsService {
           ref: `base:${b.item_id}`,
           name: b.name_zh,
           kind: 'base',
-          category: BASE_CATEGORY[b.gid] ?? b.gid,
+          category: CIRCLETS.has(b.item_id)
+            ? 'circlets'
+            : (BASE_CATEGORY[b.gid] ?? b.gid),
         }),
       ),
       ...MISC,
