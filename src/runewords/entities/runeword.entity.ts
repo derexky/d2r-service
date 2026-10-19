@@ -27,6 +27,10 @@ export class Runeword {
   @Column('text', { nullable: true })
   stat_labels!: string;
 
+  // itemtypes.txt codes it can be made in, e.g. ["swor"]; a base fits when its item_types share one
+  @Column('simple-json', { nullable: true })
+  item_types!: string[];
+
   @Column({ name: 'is_only_ladder', default: false })
   isOnlyLadder!: boolean;
 

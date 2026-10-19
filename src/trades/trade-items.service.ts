@@ -14,6 +14,17 @@ export interface TradeItem {
   category: string | null;
   slot?: string;
   sockets?: number;
+  types?: string[];
+}
+
+// A base takes a runeword when it goes in the same slot, has enough sockets and is an allowed item type
+export function fitsRuneword(base: TradeItem, runeword: TradeItem): boolean {
+  return (
+    base.kind === 'base' &&
+    base.slot === runeword.slot &&
+    (base.sockets ?? 0) >= (runeword.sockets ?? 0) &&
+    (!runeword.types || !!base.types?.some((t) => runeword.types!.includes(t)))
+  );
 }
 
 // base_items.gid values that differ from the trade categories
@@ -138,7 +149,13 @@ export class TradeItemsService {
         order: { id: 'ASC' },
       }),
       this.runewords.find({
-        select: { id: true, name_zh: true, slot: true, socket_count: true },
+        select: {
+          id: true,
+          name_zh: true,
+          slot: true,
+          socket_count: true,
+          item_types: true,
+        },
         order: { id: 'ASC' },
       }),
       this.runes.find({
@@ -199,6 +216,7 @@ export class TradeItemsService {
           category: 'runewords',
           slot: r.slot,
           sockets: r.socket_count,
+          ...(r.item_types ? { types: r.item_types } : {}),
         }),
       ),
       ...runes.map(
@@ -216,7 +234,9 @@ export class TradeItemsService {
           name: b.name_zh,
           kind: 'base',
           category: baseCategory(b),
-          ...(slot && b.max_sockets ? { slot, sockets: b.max_sockets } : {}),
+          ...(slot && b.max_sockets
+            ? { slot, sockets: b.max_sockets, types: b.item_types }
+            : {}),
         };
       }),
       ...MISC,

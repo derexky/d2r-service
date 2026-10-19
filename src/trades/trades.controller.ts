@@ -14,7 +14,7 @@ import {
 import type { Request } from 'express';
 import { TradesService } from './trades.service';
 import type { NewTrade } from './trades.service';
-import { TradeItemsService } from './trade-items.service';
+import { TradeItemsService, fitsRuneword } from './trade-items.service';
 import { getUid } from '../auth/firebase-auth';
 
 const QUALITIES = ['normal', 'magic', 'rare', 'crafted'];
@@ -37,9 +37,10 @@ export class TradesController {
     @Req() req: Request,
     @Query('category') category?: string,
     @Query('item_ref') item_ref?: string,
+    @Query('base_ref') base_ref?: string,
   ) {
     const data = await this.service.findAll(
-      { category, item_ref },
+      { category, item_ref, base_ref },
       await getUid(req),
     );
     return { data, total: data.length };
@@ -68,7 +69,6 @@ export class TradesController {
     }
     // only bases come in white, magic, rare or crafted
     const quality = item?.kind === 'base' ? body.quality || null : null;
-    // a runeword's base must take it: same slot, enough sockets
     const base =
       item?.kind === 'runeword' && body.base_ref
         ? await this.tradeItems.find(body.base_ref)
@@ -76,9 +76,7 @@ export class TradesController {
     if (
       item?.kind === 'runeword' &&
       body.base_ref &&
-      (base?.kind !== 'base' ||
-        base.slot !== item.slot ||
-        (base.sockets ?? 0) < (item.sockets ?? 0))
+      !(base && fitsRuneword(base, item))
     ) {
       throw new BadRequestException('底材無法製作此符文之語');
     }

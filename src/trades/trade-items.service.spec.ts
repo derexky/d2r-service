@@ -8,7 +8,13 @@ function make() {
     { id: 18200, name_zh: '龍鱗', category: 'class_specific', baseItemId: 1 },
   ]);
   const runewords = repo([
-    { id: 5, name_zh: '謎團', slot: 'weapon', socket_count: 3 },
+    {
+      id: 5,
+      name_zh: '謎團',
+      slot: 'weapon',
+      socket_count: 3,
+      item_types: ['hamm'],
+    },
   ]);
   const runes = repo([{ number: 30, name_zh: '貝' }]);
   const bases = repo([
@@ -114,6 +120,7 @@ describe('TradeItemsService', () => {
           category: 'runewords',
           slot: 'weapon',
           sockets: 3,
+          types: ['hamm'],
         },
         { ref: 'rune:30', name: '貝', kind: 'rune', category: 'runes' },
         {
@@ -123,6 +130,7 @@ describe('TradeItemsService', () => {
           category: 'maces',
           slot: 'weapon',
           sockets: 4,
+          types: ['hamm', 'blun', 'mele', 'weap'],
         },
         {
           ref: 'base:katar',

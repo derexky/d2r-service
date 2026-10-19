@@ -34,7 +34,7 @@ describe('TradesController', () => {
     uidMock.mockResolvedValue(null);
     await controller.findAll(req, 'rings');
     expect(service.findAll).toHaveBeenCalledWith(
-      { category: 'rings', item_ref: undefined },
+      { category: 'rings', item_ref: undefined, base_ref: undefined },
       null,
     );
   });
@@ -110,8 +110,20 @@ describe('TradesController', () => {
     tradeItems.find.mockImplementation((ref: string) =>
       Promise.resolve(
         ref === 'runeword:5'
-          ? { ref, kind: 'runeword', slot: 'armor', sockets: 3 }
-          : { ref, kind: 'base', slot: 'armor', sockets: 4 },
+          ? {
+              ref,
+              kind: 'runeword',
+              slot: 'armor',
+              sockets: 3,
+              types: ['tors'],
+            }
+          : {
+              ref,
+              kind: 'base',
+              slot: 'armor',
+              sockets: 4,
+              types: ['tors', 'armo'],
+            },
       ),
     );
     await controller.create(req, {
@@ -126,15 +138,31 @@ describe('TradesController', () => {
   });
 
   it.each([
-    ['too few sockets', { kind: 'base', slot: 'armor', sockets: 2 }],
-    ['the wrong slot', { kind: 'base', slot: 'helm', sockets: 3 }],
+    [
+      'too few sockets',
+      { kind: 'base', slot: 'armor', sockets: 2, types: ['tors'] },
+    ],
+    [
+      'the wrong slot',
+      { kind: 'base', slot: 'helm', sockets: 3, types: ['tors'] },
+    ],
+    [
+      'the wrong type',
+      { kind: 'base', slot: 'armor', sockets: 3, types: ['shld'] },
+    ],
     ['not a base', { kind: 'item' }],
   ])('rejects a base with %s', async (_, base) => {
     uidMock.mockResolvedValue('u1');
     tradeItems.find.mockImplementation((ref: string) =>
       Promise.resolve(
         ref === 'runeword:5'
-          ? { ref, kind: 'runeword', slot: 'armor', sockets: 3 }
+          ? {
+              ref,
+              kind: 'runeword',
+              slot: 'armor',
+              sockets: 3,
+              types: ['tors'],
+            }
           : { ref, ...base },
       ),
     );

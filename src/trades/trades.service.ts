@@ -53,7 +53,7 @@ function toPublic(
 @Injectable()
 export class TradesService {
   async findAll(
-    query: { category?: string; item_ref?: string },
+    query: { category?: string; item_ref?: string; base_ref?: string },
     uid: string | null,
   ) {
     const filters = Object.entries(query).filter(([, v]) => v !== undefined);
