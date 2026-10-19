@@ -14,6 +14,7 @@ import {
 import type { Request } from 'express';
 import { TradesService } from './trades.service';
 import type { NewTrade } from './trades.service';
+import { TradeItemsService } from './trade-items.service';
 import { getUid } from '../auth/firebase-auth';
 
 async function requireUid(req: Request): Promise<string> {
@@ -24,11 +25,26 @@ async function requireUid(req: Request): Promise<string> {
 
 @Controller('trades')
 export class TradesController {
-  constructor(private readonly service: TradesService) {}
+  constructor(
+    private readonly service: TradesService,
+    private readonly tradeItems: TradeItemsService,
+  ) {}
+
+  @Get('items')
+  async items() {
+    return { data: await this.tradeItems.all() };
+  }
 
   @Get()
-  async findAll(@Req() req: Request, @Query('category') category?: string) {
-    const data = await this.service.findAll({ category }, await getUid(req));
+  async findAll(
+    @Req() req: Request,
+    @Query('category') category?: string,
+    @Query('item_ref') item_ref?: string,
+  ) {
+    const data = await this.service.findAll(
+      { category, item_ref },
+      await getUid(req),
+    );
     return { data, total: data.length };
   }
 
@@ -43,6 +59,9 @@ export class TradesController {
       throw new BadRequestException(
         'item_name, price, and contact are required',
       );
+    }
+    if (body.item_ref && !(await this.tradeItems.find(body.item_ref))) {
+      throw new BadRequestException('未知的物品');
     }
     return { data: await this.service.create(body, uid) };
   }

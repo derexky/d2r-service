@@ -31,6 +31,31 @@ describe('TradesService', () => {
     expect(call()[0]).toMatch(/\/api\/trades\?category=rings$/);
   });
 
+  it('findAll passes item_ref to traderie', async () => {
+    reply(200, []);
+    await service.findAll({ category: 'charms', item_ref: 'item:1' }, null);
+    expect(call()[0]).toMatch(
+      /\/api\/trades\?category=charms&item_ref=item%3A1$/,
+    );
+  });
+
+  it('create forwards item_ref, defaulting to null', async () => {
+    reply(201, row(1, 'u1'));
+    await service.create(
+      {
+        item_name: 'SOJ',
+        item_stats_raw: null,
+        price: '1',
+        contact: 'c',
+        category: null,
+      },
+      'u1',
+    );
+    expect(JSON.parse(call()[1].body as string)).toMatchObject({
+      item_ref: null,
+    });
+  });
+
   it('findAll hides contact and owner from signed-out users', async () => {
     reply(200, [row(1, 'u1')]);
     const [t] = await service.findAll({}, null);

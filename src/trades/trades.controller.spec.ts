@@ -1,4 +1,4 @@
-import { UnauthorizedException } from '@nestjs/common';
+import { BadRequestException, UnauthorizedException } from '@nestjs/common';
 import type { Request } from 'express';
 import { TradesController } from './trades.controller';
 import { getUid } from '../auth/firebase-auth';
@@ -17,6 +17,7 @@ const body = {
 
 describe('TradesController', () => {
   let service: { findAll: jest.Mock; create: jest.Mock; remove: jest.Mock };
+  let tradeItems: { all: jest.Mock; find: jest.Mock };
   let controller: TradesController;
 
   beforeEach(() => {
@@ -25,13 +26,17 @@ describe('TradesController', () => {
       create: jest.fn().mockResolvedValue({ id: 1 }),
       remove: jest.fn().mockResolvedValue({ id: 1 }),
     };
-    controller = new TradesController(service);
+    tradeItems = { all: jest.fn().mockResolvedValue([]), find: jest.fn() };
+    controller = new TradesController(service, tradeItems as never);
   });
 
   it('lists trades for signed-out users with a null uid', async () => {
     uidMock.mockResolvedValue(null);
     await controller.findAll(req, 'rings');
-    expect(service.findAll).toHaveBeenCalledWith({ category: 'rings' }, null);
+    expect(service.findAll).toHaveBeenCalledWith(
+      { category: 'rings', item_ref: undefined },
+      null,
+    );
   });
 
   it('rejects create without sign-in', async () => {
@@ -46,6 +51,27 @@ describe('TradesController', () => {
     uidMock.mockResolvedValue('u1');
     await controller.create(req, body);
     expect(service.create).toHaveBeenCalledWith(body, 'u1');
+  });
+
+  it('rejects an unknown item_ref', async () => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockResolvedValue(undefined);
+    await expect(
+      controller.create(req, { ...body, item_ref: 'item:999' }),
+    ).rejects.toThrow(BadRequestException);
+    expect(service.create).not.toHaveBeenCalled();
+  });
+
+  it('accepts a known item_ref', async () => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockResolvedValue({ ref: 'item:1' });
+    await controller.create(req, { ...body, item_ref: 'item:1' });
+    expect(service.create).toHaveBeenCalled();
+  });
+
+  it('serves the item list', async () => {
+    tradeItems.all.mockResolvedValue([{ ref: 'misc:pk1' }]);
+    expect(await controller.items()).toEqual({ data: [{ ref: 'misc:pk1' }] });
   });
 
   it('rejects delete without sign-in', async () => {

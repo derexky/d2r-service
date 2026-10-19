@@ -8,6 +8,7 @@ export interface NewTrade {
   price: string;
   contact: string;
   category: string | null;
+  item_ref?: string | null;
 }
 
 interface TradeRow extends NewTrade {
@@ -49,11 +50,12 @@ function toPublic(
 
 @Injectable()
 export class TradesService {
-  async findAll(query: { category?: string }, uid: string | null) {
-    const qs =
-      query.category === undefined
-        ? ''
-        : `?${new URLSearchParams({ category: query.category })}`;
+  async findAll(
+    query: { category?: string; item_ref?: string },
+    uid: string | null,
+  ) {
+    const filters = Object.entries(query).filter(([, v]) => v !== undefined);
+    const qs = filters.length ? `?${new URLSearchParams(filters)}` : '';
     const rows = (await traderieTrades({}, qs)) as TradeRow[];
     return rows.map((r) => toPublic(r, uid));
   }
@@ -65,6 +67,7 @@ export class TradesService {
       price: body.price,
       contact: body.contact,
       category: body.category,
+      item_ref: body.item_ref || null,
       owner_uid: uid,
     };
     const row = (await traderieTrades({
