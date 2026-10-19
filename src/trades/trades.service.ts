@@ -10,9 +10,15 @@ export interface NewTrade {
   category: string | null;
 }
 
+interface TradeRow extends NewTrade {
+  id: number;
+  created_at: string;
+  owner_uid: string | null;
+}
+
 // Trades live in d2r-traderie's SQLite: this service's own DB is a read-only copy on Cloud Run
-async function traderieTrades(init: RequestInit = {}, query = '') {
-  const res = await fetch(`${TRADERIE_URL}/api/trades${query}`, {
+async function traderieTrades(init: RequestInit = {}, suffix = '') {
+  const res = await fetch(`${TRADERIE_URL}/api/trades${suffix}`, {
     ...init,
     headers: {
       'content-type': 'application/json',
@@ -29,17 +35,49 @@ async function traderieTrades(init: RequestInit = {}, query = '') {
   return data;
 }
 
+// The owner's uid never leaves this service; contact is only for signed-in users
+function toPublic(
+  { owner_uid, contact, ...rest }: TradeRow,
+  uid: string | null,
+) {
+  return {
+    ...rest,
+    ...(uid ? { contact } : {}),
+    mine: uid !== null && owner_uid === uid,
+  };
+}
+
 @Injectable()
 export class TradesService {
-  async findAll(query: { category?: string }) {
+  async findAll(query: { category?: string }, uid: string | null) {
     const qs =
       query.category === undefined
         ? ''
         : `?${new URLSearchParams({ category: query.category })}`;
-    return (await traderieTrades({}, qs)) as unknown[];
+    const rows = (await traderieTrades({}, qs)) as TradeRow[];
+    return rows.map((r) => toPublic(r, uid));
   }
 
-  create(body: NewTrade) {
-    return traderieTrades({ method: 'POST', body: JSON.stringify(body) });
+  async create(body: NewTrade, uid: string) {
+    const trade = {
+      item_name: body.item_name,
+      item_stats_raw: body.item_stats_raw,
+      price: body.price,
+      contact: body.contact,
+      category: body.category,
+      owner_uid: uid,
+    };
+    const row = (await traderieTrades({
+      method: 'POST',
+      body: JSON.stringify(trade),
+    })) as TradeRow;
+    return toPublic(row, uid);
+  }
+
+  remove(id: number, uid: string) {
+    return traderieTrades(
+      { method: 'DELETE' },
+      `/${id}?${new URLSearchParams({ owner_uid: uid })}`,
+    );
   }
 }
