@@ -1,6 +1,13 @@
-import { BadRequestException, Body, Controller, Get, Post, Query } from '@nestjs/common';
+import {
+  BadRequestException,
+  Body,
+  Controller,
+  Get,
+  Post,
+  Query,
+} from '@nestjs/common';
 import { TradesService } from './trades.service';
-import { Trade } from './entities/trade.entity';
+import type { NewTrade } from './trades.service';
 
 @Controller('trades')
 export class TradesController {
@@ -13,11 +20,15 @@ export class TradesController {
   }
 
   @Post()
-  async create(
-    @Body() body: Pick<Trade, 'item_name' | 'item_stats_raw' | 'price' | 'contact' | 'category'>,
-  ) {
-    if (!body.item_name?.trim() || !body.price?.trim() || !body.contact?.trim()) {
-      throw new BadRequestException('item_name, price, and contact are required');
+  async create(@Body() body: NewTrade) {
+    if (
+      !body.item_name?.trim() ||
+      !body.price?.trim() ||
+      !body.contact?.trim()
+    ) {
+      throw new BadRequestException(
+        'item_name, price, and contact are required',
+      );
     }
     return { data: await this.service.create(body) };
   }
