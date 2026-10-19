@@ -18,13 +18,14 @@ interface TradeItem {
   name: string;
   kind: 'item' | 'runeword' | 'rune' | 'base' | 'misc';
   category: string | null;
+  slot?: string; // runewords only: weapon | armor | shield | helm
 }
 ```
 
 | kind | 來源 | ref | category |
 |---|---|---|---|
 | item | `items` | `item:<id>` | `items.category` |
-| runeword | `runewords` | `runeword:<id>` | `null`，使用者自己選 |
+| runeword | `runewords` | `runeword:<id>` | `null`，使用者自己選；另帶 `slot` |
 | rune | `runes` | `rune:<number>` | `runes` |
 | base | `base_items`，依 `item_id` 去重 | `base:<item_id>` | `gid` 換算後的值 |
 | misc | 寫在程式裡 | `misc:<code>` | `keys` 或 `statues` |
@@ -49,7 +50,7 @@ interface TradeItem {
 前端組合選項的顯示文字，格式為「名稱（種類・分類）」：
 
 - item → `名稱（分類）`，例如「族長（斧類）」
-- runeword → `名稱（符文之語）`
+- runeword → `名稱（符文之語・部位）`，部位為武器／盔甲／盾牌／頭盔。同一個符文之語可以做在不同部位，屬性也不同，例如精神有武器版和盾牌版
 - rune → `名稱（符文）`
 - base → `名稱（底材・分類）`
 - misc → `名稱（分類）`
