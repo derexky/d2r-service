@@ -66,6 +66,15 @@ export class PricesService {
     >('groups');
   }
 
+  // GET/DELETE carry no body; fetch rejects a body on GET
+  proxyAdmin(method: string, path: string, body: unknown) {
+    return traderieAdmin(
+      method,
+      path,
+      ['GET', 'DELETE'].includes(method) ? undefined : body,
+    );
+  }
+
   listTracked() {
     return traderieAdmin('GET', 'tracked');
   }

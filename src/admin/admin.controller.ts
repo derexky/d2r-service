@@ -1,4 +1,5 @@
 import {
+  All,
   Body,
   Controller,
   Delete,
@@ -7,8 +8,10 @@ import {
   Patch,
   Post,
   Query,
+  Req,
   UseGuards,
 } from '@nestjs/common';
+import type { Request } from 'express';
 import { AdminGuard } from './admin.guard';
 import { AdminService } from './admin.service';
 import type { ListQuery } from './admin.service';
@@ -50,6 +53,13 @@ export class AdminController {
   @Delete('tracked/:name')
   removeTracked(@Param('name') name: string) {
     return this.prices.removeTracked(name);
+  }
+
+  // d2r-traderie 的低價通知與價值表，method 與路徑原樣轉發到 traderie 的 /api/prices/...
+  @All(['alerts', 'alerts/*rest', 'values', 'values/*rest'])
+  traderie(@Req() req: Request, @Body() body: unknown) {
+    const path = req.originalUrl.replace(/^\/api\/admin\//, '');
+    return this.prices.proxyAdmin(req.method, path, body);
   }
 
   @Get(':table')
