@@ -11,6 +11,7 @@ export interface TradeItem {
   name: string;
   kind: 'item' | 'runeword' | 'rune' | 'base' | 'misc';
   category: string | null;
+  slot?: string;
 }
 
 // base_items.gid values that differ from items.category
@@ -93,7 +94,7 @@ export class TradeItemsService {
         order: { id: 'ASC' },
       }),
       this.runewords.find({
-        select: { id: true, name_zh: true },
+        select: { id: true, name_zh: true, slot: true },
         order: { id: 'ASC' },
       }),
       this.runes.find({
@@ -125,6 +126,7 @@ export class TradeItemsService {
           name: r.name_zh,
           kind: 'runeword',
           category: null,
+          slot: r.slot,
         }),
       ),
       ...runes.map(

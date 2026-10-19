@@ -6,7 +6,7 @@ function make() {
   const items = repo([
     { id: 18412, name_zh: '新生天堂裂擊', category: 'charms' },
   ]);
-  const runewords = repo([{ id: 5, name_zh: '謎團' }]);
+  const runewords = repo([{ id: 5, name_zh: '謎團', slot: 'weapon' }]);
   const runes = repo([{ number: 30, name_zh: '貝' }]);
   const bases = repo([
     { item_id: 'crown_shield', name_zh: '冠冕之盾', gid: 'shields' },
@@ -36,7 +36,13 @@ describe('TradeItemsService', () => {
           kind: 'item',
           category: 'charms',
         },
-        { ref: 'runeword:5', name: '謎團', kind: 'runeword', category: null },
+        {
+          ref: 'runeword:5',
+          name: '謎團',
+          kind: 'runeword',
+          category: null,
+          slot: 'weapon',
+        },
         { ref: 'rune:30', name: '貝', kind: 'rune', category: 'runes' },
         {
           ref: 'base:war_hammer',
