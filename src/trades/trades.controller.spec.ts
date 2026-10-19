@@ -51,7 +51,7 @@ describe('TradesController', () => {
     uidMock.mockResolvedValue('u1');
     await controller.create(req, body);
     expect(service.create).toHaveBeenCalledWith(
-      { ...body, quality: null },
+      { ...body, quality: null, base_ref: null },
       'u1',
     );
   });
@@ -101,6 +101,62 @@ describe('TradesController', () => {
     });
     expect(service.create).toHaveBeenCalledWith(
       expect.objectContaining({ quality: null }),
+      'u1',
+    );
+  });
+
+  it('keeps a base that takes the runeword', async () => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockImplementation((ref: string) =>
+      Promise.resolve(
+        ref === 'runeword:5'
+          ? { ref, kind: 'runeword', slot: 'armor', sockets: 3 }
+          : { ref, kind: 'base', slot: 'armor', sockets: 4 },
+      ),
+    );
+    await controller.create(req, {
+      ...body,
+      item_ref: 'runeword:5',
+      base_ref: 'base:archon_plate',
+    });
+    expect(service.create).toHaveBeenCalledWith(
+      expect.objectContaining({ base_ref: 'base:archon_plate' }),
+      'u1',
+    );
+  });
+
+  it.each([
+    ['too few sockets', { kind: 'base', slot: 'armor', sockets: 2 }],
+    ['the wrong slot', { kind: 'base', slot: 'helm', sockets: 3 }],
+    ['not a base', { kind: 'item' }],
+  ])('rejects a base with %s', async (_, base) => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockImplementation((ref: string) =>
+      Promise.resolve(
+        ref === 'runeword:5'
+          ? { ref, kind: 'runeword', slot: 'armor', sockets: 3 }
+          : { ref, ...base },
+      ),
+    );
+    await expect(
+      controller.create(req, {
+        ...body,
+        item_ref: 'runeword:5',
+        base_ref: 'base:x',
+      }),
+    ).rejects.toThrow(BadRequestException);
+  });
+
+  it('drops base_ref for anything but a runeword', async () => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockResolvedValue({ ref: 'item:1', kind: 'item' });
+    await controller.create(req, {
+      ...body,
+      item_ref: 'item:1',
+      base_ref: 'base:katar',
+    });
+    expect(service.create).toHaveBeenCalledWith(
+      expect.objectContaining({ base_ref: null }),
       'u1',
     );
   });

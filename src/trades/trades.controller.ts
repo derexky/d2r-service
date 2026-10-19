@@ -68,7 +68,26 @@ export class TradesController {
     }
     // only bases come in white, magic, rare or crafted
     const quality = item?.kind === 'base' ? body.quality || null : null;
-    return { data: await this.service.create({ ...body, quality }, uid) };
+    // a runeword's base must take it: same slot, enough sockets
+    const base =
+      item?.kind === 'runeword' && body.base_ref
+        ? await this.tradeItems.find(body.base_ref)
+        : undefined;
+    if (
+      item?.kind === 'runeword' &&
+      body.base_ref &&
+      (base?.kind !== 'base' ||
+        base.slot !== item.slot ||
+        (base.sockets ?? 0) < (item.sockets ?? 0))
+    ) {
+      throw new BadRequestException('底材無法製作此符文之語');
+    }
+    return {
+      data: await this.service.create(
+        { ...body, quality, base_ref: base?.ref ?? null },
+        uid,
+      ),
+    };
   }
 
   @Delete(':id')

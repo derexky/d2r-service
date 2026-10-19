@@ -7,7 +7,9 @@ function make() {
     { id: 18412, name_zh: '新生天堂裂擊', category: 'charms' },
     { id: 18200, name_zh: '龍鱗', category: 'class_specific', baseItemId: 1 },
   ]);
-  const runewords = repo([{ id: 5, name_zh: '謎團', slot: 'weapon' }]);
+  const runewords = repo([
+    { id: 5, name_zh: '謎團', slot: 'weapon', socket_count: 3 },
+  ]);
   const runes = repo([{ number: 30, name_zh: '貝' }]);
   const bases = repo([
     {
@@ -29,7 +31,8 @@ function make() {
       item_id: 'war_hammer',
       name_zh: '戰鎚',
       gid: 'hammers',
-      item_types: ['hamm'],
+      item_types: ['hamm', 'blun', 'mele', 'weap'],
+      max_sockets: 4,
     },
     {
       id: 4,
@@ -110,6 +113,7 @@ describe('TradeItemsService', () => {
           kind: 'runeword',
           category: 'runewords',
           slot: 'weapon',
+          sockets: 3,
         },
         { ref: 'rune:30', name: '貝', kind: 'rune', category: 'runes' },
         {
@@ -117,6 +121,8 @@ describe('TradeItemsService', () => {
           name: '戰鎚',
           kind: 'base',
           category: 'maces',
+          slot: 'weapon',
+          sockets: 4,
         },
         {
           ref: 'base:katar',

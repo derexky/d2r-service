@@ -13,6 +13,7 @@ export interface TradeItem {
   kind: 'item' | 'set' | 'runeword' | 'rune' | 'base' | 'misc';
   category: string | null;
   slot?: string;
+  sockets?: number;
 }
 
 // base_items.gid values that differ from the trade categories
@@ -47,6 +48,14 @@ const JEWELRY_CATEGORY: Record<string, string> = {
 const CIRCLETS = new Set(['circlet', 'coronet', 'tiara', 'diadem']);
 
 type BaseRow = Pick<BaseItem, 'item_id' | 'gid' | 'item_types'>;
+
+// itemtypes codes matching each runeword slot, so a runeword's bases can be listed
+const SLOT_TYPE: [string, string][] = [
+  ['weap', 'weapon'],
+  ['tors', 'armor'],
+  ['shld', 'shield'],
+  ['helm', 'helm'],
+];
 
 function classCategory(b: BaseRow): string | undefined {
   const type = b.item_types?.find((t) => t in CLASS_TYPE_CATEGORY);
@@ -129,7 +138,7 @@ export class TradeItemsService {
         order: { id: 'ASC' },
       }),
       this.runewords.find({
-        select: { id: true, name_zh: true, slot: true },
+        select: { id: true, name_zh: true, slot: true, socket_count: true },
         order: { id: 'ASC' },
       }),
       this.runes.find({
@@ -143,6 +152,7 @@ export class TradeItemsService {
           name_zh: true,
           gid: true,
           item_types: true,
+          max_sockets: true,
         },
         order: { id: 'ASC' },
       }),
@@ -188,6 +198,7 @@ export class TradeItemsService {
           kind: 'runeword',
           category: 'runewords',
           slot: r.slot,
+          sockets: r.socket_count,
         }),
       ),
       ...runes.map(
@@ -198,14 +209,16 @@ export class TradeItemsService {
           category: 'runes',
         }),
       ),
-      ...uniqueBases.map(
-        (b): TradeItem => ({
+      ...uniqueBases.map((b): TradeItem => {
+        const slot = SLOT_TYPE.find(([t]) => b.item_types?.includes(t))?.[1];
+        return {
           ref: `base:${b.item_id}`,
           name: b.name_zh,
           kind: 'base',
           category: baseCategory(b),
-        }),
-      ),
+          ...(slot && b.max_sockets ? { slot, sockets: b.max_sockets } : {}),
+        };
+      }),
       ...MISC,
     ];
   }
