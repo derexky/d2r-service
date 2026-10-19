@@ -5,15 +5,53 @@ const repo = (rows: object[]) => ({ find: jest.fn().mockResolvedValue(rows) });
 function make() {
   const items = repo([
     { id: 18412, name_zh: '新生天堂裂擊', category: 'charms' },
+    { id: 18200, name_zh: '龍鱗', category: 'class_specific', baseItemId: 1 },
   ]);
   const runewords = repo([{ id: 5, name_zh: '謎團', slot: 'weapon' }]);
   const runes = repo([{ number: 30, name_zh: '貝' }]);
   const bases = repo([
-    { item_id: 'crown_shield', name_zh: '冠冕之盾', gid: 'shields' },
-    { item_id: 'crown_shield', name_zh: '冠冕之盾', gid: 'pal-shields' },
-    { item_id: 'war_hammer', name_zh: '戰鎚', gid: 'hammers' },
-    { item_id: 'katar', name_zh: '拳刃', gid: 'katars' },
-    { item_id: 'diadem', name_zh: '權冠', gid: 'helms' },
+    {
+      id: 1,
+      item_id: 'crown_shield',
+      name_zh: '冠冕之盾',
+      gid: 'shields',
+      item_types: ['ashd', 'shld'],
+    },
+    {
+      id: 2,
+      item_id: 'crown_shield',
+      name_zh: '冠冕之盾',
+      gid: 'pal-shields',
+      item_types: ['ashd', 'shld'],
+    },
+    {
+      id: 3,
+      item_id: 'war_hammer',
+      name_zh: '戰鎚',
+      gid: 'hammers',
+      item_types: ['hamm'],
+    },
+    {
+      id: 4,
+      item_id: 'katar',
+      name_zh: '拳刃',
+      gid: 'katars',
+      item_types: ['h2h', 'mele'],
+    },
+    {
+      id: 5,
+      item_id: 'diadem',
+      name_zh: '權冠',
+      gid: 'helms',
+      item_types: ['circ', 'helm'],
+    },
+    {
+      id: 6,
+      item_id: 'wolf_head',
+      name_zh: '狼頭',
+      gid: 'helms',
+      item_types: ['pelt', 'helm'],
+    },
   ]);
   return {
     service: new TradeItemsService(
@@ -55,7 +93,19 @@ describe('TradeItemsService', () => {
           ref: 'base:katar',
           name: '拳刃',
           kind: 'base',
-          category: 'class_specific',
+          category: 'katars',
+        },
+        {
+          ref: 'base:wolf_head',
+          name: '狼頭',
+          kind: 'base',
+          category: 'dru-helms',
+        },
+        {
+          ref: 'item:18200',
+          name: '龍鱗',
+          kind: 'item',
+          category: 'pal-shields',
         },
         {
           ref: 'base:diadem',
@@ -81,7 +131,7 @@ describe('TradeItemsService', () => {
         ref: 'base:crown_shield',
         name: '冠冕之盾',
         kind: 'base',
-        category: 'shields',
+        category: 'pal-shields',
       },
     ]);
   });

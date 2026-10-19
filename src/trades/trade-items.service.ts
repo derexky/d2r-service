@@ -14,19 +14,42 @@ export interface TradeItem {
   slot?: string;
 }
 
-// base_items.gid values that differ from items.category
+// base_items.gid values that differ from the trade categories
 const BASE_CATEGORY: Record<string, string> = {
   clubs: 'maces',
   puremaces: 'maces',
   hammers: 'maces',
   throwings: 'throwing',
-  'pal-shields': 'shields',
-  orbs: 'class_specific',
-  katars: 'class_specific',
+};
+
+// itemtypes codes of class-only bases; these sit inside generic gids like helms or shields
+const CLASS_TYPE_CATEGORY: Record<string, string> = {
+  abow: 'ama-bows',
+  ajav: 'ama-javelins',
+  aspe: 'ama-spears',
+  h2h: 'katars',
+  phlm: 'bar-helms',
+  pelt: 'dru-helms',
+  head: 'nec-shields',
+  ashd: 'pal-shields',
+  orb: 'orbs',
+  grim: 'war-shields',
 };
 
 // base_items files circlets under helms, but items gives them their own category
 const CIRCLETS = new Set(['circlet', 'coronet', 'tiara', 'diadem']);
+
+type BaseRow = Pick<BaseItem, 'item_id' | 'gid' | 'item_types'>;
+
+function classCategory(b: BaseRow): string | undefined {
+  const type = b.item_types?.find((t) => t in CLASS_TYPE_CATEGORY);
+  return type && CLASS_TYPE_CATEGORY[type];
+}
+
+function baseCategory(b: BaseRow): string {
+  if (CIRCLETS.has(b.item_id)) return 'circlets';
+  return classCategory(b) ?? BASE_CATEGORY[b.gid] ?? b.gid;
+}
 
 // Tradeable items the item DB doesn't have
 const MISC: TradeItem[] = [
@@ -93,7 +116,7 @@ export class TradeItemsService {
   private async build(): Promise<TradeItem[]> {
     const [items, runewords, runes, bases] = await Promise.all([
       this.items.find({
-        select: { id: true, name_zh: true, category: true },
+        select: { id: true, name_zh: true, category: true, baseItemId: true },
         order: { id: 'ASC' },
       }),
       this.runewords.find({
@@ -105,10 +128,17 @@ export class TradeItemsService {
         order: { number: 'ASC' },
       }),
       this.bases.find({
-        select: { item_id: true, name_zh: true, gid: true },
+        select: {
+          id: true,
+          item_id: true,
+          name_zh: true,
+          gid: true,
+          item_types: true,
+        },
         order: { id: 'ASC' },
       }),
     ]);
+    const baseById = new Map(bases.map((b) => [b.id, b]));
     // paladin shields are stored under both shields and pal-shields
     const seen = new Set<string>();
     const uniqueBases = bases.filter(
@@ -120,7 +150,11 @@ export class TradeItemsService {
           ref: `item:${i.id}`,
           name: i.name_zh,
           kind: 'item',
-          category: i.category,
+          // class uniques go where their class base goes
+          category:
+            (baseById.has(i.baseItemId) &&
+              classCategory(baseById.get(i.baseItemId)!)) ||
+            i.category,
         }),
       ),
       ...runewords.map(
@@ -145,9 +179,7 @@ export class TradeItemsService {
           ref: `base:${b.item_id}`,
           name: b.name_zh,
           kind: 'base',
-          category: CIRCLETS.has(b.item_id)
-            ? 'circlets'
-            : (BASE_CATEGORY[b.gid] ?? b.gid),
+          category: baseCategory(b),
         }),
       ),
       ...MISC,
