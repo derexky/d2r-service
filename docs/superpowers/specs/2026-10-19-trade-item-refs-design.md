@@ -25,7 +25,7 @@ interface TradeItem {
 | kind | 來源 | ref | category |
 |---|---|---|---|
 | item | `items` | `item:<id>` | `items.category` |
-| runeword | `runewords` | `runeword:<id>` | `null`，使用者自己選；另帶 `slot` |
+| runeword | `runewords` | `runeword:<id>` | `runewords`；另帶 `slot` |
 | rune | `runes` | `rune:<number>` | `runes` |
 | base | `base_items`，依 `item_id` 去重 | `base:<item_id>` | `gid` 換算後的值 |
 | misc | 寫在程式裡 | `misc:<code>` | `keys` 或 `statues` |
@@ -72,7 +72,7 @@ interface TradeItem {
 
 ## 前端
 
-**`TRADE_CATEGORIES`**：在「其他」之前加入 `runes` 符文、`keys` 鑰匙、`statues` 先祖雕像。
+**`TRADE_CATEGORIES`**：在「其他」之前加入 `runewords` 符文之語、`runes` 符文、`keys` 鑰匙、`statues` 先祖雕像。
 
 **TradeNew**
 

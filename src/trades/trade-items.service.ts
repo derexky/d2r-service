@@ -125,7 +125,7 @@ export class TradeItemsService {
           ref: `runeword:${r.id}`,
           name: r.name_zh,
           kind: 'runeword',
-          category: null,
+          category: 'runewords',
           slot: r.slot,
         }),
       ),

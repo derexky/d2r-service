@@ -40,7 +40,7 @@ describe('TradeItemsService', () => {
           ref: 'runeword:5',
           name: '謎團',
           kind: 'runeword',
-          category: null,
+          category: 'runewords',
           slot: 'weapon',
         },
         { ref: 'rune:30', name: '貝', kind: 'rune', category: 'runes' },
