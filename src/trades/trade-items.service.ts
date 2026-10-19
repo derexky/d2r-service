@@ -5,11 +5,12 @@ import { Item } from '../items/entities/item.entity';
 import { Runeword } from '../runewords/entities/runeword.entity';
 import { Rune } from '../reference/entities/rune.entity';
 import { BaseItem } from '../base-items/entities/base-item.entity';
+import { SetMember } from '../sets/entities/set-member.entity';
 
 export interface TradeItem {
   ref: string;
   name: string;
-  kind: 'item' | 'runeword' | 'rune' | 'base' | 'misc';
+  kind: 'item' | 'set' | 'runeword' | 'rune' | 'base' | 'misc';
   category: string | null;
   slot?: string;
 }
@@ -34,6 +35,12 @@ const CLASS_TYPE_CATEGORY: Record<string, string> = {
   ashd: 'pal-shields',
   orb: 'orbs',
   grim: 'war-shields',
+};
+
+// set rings and amulets have no base_items row
+const JEWELRY_CATEGORY: Record<string, string> = {
+  ring: 'rings',
+  amulet: 'amulets',
 };
 
 // base_items files circlets under helms, but items gives them their own category
@@ -96,6 +103,8 @@ export class TradeItemsService {
     private readonly runewords: Repository<Runeword>,
     @InjectRepository(Rune) private readonly runes: Repository<Rune>,
     @InjectRepository(BaseItem) private readonly bases: Repository<BaseItem>,
+    @InjectRepository(SetMember)
+    private readonly setMembers: Repository<SetMember>,
   ) {}
 
   // The item DB is read-only at runtime, so the list is built once
@@ -114,7 +123,7 @@ export class TradeItemsService {
   }
 
   private async build(): Promise<TradeItem[]> {
-    const [items, runewords, runes, bases] = await Promise.all([
+    const [items, runewords, runes, bases, setMembers] = await Promise.all([
       this.items.find({
         select: { id: true, name_zh: true, category: true, baseItemId: true },
         order: { id: 'ASC' },
@@ -137,6 +146,10 @@ export class TradeItemsService {
         },
         order: { id: 'ASC' },
       }),
+      this.setMembers.find({
+        select: { id: true, item_name_zh: true, slot: true, baseItemId: true },
+        order: { id: 'ASC' },
+      }),
     ]);
     const baseById = new Map(bases.map((b) => [b.id, b]));
     // paladin shields are stored under both shields and pal-shields
@@ -157,6 +170,17 @@ export class TradeItemsService {
             i.category,
         }),
       ),
+      ...setMembers.map((m): TradeItem => {
+        const base = baseById.get(m.baseItemId);
+        return {
+          ref: `set:${m.id}`,
+          name: m.item_name_zh,
+          kind: 'set',
+          category: base
+            ? baseCategory(base)
+            : (JEWELRY_CATEGORY[m.slot] ?? null),
+        };
+      }),
       ...runewords.map(
         (r): TradeItem => ({
           ref: `runeword:${r.id}`,

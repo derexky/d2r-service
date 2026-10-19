@@ -52,6 +52,22 @@ function make() {
       gid: 'helms',
       item_types: ['pelt', 'helm'],
     },
+    {
+      id: 7,
+      item_id: 'grand_matron_bow',
+      name_zh: '主母之弓',
+      gid: 'bows',
+      item_types: ['abow', 'bow'],
+    },
+  ]);
+  const setMembers = repo([
+    { id: 5544, item_name_zh: '馬維娜的施展', slot: 'weapon', baseItemId: 7 },
+    {
+      id: 5550,
+      item_name_zh: '塔.拉夏的判決',
+      slot: 'amulet',
+      baseItemId: null,
+    },
   ]);
   return {
     service: new TradeItemsService(
@@ -59,6 +75,7 @@ function make() {
       runewords as never,
       runes as never,
       bases as never,
+      setMembers as never,
     ),
     items,
   };
@@ -69,6 +86,18 @@ describe('TradeItemsService', () => {
     const list = await make().service.all();
     expect(list).toEqual(
       expect.arrayContaining([
+        {
+          ref: 'set:5544',
+          name: '馬維娜的施展',
+          kind: 'set',
+          category: 'ama-bows',
+        },
+        {
+          ref: 'set:5550',
+          name: '塔.拉夏的判決',
+          kind: 'set',
+          category: 'amulets',
+        },
         {
           ref: 'item:18412',
           name: '新生天堂裂擊',

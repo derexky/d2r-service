@@ -7,9 +7,12 @@ import { Item } from '../items/entities/item.entity';
 import { Runeword } from '../runewords/entities/runeword.entity';
 import { Rune } from '../reference/entities/rune.entity';
 import { BaseItem } from '../base-items/entities/base-item.entity';
+import { SetMember } from '../sets/entities/set-member.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Item, Runeword, Rune, BaseItem])],
+  imports: [
+    TypeOrmModule.forFeature([Item, Runeword, Rune, BaseItem, SetMember]),
+  ],
   providers: [TradesService, TradeItemsService],
   controllers: [TradesController],
   exports: [TradeItemsService],

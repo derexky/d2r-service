@@ -20,4 +20,8 @@ export class SetMember {
 
   @Column('text', { nullable: true })
   stats!: string;
+
+  // filled by scripts/import_set_item_bases.py; null for rings and amulets
+  @Column({ nullable: true })
+  baseItemId!: number;
 }
