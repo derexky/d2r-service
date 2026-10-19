@@ -17,6 +17,8 @@ import type { NewTrade } from './trades.service';
 import { TradeItemsService } from './trade-items.service';
 import { getUid } from '../auth/firebase-auth';
 
+const QUALITIES = ['normal', 'magic', 'rare', 'crafted'];
+
 async function requireUid(req: Request): Promise<string> {
   const uid = await getUid(req);
   if (!uid) throw new UnauthorizedException('請先登入');
@@ -55,10 +57,18 @@ export class TradesController {
         'item_name, price, and contact are required',
       );
     }
-    if (body.item_ref && !(await this.tradeItems.find(body.item_ref))) {
+    const item = body.item_ref
+      ? await this.tradeItems.find(body.item_ref)
+      : undefined;
+    if (body.item_ref && !item) {
       throw new BadRequestException('未知的物品');
     }
-    return { data: await this.service.create(body, uid) };
+    if (body.quality && !QUALITIES.includes(body.quality)) {
+      throw new BadRequestException('未知的品質');
+    }
+    // only bases come in white, magic, rare or crafted
+    const quality = item?.kind === 'base' ? body.quality || null : null;
+    return { data: await this.service.create({ ...body, quality }, uid) };
   }
 
   @Delete(':id')

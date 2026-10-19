@@ -50,7 +50,10 @@ describe('TradesController', () => {
   it('creates with the signed-in uid', async () => {
     uidMock.mockResolvedValue('u1');
     await controller.create(req, body);
-    expect(service.create).toHaveBeenCalledWith(body, 'u1');
+    expect(service.create).toHaveBeenCalledWith(
+      { ...body, quality: null },
+      'u1',
+    );
   });
 
   it('rejects an unknown item_ref', async () => {
@@ -60,6 +63,46 @@ describe('TradesController', () => {
       controller.create(req, { ...body, item_ref: 'item:999' }),
     ).rejects.toThrow(BadRequestException);
     expect(service.create).not.toHaveBeenCalled();
+  });
+
+  it('rejects an unknown quality', async () => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockResolvedValue({ ref: 'base:katar', kind: 'base' });
+    await expect(
+      controller.create(req, {
+        ...body,
+        item_ref: 'base:katar',
+        quality: 'legendary',
+      }),
+    ).rejects.toThrow(BadRequestException);
+  });
+
+  it('keeps quality for a base', async () => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockResolvedValue({ ref: 'base:katar', kind: 'base' });
+    await controller.create(req, {
+      ...body,
+      item_ref: 'base:katar',
+      quality: 'rare',
+    });
+    expect(service.create).toHaveBeenCalledWith(
+      expect.objectContaining({ quality: 'rare' }),
+      'u1',
+    );
+  });
+
+  it('drops quality for anything but a base', async () => {
+    uidMock.mockResolvedValue('u1');
+    tradeItems.find.mockResolvedValue({ ref: 'item:1', kind: 'item' });
+    await controller.create(req, {
+      ...body,
+      item_ref: 'item:1',
+      quality: 'rare',
+    });
+    expect(service.create).toHaveBeenCalledWith(
+      expect.objectContaining({ quality: null }),
+      'u1',
+    );
   });
 
   it('accepts a known item_ref', async () => {

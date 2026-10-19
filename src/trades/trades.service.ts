@@ -9,6 +9,7 @@ export interface NewTrade {
   contact: string;
   category: string | null;
   item_ref?: string | null;
+  quality?: string | null;
 }
 
 interface TradeRow extends NewTrade {
@@ -68,6 +69,7 @@ export class TradesService {
       contact: body.contact,
       category: body.category,
       item_ref: body.item_ref || null,
+      quality: body.quality || null,
       owner_uid: uid,
     };
     const row = (await traderieTrades({
