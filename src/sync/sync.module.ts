@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Item } from '../items/entities/item.entity';
 import { BaseItem } from '../base-items/entities/base-item.entity';
+import { TradesModule } from '../trades/trades.module';
 import { SyncService } from './sync.service';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Item, BaseItem])],
+  imports: [TypeOrmModule.forFeature([BaseItem]), TradesModule],
   providers: [SyncService],
 })
 export class SyncModule {}

@@ -30,11 +30,6 @@ export class TradesController {
     private readonly tradeItems: TradeItemsService,
   ) {}
 
-  @Get('items')
-  async items() {
-    return { data: await this.tradeItems.all() };
-  }
-
   @Get()
   async findAll(
     @Req() req: Request,

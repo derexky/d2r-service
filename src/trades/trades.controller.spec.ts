@@ -69,11 +69,6 @@ describe('TradesController', () => {
     expect(service.create).toHaveBeenCalled();
   });
 
-  it('serves the item list', async () => {
-    tradeItems.all.mockResolvedValue([{ ref: 'misc:pk1' }]);
-    expect(await controller.items()).toEqual({ data: [{ ref: 'misc:pk1' }] });
-  });
-
   it('rejects delete without sign-in', async () => {
     uidMock.mockResolvedValue(null);
     await expect(controller.remove(req, 1)).rejects.toThrow(

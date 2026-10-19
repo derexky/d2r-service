@@ -10,7 +10,7 @@
 
 ## 物品清單
 
-由 d2r-service 的 `GET /api/trades/items` 提供，回傳 `{ data: TradeItem[] }`：
+由 d2r-service 的 `TradeItemsService` 建立。`SyncService` 啟動時把它寫成 d2r-fe 的靜態檔 `public/data/trade-items.json`，前端直接讀這個檔，不呼叫 API；後端用同一份清單檢查 `item_ref`。格式：
 
 ```ts
 interface TradeItem {

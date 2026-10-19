@@ -12,5 +12,6 @@ import { BaseItem } from '../base-items/entities/base-item.entity';
   imports: [TypeOrmModule.forFeature([Item, Runeword, Rune, BaseItem])],
   providers: [TradesService, TradeItemsService],
   controllers: [TradesController],
+  exports: [TradeItemsService],
 })
 export class TradesModule {}

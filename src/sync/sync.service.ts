@@ -3,33 +3,36 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import * as fs from 'fs';
 import * as path from 'path';
-import { Item } from '../items/entities/item.entity';
 import { BaseItem } from '../base-items/entities/base-item.entity';
+import { TradeItemsService } from '../trades/trade-items.service';
 
 @Injectable()
 export class SyncService implements OnApplicationBootstrap {
   private readonly logger = new Logger(SyncService.name);
 
   constructor(
-    @InjectRepository(Item) private readonly itemRepo: Repository<Item>,
-    @InjectRepository(BaseItem) private readonly baseItemRepo: Repository<BaseItem>,
+    @InjectRepository(BaseItem)
+    private readonly baseItemRepo: Repository<BaseItem>,
+    private readonly tradeItems: TradeItemsService,
   ) {}
 
   async onApplicationBootstrap() {
     const outDir =
-      process.env.FE_PUBLIC_DATA_DIR ?? path.resolve(process.cwd(), '../d2r-fe/public/data');
+      process.env.FE_PUBLIC_DATA_DIR ??
+      path.resolve(process.cwd(), '../d2r-fe/public/data');
 
     try {
       fs.mkdirSync(outDir, { recursive: true });
 
-      const [items, baseItems] = await Promise.all([
-        this.itemRepo.find({ select: { name_zh: true } }),
+      const [tradeItems, baseItems] = await Promise.all([
+        this.tradeItems.all(),
         this.baseItemRepo.find({ select: { name_zh: true } }),
       ]);
 
+      // served as a static file so the trade pages never call the API for it
       fs.writeFileSync(
-        path.join(outDir, 'item-names.json'),
-        JSON.stringify(items.map((i) => i.name_zh).filter(Boolean)),
+        path.join(outDir, 'trade-items.json'),
+        JSON.stringify(tradeItems),
       );
       fs.writeFileSync(
         path.join(outDir, 'base-item-names.json'),
