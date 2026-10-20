@@ -53,12 +53,11 @@ d2r-admin 的線上版在 myhost，後端是這個 repo 用 `Dockerfile` 建的�
 
 - 原始碼：`/share/homes/derexky/d2r-service`（不是 git repo，`.deployed-commit` 記錄已部署的 commit）
 - DB：`/share/CACHEDEV1_DATA/homes/derexky/d2r-service-data/d2r.sqlite`（掛到容器的 `/data`，`DB_PATH` 指向它；映像檔不含 DB）
-- 環境變數：`/share/homes/derexky/d2r-service.env`（`ADMIN_TOKEN`、`TRADERIE_URL=http://host.docker.internal:7432`、`TRADERIE_TOKEN`、`DB_PATH`、`FE_PUBLIC_DATA_DIR`）
+- 環境變數：`/share/homes/derexky/d2r-service.env`（`ADMIN_TOKEN`、`TRADERIE_URL=https://traderie.derexky.com`（QNAP 擋掉容器從自訂網路連回 host 的 7432，所以走公開網址）、`TRADERIE_TOKEN`、`DB_PATH`、`FE_PUBLIC_DATA_DIR`）
 - 容器：
   ```bash
   DOCKER_BUILDKIT=0 docker build -t d2r-service:latest /share/homes/derexky/d2r-service
   docker run -d --name d2r-service --network d2r --restart always \
-    --add-host=host.docker.internal:host-gateway \
     -v /share/CACHEDEV1_DATA/homes/derexky/d2r-service-data:/data \
     --env-file /share/homes/derexky/d2r-service.env d2r-service:latest
   ```
