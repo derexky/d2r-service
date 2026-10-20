@@ -1,0 +1,12 @@
+node_modules
+dist
+backups
+data
+*.sqlite
+data.db
+.env
+.git
+.codegraph
+.claude
+.cursor
+.devcontainer

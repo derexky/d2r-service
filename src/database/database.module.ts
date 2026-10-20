@@ -11,7 +11,8 @@ function getDbPath(): string {
     }
     return tmp;
   }
-  return join(process.cwd(), 'd2r.sqlite');
+  // myhost 的 admin 把 DB 放在持久化 volume，不用映像檔裡那份
+  return process.env.DB_PATH ?? join(process.cwd(), 'd2r.sqlite');
 }
 
 @Module({
