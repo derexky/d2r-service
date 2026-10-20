@@ -6,6 +6,7 @@ import { Runeword } from '../runewords/entities/runeword.entity';
 import { Rune } from '../reference/entities/rune.entity';
 import { BaseItem } from '../base-items/entities/base-item.entity';
 import { SetMember } from '../sets/entities/set-member.entity';
+import { DbSyncService } from '../database/db-sync.service';
 
 export interface TradeItem {
   ref: string;
@@ -125,12 +126,18 @@ export class TradeItemsService {
     @InjectRepository(BaseItem) private readonly bases: Repository<BaseItem>,
     @InjectRepository(SetMember)
     private readonly setMembers: Repository<SetMember>,
+    private readonly sync: DbSyncService,
   ) {}
 
-  // The item DB is read-only at runtime, so the list is built once
+  // Built once per DB generation: admin edits swap in a new DB
   private list?: Promise<TradeItem[]>;
+  private listVersion?: string;
 
   all(): Promise<TradeItem[]> {
+    if (this.listVersion !== this.sync.version) {
+      this.list = undefined;
+      this.listVersion = this.sync.version;
+    }
     // A failed build is not cached, so the next call retries
     return (this.list ??= this.build().catch((err) => {
       this.list = undefined;

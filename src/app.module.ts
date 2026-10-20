@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { DatabaseModule } from './database/database.module';
-import { SyncModule } from './sync/sync.module';
+import { DataModule } from './data/data.module';
 import { OcrModule } from './ocr/ocr.module';
 import { ItemsModule } from './items/items.module';
 import { SetsModule } from './sets/sets.module';
@@ -30,7 +30,7 @@ import { AdminModule } from './admin/admin.module';
     PricesModule,
     ReferenceModule,
     AdminModule,
-    SyncModule,
+    DataModule,
     OcrModule,
   ],
 })

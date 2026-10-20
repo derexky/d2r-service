@@ -78,6 +78,7 @@ function make() {
       baseItemId: null,
     },
   ]);
+  const sync = { version: '1' };
   return {
     service: new TradeItemsService(
       items as never,
@@ -85,8 +86,10 @@ function make() {
       runes as never,
       bases as never,
       setMembers as never,
+      sync as never,
     ),
     items,
+    sync,
   };
 }
 
@@ -184,6 +187,15 @@ describe('TradeItemsService', () => {
     await service.all();
     await service.all();
     expect(items.find).toHaveBeenCalledTimes(1);
+  });
+
+  it('rebuilds the list once the DB generation changes', async () => {
+    const { service, items, sync } = make();
+    await service.all();
+    sync.version = '2';
+    await service.all();
+    await service.all();
+    expect(items.find).toHaveBeenCalledTimes(2);
   });
 
   it('finds an item by ref', async () => {

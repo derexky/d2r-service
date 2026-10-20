@@ -106,6 +106,11 @@ export class DbSyncService {
     return this.path;
   }
 
+  // 目前用的 DB 版本；沒接 GCS 時固定是空字串。快取 DB 衍生資料的地方用它判斷要不要重建
+  get version() {
+    return this.generation;
+  }
+
   attach(dataSource: DataSource) {
     this.dataSource = dataSource;
   }
