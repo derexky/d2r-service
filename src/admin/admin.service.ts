@@ -5,6 +5,7 @@ import {
 } from '@nestjs/common';
 import { Brackets, DataSource, EntityMetadata } from 'typeorm';
 import { ColumnMetadata } from 'typeorm/metadata/ColumnMetadata';
+import { DbSyncService } from '../database/db-sync.service';
 
 export type ColumnKind = 'number' | 'boolean' | 'text' | 'string';
 
@@ -47,7 +48,10 @@ export interface ListQuery {
 
 @Injectable()
 export class AdminService {
-  constructor(private readonly ds: DataSource) {}
+  constructor(
+    private readonly ds: DataSource,
+    private readonly sync: DbSyncService,
+  ) {}
 
   tables() {
     return this.ds.entityMetadatas
@@ -130,7 +134,7 @@ export class AdminService {
     const { m } = this.meta(table);
     const row = toRow(m, body);
     const keys = Object.keys(row);
-    const [created] = await this.run(
+    const [created] = await this.write(
       `INSERT INTO ${q(m.tableName)} (${keys.map(q).join(', ')}) VALUES (${keys.map(() => '?').join(', ')}) RETURNING *`,
       Object.values(row),
     );
@@ -143,7 +147,7 @@ export class AdminService {
     const sets = Object.keys(row)
       .map((k) => `${q(k)} = ?`)
       .join(', ');
-    const [updated] = await this.run(
+    const [updated] = await this.write(
       `UPDATE ${q(m.tableName)} SET ${sets} WHERE ${q(pk)} = ? RETURNING *`,
       [...Object.values(row), id],
     );
@@ -153,12 +157,17 @@ export class AdminService {
 
   async remove(table: string, id: string) {
     const { m, pk } = this.meta(table);
-    const [deleted] = await this.run(
+    const [deleted] = await this.write(
       `DELETE FROM ${q(m.tableName)} WHERE ${q(pk)} = ? RETURNING *`,
       [id],
     );
     if (!deleted) throw new NotFoundException();
     return deleted;
+  }
+
+  // 寫入要經過 DbSyncService，才會上傳回 GCS 的正本
+  private write(sql: string, params: unknown[]) {
+    return this.sync.write(() => this.run(sql, params));
   }
 
   // SQLite 約束錯誤（NOT NULL、FK、UNIQUE）回 400 而非 500

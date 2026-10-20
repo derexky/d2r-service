@@ -25,6 +25,7 @@
     "import": "ts-node -P tsconfig.scripts.json -r tsconfig-paths/register scripts/import.ts"
   },
   "dependencies": {
+    "@google-cloud/storage": "^7.22.0",
     "@google-cloud/vision": "^5.3.7",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.4",

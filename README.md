@@ -52,8 +52,8 @@ npm run import
 d2r-admin 的線上版在 myhost，後端是這個 repo 用 `Dockerfile` 建的容器，只開 docker 網路 `d2r` 給 d2r-admin 的 nginx 連，不對外。正式 API 仍在 Cloud Functions。
 
 - 原始碼：`/share/homes/derexky/d2r-service`（不是 git repo，`.deployed-commit` 記錄已部署的 commit）
-- DB：`/share/CACHEDEV1_DATA/homes/derexky/d2r-service-data/d2r.sqlite`（掛到容器的 `/data`，`DB_PATH` 指向它；映像檔不含 DB）
-- 環境變數：`/share/homes/derexky/d2r-service.env`（`ADMIN_TOKEN`、`TRADERIE_URL=https://traderie.derexky.com`（QNAP 擋掉容器從自訂網路連回 host 的 7432，所以走公開網址）、`TRADERIE_TOKEN`、`DB_PATH`、`FE_PUBLIC_DATA_DIR`）
+- data volume：`/share/CACHEDEV1_DATA/homes/derexky/d2r-service-data`（掛到容器的 `/data`，放 GCS 金鑰；DB 正本在 GCS，見下方）
+- 環境變數：`/share/homes/derexky/d2r-service.env`（`ADMIN_TOKEN`、`TRADERIE_URL=https://traderie.derexky.com`（QNAP 擋掉容器從自訂網路連回 host 的 7432，所以走公開網址）、`TRADERIE_TOKEN`、`FE_PUBLIC_DATA_DIR`，以及下面 GCS 那幾個）
 - 容器：
   ```bash
   DOCKER_BUILDKIT=0 docker build -t d2r-service:latest /share/homes/derexky/d2r-service
@@ -62,22 +62,33 @@ d2r-admin 的線上版在 myhost，後端是這個 repo 用 `Dockerfile` 建的�
     --env-file /share/homes/derexky/d2r-service.env d2r-service:latest
   ```
 
-### DB 在 NAS 和 repo 之間同步
+### 遊戲資料 DB：正本在 GCS
 
-NAS 那份是 myhost 後台改的對象，跟 repo 的 `d2r.sqlite` 是兩份檔案。**同一段時間只在一邊改**，否則拉回／推上會覆蓋另一邊的修改。
+`d2r.sqlite` 的正本是 GCS 上的一個物件（`DB_GCS_URI=gs://<bucket>/d2r.sqlite`），見 `src/database/db-sync.service.ts`：
+
+- 每個程序啟動時下載最新版到本機，之後每個請求最多每分鐘問一次 GCS 有沒有新版，有就換上。
+- admin 的新增／修改／刪除在同一個請求內把整個 DB 上傳回 GCS（只有設了 `DB_GCS_WRITE=true` 的環境能寫，也就是 myhost）。上傳用 `ifGenerationMatch`，期間若有別人上傳過，這次修改會被撤回並回 409。
+- 正式站（Cloud Functions）只讀，後台改完最多一分鐘生效，不用重新部署。
+- 沒設 `DB_GCS_URI` 時照舊用本機檔案（`DB_PATH` 或 repo 的 `d2r.sqlite`），本機開發不受影響。
+
+各環境要設的變數：
+
+| 環境 | 變數 |
+|---|---|
+| Cloud Functions | `.env` 加 `DB_GCS_URI`；執行的 service account 要有該 bucket 的 `storage.objects.get` |
+| myhost 容器 | env 檔加 `DB_GCS_URI`、`DB_GCS_WRITE=true`、`GOOGLE_APPLICATION_CREDENTIALS=/data/gcs-key.json`（service account 金鑰放在 data volume，要有 `roles/storage.objectUser`）；`DB_PATH` 不再需要 |
+
+用腳本或匯入改 DB 時，先拉最新版、改完再推回去（`--if-generation-match` 防止蓋掉期間後台的修改）：
 
 ```bash
-D=/share/CACHEDEV1_DATA/.qpkg/container-station/usr/bin/docker
-DB=/share/CACHEDEV1_DATA/homes/derexky/d2r-service-data/d2r.sqlite
-
-# 在 myhost 後台改完 → 拉回 repo，再 commit 並部署 Cloud Functions
-ssh myhost "$D stop d2r-service >/dev/null && cat $DB; $D start d2r-service >/dev/null" > d2r.sqlite
-
-# 在本機改了 repo 的 d2r.sqlite（腳本、匯入）→ 推上 NAS
-ssh myhost "$D stop d2r-service >/dev/null && cat > $DB; $D start d2r-service >/dev/null" < d2r.sqlite
+URI=gs://<bucket>/d2r.sqlite
+GEN=$(gcloud storage objects describe $URI --format='value(generation)')
+gcloud storage cp $URI d2r.sqlite
+# ...跑腳本改 d2r.sqlite...
+gcloud storage cp d2r.sqlite $URI --if-generation-match=$GEN
 ```
 
-（停容器再複製，避免拷到寫到一半的檔案；DB 是 rollback journal 模式，停下來時檔案就是完整的。）
+repo 裡的 `d2r.sqlite` 只是本機開發用的副本，也是 Cloud Functions 沒設 `DB_GCS_URI` 時的備援。
 
 ## 建置
 
