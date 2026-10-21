@@ -2,7 +2,7 @@
   "class": "druid",
   "slug": "summon",
   "url": "https://d2r-build-journal.pages.dev/builds/druid/summon/",
-  "crawledAt": "2026-10-18T05:11:33.884Z",
+  "crawledAt": "2026-10-21T08:31:11.447Z",
   "title": "掠鴉灰狼灰熊｜D2R 配裝誌",
   "description": "動物園長的 99 級召喚德魯伊實穿橡樹之心、精神、謎團，狼獾之心配力量傭兵、死神喪鐘與刺藤；完整裝備、技能、召喚物面板與配裝比較。",
   "hero": "DRUID · SUMMONING · LEVEL 99\n\n掠鴉灰狼灰熊\n★★★★★\n個人實戰三星\n\n等級 99 實際配裝、技能配置、完成面板與米山傭兵資料。\n\n掠鴉傷害\n4,698–5,100\n幽靈狼冰寒傷害\n1,543–1,568\n恐狼傷害\n2,506–2,831\n灰熊傷害\n7,412–7,600\n快速施法\n115 FCR · 11F\n打擊恢復\n67 FHR · 7F\n地獄抗性\n75／75／75／75",
@@ -545,7 +545,7 @@
       ],
       "stats": [
         {
-          "text": "永不毀損",
+          "text": "無法破壞",
           "important": false
         },
         {
