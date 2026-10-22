@@ -55,8 +55,8 @@ export class AdminController {
     return this.prices.removeTracked(name);
   }
 
-  // d2r-traderie 的低價通知與價值表，method 與路徑原樣轉發到 traderie 的 /api/prices/...
-  @All(['alerts', 'alerts/*rest', 'values', 'values/*rest'])
+  // d2r-traderie 的低價通知、價值表與 LINE 聯絡人，method 與路徑原樣轉發到 traderie 的 /api/prices/...
+  @All(['alerts', 'alerts/*rest', 'values', 'values/*rest', 'contacts'])
   traderie(@Req() req: Request, @Body() body: unknown) {
     const path = req.originalUrl.replace(/^\/api\/admin\//, '');
     return this.prices.proxyAdmin(req.method, path, body);
