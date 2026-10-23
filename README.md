@@ -53,7 +53,7 @@ d2r-admin 的線上版在 myhost，後端是這個 repo 用 `Dockerfile` 建的�
 
 - 原始碼：`/share/homes/derexky/d2r-service`（不是 git repo，`.deployed-commit` 記錄已部署的 commit）
 - data volume：`/share/CACHEDEV1_DATA/homes/derexky/d2r-service-data`（掛到容器的 `/data`，放 GCS 金鑰；DB 正本在 GCS，見下方）
-- 環境變數：`/share/homes/derexky/d2r-service.env`（`ADMIN_TOKEN`、`TRADERIE_URL=https://traderie.derexky.com`（QNAP 擋掉容器從自訂網路連回 host 的 7432，所以走公開網址）、`TRADERIE_TOKEN`，以及下面 GCS 那幾個）
+- 環境變數：`/share/homes/derexky/d2r-service.env`（`CF_ACCESS_TEAM_DOMAIN=ancient-water-976c.cloudflareaccess.com`、`CF_ACCESS_AUD`（d2r-admin 這個 Access 應用程式的 AUD tag）：設了就只認 Cloudflare Access 的 JWT，不看 `ADMIN_TOKEN`；`TRADERIE_URL=https://traderie.derexky.com`（QNAP 擋掉容器從自訂網路連回 host 的 7432，所以走公開網址）、`TRADERIE_TOKEN`，以及下面 GCS 那幾個）
 - 容器：
   ```bash
   DOCKER_BUILDKIT=0 docker build -t d2r-service:latest /share/homes/derexky/d2r-service
